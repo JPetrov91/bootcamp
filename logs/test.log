@@ -29,3 +29,13 @@ Stack trace:
 2017-01-30 15:59:03 INFO  [org.extra01.BasicMathFunctionsTest] testSubstraction:47 - OK
 2017-01-30 15:59:03 INFO  [org.extra01.BasicMathFunctionsTest] testDivision:73 - OK
 2017-01-30 15:59:03 INFO  [org.extra01.BasicMathFunctionsTest] testModulo:86 - OK
+2017-01-30 16:56:55 INFO  [org.extra01.GetOneTest] testIterations:24 - OK
+2017-01-30 17:00:45 INFO  [org.extra01.GetOneTest] testIterations:24 - OK
+2017-01-30 17:01:19 INFO  [org.extra01.GetOneTest] testMostComplexNo:42 - OK
+2017-01-30 17:01:19 INFO  [org.extra01.GetOneTest] testIterations:24 - OK
+2017-01-30 17:35:59 INFO  [org.extra01.If_SwitchTest] testLesson3:72 - OK
+2017-01-30 17:37:11 INFO  [org.extra01.If_SwitchTest] testLesson3:72 - OK
+2017-01-30 17:44:07 INFO  [org.extra01.If_SwitchTest] testLesson3:72 - OK
+2017-01-30 17:44:58 INFO  [org.extra01.If_SwitchTest] testLesson3:72 - OK
+2017-01-30 17:46:04 INFO  [org.extra01.If_SwitchTest] testLesson3:72 - OK
+2017-01-30 17:48:27 INFO  [org.extra01.If_SwitchTest] testLesson3:72 - OK

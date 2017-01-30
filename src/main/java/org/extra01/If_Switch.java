@@ -9,6 +9,11 @@ package org.extra01;
  * 
  */
 public class If_Switch {
+	
+	public static void main(String[] args) {
+		If_Switch is = new If_Switch(SUNNY, WARM);
+		System.out.println(is.returnSeason());
+	}
 
 	public static final String SUNNY = "SUNNY";
 	public static final String RAINY = "RAINY";
@@ -39,6 +44,9 @@ public class If_Switch {
 	// TODO No. 1: Write instance variables that will handle the String value
 	// of weather and temperature
 	// and the Integer value of season.
+	String weather;
+	String temperature;
+	int season;
 
 	public If_Switch(String weather, String temperature) {
 
@@ -51,9 +59,19 @@ public class If_Switch {
 		// If the arguments were not filtered, make a code that will assign
 		// instance variable to a UNRECOGNISED value
 		// HINT: Use if-else.
-		if((weather == SNOWY) && (temperature == COLD) {
-		
+		if((weather == SNOWY) && (temperature == COLD)) {
+			season = WINTER;
 		}
+		else if(((weather == SUNNY)||(weather == SNOWY))&&(temperature == WARM)){
+			season = SPRING;
+		}
+		else if((weather == SUNNY)&&(temperature == HOT)&&(weather != SNOWY)) {
+			season = SUMMER;
+		}
+		else if((weather == RAINY)&&(temperature == WARM)) {
+			season = AUTUMN;
+		} else season = UNRECOGNISED;
+		
 	}
 
 	/**
@@ -69,6 +87,18 @@ public class If_Switch {
 		// default
 		// value was chosen
 		// HINT: Use switch-case.
-		return "";
+		//String returnSeason;
+		switch(season) {
+		case WINTER:
+			return "Winter";
+		case SPRING:
+			return "Spring";
+		case SUMMER:
+			return"Summer";
+		case AUTUMN:
+			return"Autumn";
+		default:
+			return"Unrecognised";
+		}
 	}
 }

@@ -34,15 +34,15 @@ public class GetOne {
 		// TODO #2: Calculate how many iterations each number from 1 to
 		// maxNumber (including) to get value till 1.
 		// Return the number, which takes most iterations to do that.
-		int maxIteration = 1;
-		int mostComplexCount = 1;
+		int maxIterationCount = 1;
+		int mostComplexNo = 1;
 		for(int i = 1; i <= maxNumber; i++) {
 			int k = iterations(i);
-			if(k > maxIteration) {
-				maxIteration = k;
-				mostComplexCount = i;
+			if(k >= maxIterationCount) {
+				maxIterationCount = k;
+				mostComplexNo = i;
 			}
 		}
-		return mostComplexCount;
+		return mostComplexNo;
 	}
 }
