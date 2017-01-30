@@ -1,0 +1,76 @@
+package hello;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.io.StringWriter;
+
+import com.googlecode.jatl.Html;
+
+public class createfile {
+	static StringWriter sw = new StringWriter();
+	static Html html = new Html(sw);
+	
+	public static void createFacebookConnect() throws IOException{
+		String path = "/home/student/workspace/Webproject/gs-accessing-facebook-initial/src/main/resources/templates/connect/facebookConnect.html";
+		File facebookConnect = new File(path);
+		if (!facebookConnect.exists()) {
+			try {
+				facebookConnect.createNewFile();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+		FileWriter writer = new FileWriter("facebookConnect.html");
+		html = new Html(html, false)
+		.head()
+		.title().text("Hello Facebook").end().end()
+		.body()
+		.h3()
+		.text("Connect to Facebook").end()
+		.form()
+		.action("/connect/facebook")
+		.method("POST")
+		.input()
+		.type("hidden")
+		.name("scope")
+		.value("read_stream")
+		.p().text("You aren't connected to Facebook yet. Click the button to connect this application with your Facebook account.")
+		.p().button().type("submit").text("Connect to Facebook")
+		.endAll();
+		String result = sw.getBuffer().toString();
+		System.out.println(result);
+		writer.write(result);
+		writer.close();
+	}
+	public static void createFacebookConnected() throws IOException{
+		String path = "/home/student/workspace/Webproject/gs-accessing-facebook-initial/src/main/resources/templates/connect/facebookConnected.html";
+		File facebookConnected = new File(path);
+		if (!facebookConnected.exists()) {
+			try {
+				facebookConnected.createNewFile();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+		FileWriter writer = new FileWriter("facebookConnect.html");
+		html = new Html(html, false)
+		.head()
+		.title().text("Hello Facebook").end().end()
+		.body()
+		.h3()
+		.text("Connected to Facebook").end()
+		.p().text("You are now connected to your Facebook account. Click").link().href("/").text("here")..end().p().text("to see some entries from your Facebook home feed")
+		.endAll();
+		String result = sw.getBuffer().toString();
+		System.out.println(result);
+		writer.write(result);
+		writer.close();
+	}
+	
+		public static void main(String[] args) throws IOException{
+			createFacebookConnected();
+		}
+	}

@@ -1,0 +1,25 @@
+TODO:
+
+= Create Human class which implements Humanoid interface =
+
+1. Right-click on package main.java.org.activity07 and select New — Class
+2. Enter class name: Human
+3. Press Add.. in interfaces section and select Humanoid in main.java.org.activity07 package
+4. For section "Which method stubs would you like to create?" select "Inherited abstract methods"
+5. Press Finish
+
+ 
+= Create Martian class which implements Humanoid, Alien and Cloneable interfaces =
+
+1. Right-click on package main.java.org.activity07 and select New — Class
+2. Enter class name: Martian 
+3. Press Add.. in interfaces section and select:
+  a) Humanoid from main.java.org.activity07 package,
+  b) Alien from main.java.org.activity07 package,
+  c) Cloneable from java.lang package.
+4. For section "Which method stubs would you like to create?" select "Inherited abstract methods"
+5. Press Finish
+
+= Implement methods of Martian and Human classes =
+
+Implement methods according to the required logic, which is described in interface definitions.

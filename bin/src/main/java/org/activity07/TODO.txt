@@ -1,0 +1,116 @@
+TODO:
+
+= Create Human class which implements Humanoid interface =
+
+1. Right-click on package main.java.org.activity07 and select New — Class
+2. Enter class name: Human
+3. Press Add.. in interfaces section and select Humanoid in main.java.org.activity07 package
+4. For section "Which method stubs would you like to create?" select "Inherited abstract methods"
+5. Press Finish
+
+ 
+= Create Martian class which implements Humanoid and Alien interfaces =
+
+1. Right-click on package main.java.org.activity07 and select New — Class
+2. Enter class name: Martian 
+3. Press Add.. in interfaces section and select:
+  a) Humanoid in main.java.org.activity07 package
+  b) Alien in main.java.org.activity07 package
+4. For section "Which method stubs would you like to create?" select "Inherited abstract methods"
+5. Press Finish
+
+= Implement methods of Martian and Human classes =
+
+== Human class ==
+
+public Human()
+    set default weight to 42
+    set isAlive to true
+
+public Human(int weight)
+Parameters:
+    weight - represents the new human with output weight.
+
+String killHimself()
+This method allows human to try to kill himself.
+Specified by:
+    killHimself in interface Humanoid
+Returns:
+    status of human
+
+String isAlive()
+Specified by:
+    isAlive in interface Humanoid
+Returns:
+    "Alive" or "Dead" depending on his status
+
+int getWeight()
+This method returns human weight.
+Specified by:
+    getWeight in interface Humanoid
+Returns:
+    weight of the current humanoid.
+
+void setWeight(int weight)
+This method sets human weight to output.
+Specified by:
+    setWeight in interface Humanoid
+Parameters:
+    weight - represents value for which we need to change.
+
+int getArmCount()
+Specified by:
+    getArmCount in interface Humanoid
+Returns:
+    number of arms for Humanoid
+    
+== Martian class ==
+
+Martian (int weight)
+This method creates new alien with specified weight.
+Parameters:
+    weight - represents new alien weight.
+
+void eatHuman(Humanoid human)
+This method allows alien to eat human. If human is alive, he should be killed and all weight is transfered to alien.
+Specified by:
+    eatHuman in interface Alien
+Parameters:
+    human - represents human, which will be eaten.
+
+String killHimself()
+Specified by:
+    killHimself in interface Humanoid
+Returns:
+    "I AM IMMORTAL!" because alien cannot be killed.
+
+int getWeight()
+Specified by:
+    getWeight in interface Alien
+Specified by:
+    getWeight in interface Humanoid
+Returns:
+    returns weight of the current alien
+
+void setWeight(int weight)
+Specified by:
+    setWeight in interface Alien
+Specified by:
+    setWeight in interface Humanoid
+Parameters:
+    weight - sets weight to the alien.
+
+int getLegCount()
+Specified by:
+    getLegCount in interface Alien
+Returns:
+    Depending of which interface is used, return number of legs for Alien 
+
+String isAlive()
+Specified by:
+    isAlive in interface Alien
+Specified by:
+    isAlive in interface Humanoid
+Returns:
+    "I AM IMMORTAL!" because alien cannot be killed.
+

@@ -1,0 +1,2 @@
+1. Review presentation: 18_XML.odp
+2. Implement XMLCar.java, to pass unit tests.

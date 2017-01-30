@@ -1,0 +1,9 @@
+TODO:
+
+1. Create class SimpleCalcException as a subclass of Exception
+
+2. Implement following constructors for this class:
+  a) SimpleCalcException(String string)
+  b) SimpleCalcException(String string, Exception cause)
+  
+3. Implement necessary methods for SimpleCalc class

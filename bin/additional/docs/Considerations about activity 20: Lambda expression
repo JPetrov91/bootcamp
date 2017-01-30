@@ -1,0 +1,21 @@
+Posssible variant of  20 activity:Lambda expression
+
+
+In the exercise we have to change a code  with use lambda expression.
+
+For example, we have this code, without lambda expression:
+
+List<String> strings = new ArrayList<>();
+for (String string : strings) {
+	System.out.println("Content: " + string);
+}
+
+To pass unit test we need to remake it with lambda expression, like this:
+
+List<String> strings = new ArrayList<>();
+strings.stream().forEach((string) -> {
+	System.out.println("Content: " + string);
+});
+
+
+Can reuse existing code in Activity 20.

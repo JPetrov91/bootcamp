@@ -1,0 +1,31 @@
+2017-01-30 14:46:54 INFO  [org.activity02.HelloTest] testMain:40 - OK
+2017-01-30 15:07:57 ERROR [org.TestUtils] handleError:227 - 
+java.lang.AssertionError, message: Number is incremented wrongly. expected:<4> but was:<3>
+Stack trace:
+[Ljava.lang.StackTraceElement;@5f150435
+2017-01-30 15:07:57 INFO  [org.extra01.BasicMathFunctionsTest] testMultiplication:60 - OK
+2017-01-30 15:07:57 INFO  [org.extra01.BasicMathFunctionsTest] testAddition:34 - OK
+2017-01-30 15:07:57 INFO  [org.extra01.BasicMathFunctionsTest] testSubstraction:47 - OK
+2017-01-30 15:07:57 ERROR [org.TestUtils] handleError:227 - 
+java.lang.AssertionError, message: Numbers are divided wrongly. expected:<6> but was:<0>
+Stack trace:
+[Ljava.lang.StackTraceElement;@4b6995df
+2017-01-30 15:07:57 INFO  [org.extra01.BasicMathFunctionsTest] testModulo:86 - OK
+2017-01-30 15:16:22 INFO  [org.extra01.GetOneTest] testIterations:24 - OK
+2017-01-30 15:27:42 INFO  [org.extra01.GetOneTest] testIterations:24 - OK
+2017-01-30 15:32:35 INFO  [org.extra01.GetOneTest] testIterations:24 - OK
+2017-01-30 15:58:14 ERROR [org.TestUtils] handleError:227 - 
+java.lang.AssertionError, message: Number is incremented wrongly. expected:<2> but was:<1>
+Stack trace:
+[Ljava.lang.StackTraceElement;@5f150435
+2017-01-30 15:58:14 INFO  [org.extra01.BasicMathFunctionsTest] testMultiplication:60 - OK
+2017-01-30 15:58:14 INFO  [org.extra01.BasicMathFunctionsTest] testAddition:34 - OK
+2017-01-30 15:58:14 INFO  [org.extra01.BasicMathFunctionsTest] testSubstraction:47 - OK
+2017-01-30 15:58:14 INFO  [org.extra01.BasicMathFunctionsTest] testDivision:73 - OK
+2017-01-30 15:58:14 INFO  [org.extra01.BasicMathFunctionsTest] testModulo:86 - OK
+2017-01-30 15:59:03 INFO  [org.extra01.BasicMathFunctionsTest] testIncrement:99 - OK
+2017-01-30 15:59:03 INFO  [org.extra01.BasicMathFunctionsTest] testMultiplication:60 - OK
+2017-01-30 15:59:03 INFO  [org.extra01.BasicMathFunctionsTest] testAddition:34 - OK
+2017-01-30 15:59:03 INFO  [org.extra01.BasicMathFunctionsTest] testSubstraction:47 - OK
+2017-01-30 15:59:03 INFO  [org.extra01.BasicMathFunctionsTest] testDivision:73 - OK
+2017-01-30 15:59:03 INFO  [org.extra01.BasicMathFunctionsTest] testModulo:86 - OK

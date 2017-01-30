@@ -1,0 +1,18 @@
+TODO:
+
+1. Use code generation to create Class Hello (Hello.java file) with public static void main() method in it.
+
+* In the Project Explorer view, select package: main.java.org.activity02
+* Right click on the package and select: New — Class
+* For field "Name:" enter: Hello
+* In group "Which method stubs would you like to create?" select "public static void main(String[] args)"
+* Press "Finish"
+
+2. Add code into main method, which prints "Hello world!" into system console, for example:
+  
+  System.out.println("Hello world!");
+
+3. Run HelloTest1.java as JUnit test to test proper implementation of this class.
+* Right click on "HelloTest1.java"
+* Select Run As — JUnit Test
+* Check that JUnit view shows green status bar

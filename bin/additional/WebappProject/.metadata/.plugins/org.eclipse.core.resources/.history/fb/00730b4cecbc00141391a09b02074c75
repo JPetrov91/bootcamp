@@ -1,0 +1,25 @@
+package hello;
+
+import java.io.IOException;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+import hello.createfile;
+
+@Configuration
+@EnableAutoConfiguration
+@ComponentScan
+public class Application {
+
+	/*
+	 * SPRING BOOTSTRAP MAIN
+	 */
+	public static void main(String[] args) throws IOException {
+		//createfile.createFacebookConnect();
+		//createfile.createFacebookConnected();
+		SpringApplication.run(Application.class, args);
+	}
+}

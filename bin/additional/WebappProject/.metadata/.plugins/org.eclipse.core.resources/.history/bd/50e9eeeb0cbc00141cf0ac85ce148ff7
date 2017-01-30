@@ -1,0 +1,52 @@
+package fileCreation;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.io.StringWriter;
+
+import com.googlecode.jatl.Html;
+
+public class createfile {
+	StringWriter sw = new StringWriter();
+	Html html = new Html(sw);
+
+	/*
+	 * SPRING BOOTSTRAP MAIN
+	 */
+	public void main() throws FileNotFoundException{
+		System.out.println("1");
+		String path = "/home/student/workspace/Webproject/gs-accessing-facebook-complete/src/main/resources/templates/connect/facebookConnect.html";
+		System.out.println("2");
+		File facebookConnect = new File(path);
+		System.out.println("3");
+		if (!facebookConnect.exists()) {
+			try {
+				facebookConnect.createNewFile();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+		System.out.println("4");
+		PrintWriter writer = new PrintWriter("facebookConnect.html");
+		html
+		.head()
+		.title("Hello Facebook")
+		.body()
+		.h3()
+		.text("Connect to Facebook")
+		.form()
+		.action("/connect/facebook")
+		.method("POST")
+		.input()
+		.type("hidden")
+		.name("scope")
+		.value("read_stream")
+		.p().text("You aren't connected to Facebook yet. Click the button to connect this application with your Facebook account.")
+		.p().button().type("submit").text("Connect to Facebook")
+		.endAll();
+		String result = sw.getBuffer().toString();
+		System.out.println(result);
+	}
+}

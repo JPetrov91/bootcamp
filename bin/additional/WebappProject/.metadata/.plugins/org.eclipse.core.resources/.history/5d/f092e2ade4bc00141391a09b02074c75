@@ -1,0 +1,34 @@
+package hello;
+
+
+
+import java.io.File;
+
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.io.StringWriter;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+import com.googlecode.jatl.Html;
+
+@Configuration
+@EnableAutoConfiguration
+@ComponentScan
+public class Application {
+	StringWriter sw = new StringWriter();
+	Html html = new Html(sw);
+
+	/*
+	 * SPRING BOOTSTRAP MAIN
+	 */
+	public static void main(String[] args) {
+		SpringApplication.run(Application.class, args);
+
+}
+}

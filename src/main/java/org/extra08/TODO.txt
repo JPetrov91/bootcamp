@@ -1,0 +1,2 @@
+1. Review presentation: 20_AdvancedFeatures.odp
+2. Implement Generics.java, Holiday.java and RegEx.java classes to pass unit tests.

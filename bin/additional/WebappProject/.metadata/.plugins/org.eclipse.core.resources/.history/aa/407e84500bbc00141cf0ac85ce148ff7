@@ -1,0 +1,89 @@
+package hello;
+
+
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.io.StringWriter;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+import com.googlecode.jatl.Html;
+
+
+@Configuration
+@EnableAutoConfiguration
+@ComponentScan
+public class Application {
+	StringWriter sw = new StringWriter();
+	Html html = new Html(sw);
+
+	/*
+	 * SPRING BOOTSTRAP MAIN
+	 */
+	public void createFacebookConnect() throws FileNotFoundException{
+		
+		String path = "/home/student/workspace/Webproject/gs-accessing-facebook-complete/src/main/resources/templates/connect/facebookConnect.html";
+		File facebookConnect = new File(path);
+		if (!facebookConnect.exists()) {
+			try {
+				facebookConnect.createNewFile();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+		PrintWriter writer = new PrintWriter("facebookConnect.html");
+		html
+		.head()
+		.title("Hello Facebook")
+		.body()
+		.h3()
+		.text("Connect to Facebook")
+		.form()
+		.action("/connect/facebook")
+		.method("POST")
+		.input()
+		.type("hidden")
+		.name("scope")
+		.value("read_stream")
+		.p().text("You aren't connected to Facebook yet. Click the button to connect this application with your Facebook account.")
+		.p().button().type("submit").text("Connect to Facebook")
+		.endAll();
+		String result = sw.getBuffer().toString();
+		System.out.println(result);
+	}
+
+/*	public static void createFacebookConnected() {
+		String path = "../workspace//Webproject/gs-accessing-facebook-complete/src/main/resources/templates/connect";
+		File facebookConnected = new File(path);
+		if (!facebookConnected.exists()) {
+			try {
+				facebookConnected.createNewFile();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
+	public static void createhello() {
+		String path = "../workspace//Webproject/gs-accessing-facebook-complete/src/main/resources/templates";
+		File hello = new File(path);
+		if (!hello.exists()) {
+			try {
+				hello.createNewFile();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+*/
+	public static void main(String[] args) {
+		//SpringApplication.run(Application.class, args);
+
+}
+}

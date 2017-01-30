@@ -1,0 +1,55 @@
+= Set up tested class =
+1. Implement Student manager class, similarly to TeacherManager class in activity13.
+2. You can simply copy-paste methods and make necessary changes for TeacherManager.
+3. Note that you can introduce bugs here, as it can be that not all necessary changes are done correctly.
+
+= Creation of new JUnit test case =
+
+1. Right-click on org.activity18 package in Package Explorer and select: New— New JUnit Test Case.
+2. In New JUnit Test case window:
+  a. Check that test version is: New JUnit 4 test,
+  b. Check that test location is: .../src/main/java,
+  c. Check that package is: org.activity18,
+  d. Set test Name: DatabaseUnitTest1 (this name important, as it will be used for automated execution)
+  e. Mark setUpBeforeClass(), tearDownAfterClass() if necessary,
+  f. Mark setUp() and tearDown() if necessary,
+  g. Mark GenerateComments if necessary,
+  h. Set Class under test: org.activity18.StudentManager,
+  i. Press Next.
+3. In Test methods window:
+  a. Mark StudentManager class, to test all its methods,
+  b. Mark Create final method stubs, if necessary,
+  c. Mark Create tasks for generated tests methods, if necessary,
+  d. Press Finish.
+
+= Implement Testing of package18 =
+1. Implement previously generated test methods to check that Student and StudentManager classes work properly.
+
+= Manual testing =
+
+1. Select: Run— Run as— JUnit test, to test this file as simple unit test.
+2. Right-click on test (or package) in Package explorer and select: Coverage as– JUnit test, to check coverage of the tested classes.
+
+= Automated testing =
+
+Automated testing and coverage reporting is performed by DatabaseUnitTest.java test, which is compiled in JTM.jar package.
+To test, how it will work manually you can do following.
+
+1. Create your own calling class, e.g. DatabaseCoverageTest.java with following body:
+   package org.activity18;
+     public class DatabaseCoverageTest {
+       public static void main(String[] args) {
+     	 DatabaseUnitTest dbUnitTest = new DatabaseUnitTest();
+     	 dbUnitTest.test();
+     }
+   }
+
+2. Select: Run— Run as...— Java application, to check, how your test will be executed from the automated test suite
+
+Note: don't create JUnit test to check automated coverage testing as it can produce wrong results for coverage reporting!
+
+2. Modify Test suite:
+  a. open AllTests.java class in org.testSuite package,
+  b. if necessary, comment out unneeded classes from ..allTests() {printStat(  list,..
+  c. run Test suite.
+  

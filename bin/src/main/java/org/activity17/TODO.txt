@@ -1,0 +1,45 @@
+Implement necessary classes and methods for Crocodile Game.
+CrocodileGame contains 2D Board with cells and List of Crocodiles.
+
+Look at CrocodileGame.png for system design.
+
+NOTE: Board of the game is already implemented and its design shouldn't be changes.
+
+= TODO #1 =
+Implement Crocodile interface with two different classes CrocodileSimple and CrocodileGreedy
+  a) MoveStrategy of CrocodileSimple should be implemented in MoveSimple class
+  b) MoveStrategy of CrocodileGreedy should be implemented in MoveGreedy class
+
+Crocodiles are positioned on upper left corner of the field, if there is only one cell in board,
+neither crocodile need to move at all, but it can eat candy, if it exists.
+
+MoveSimple strategy covers only first row and last column of the board. e.g.
+⇾⇾⇾
+  ↓
+  ↓
+
+MoveGreedy strategy covers all cells of the board and eats all candies.
+Movement always starts and ends on X axis, e.g.
+⇾⇾⇾
+⇽⇽⇽
+⇾⇾⇾
+
+If board has even number of rows, greedy crocodile walks on the last row twice:
+⇾⇾⇾
+⇽⇽⇽
+⇾⇾⇾
+⇆⇆⇆
+
+Game board has following valid cell values: 
+ ○ — empty cell
+ ● — cell with candy
+ ◎ — cell with crocodile footstep
+when crocodile gets on to cell with candy ●, it eats this candy after
+crocodile leaves cell, it leaves footstep in the cell ◎
+
+CrocodileGame is built using factory class GameFactory which has
+setBoard(Board board) and addCrocodile(String crocodileType) methods.
+
+= TODO #2 =
+Implement setBoard(Board board) and addCrocodile(String crocodileType) methods
+to build CrocodileGame with lazy initialization.

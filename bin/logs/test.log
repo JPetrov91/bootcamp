@@ -1,0 +1,2271 @@
+2016-11-08 10:43:01 DEBUG [org.TestUtils] visitClassExecution:451 - org/activity18/Student = 4/4
+2016-11-08 10:43:01 DEBUG [org.TestUtils] visitClassExecution:451 - org/activity18/StudentManager = 52/55
+2016-11-08 10:43:01 DEBUG [org.TestUtils] executeCmd:328 - executeCmd([/bin/bash, -c, rm jacoco.exec]) executed successfully
+2016-11-08 10:43:01 DEBUG [org.activity18.DatabaseUnitTest] test:87 - *** Coverage run finished sucessfully ***
+2016-11-08 10:43:01 INFO  [org.activity18.DatabaseUnitTest] showResults:127 - Total test coverage is: 0,97
+2016-11-08 10:43:04 DEBUG [org.testSuite.AllTests] printStat:161 - Total runs:1
+2016-11-08 10:43:04 DEBUG [org.testSuite.AllTests] printStat:163 - Failed runs:0
+2016-11-08 10:43:04 DEBUG [org.testSuite.AllTests] printStat:149 - Curpack:activity19 Class: ColorSliderTest
+2016-11-08 10:43:04 DEBUG [org.testSuite.AllTests] collectEntries:195 - 
+activity02	activity03	activity04	activity05	activity06	activity07	activity08	activity09	activity10	activity11	activity12	activity13	activity14	activity15	activity16	activity17	activity18	
+=1/1	=12/12	=3/3	=4/4	=6/6	=11/11	=8/8	=12/12	=6/6	=5/5	=4/4	=6/6	=1/1	=17/17	=7/7	=9/9	=1/1	
+2016-11-08 10:43:06 INFO  [org.activity19.ColorSliderTest] test02ColorSlider:74 - OK
+2016-11-08 10:43:06 DEBUG [org.testSuite.AllTests] printStat:161 - Total runs:1
+2016-11-08 10:43:06 DEBUG [org.testSuite.AllTests] printStat:163 - Failed runs:0
+2016-11-08 10:43:06 DEBUG [org.testSuite.AllTests] printStat:149 - Curpack:activity20 Class: SampleJettyApplicationTests
+2016-11-08 10:43:06 DEBUG [org.testSuite.AllTests] collectEntries:195 - 
+activity02	activity03	activity04	activity05	activity06	activity07	activity08	activity09	activity10	activity11	activity12	activity13	activity14	activity15	activity16	activity17	activity18	activity19	
+=1/1	=12/12	=3/3	=4/4	=6/6	=11/11	=8/8	=12/12	=6/6	=5/5	=4/4	=6/6	=1/1	=17/17	=7/7	=9/9	=1/1	=1/1	
+2016-11-08 10:43:10 DEBUG [org.testSuite.AllTests] printStat:161 - Total runs:2
+2016-11-08 10:43:10 DEBUG [org.testSuite.AllTests] printStat:163 - Failed runs:0
+2016-11-08 10:43:10 DEBUG [org.testSuite.AllTests] printStat:149 - Curpack:extra03 Class: ArrayListMethodsTest
+2016-11-08 10:43:10 DEBUG [org.testSuite.AllTests] collectEntries:195 - 
+activity02	activity03	activity04	activity05	activity06	activity07	activity08	activity09	activity10	activity11	activity12	activity13	activity14	activity15	activity16	activity17	activity18	activity19	activity20	
+=1/1	=12/12	=3/3	=4/4	=6/6	=11/11	=8/8	=12/12	=6/6	=5/5	=4/4	=6/6	=1/1	=17/17	=7/7	=9/9	=1/1	=1/1	=2/2	
+2016-11-08 10:43:10 DEBUG [org.testSuite.AllTests] printStat:161 - Total runs:1
+2016-11-08 10:43:10 DEBUG [org.testSuite.AllTests] printStat:163 - Failed runs:0
+2016-11-08 10:43:10 DEBUG [org.testSuite.AllTests] printStat:149 - Curpack:extra01 Class: GetOneTest
+2016-11-08 10:43:10 DEBUG [org.testSuite.AllTests] collectEntries:195 - 
+activity02	activity03	activity04	activity05	activity06	activity07	activity08	activity09	activity10	activity11	activity12	activity13	activity14	activity15	activity16	activity17	activity18	activity19	activity20	extra03	
+=1/1	=12/12	=3/3	=4/4	=6/6	=11/11	=8/8	=12/12	=6/6	=5/5	=4/4	=6/6	=1/1	=17/17	=7/7	=9/9	=1/1	=1/1	=2/2	=1/1	
+2016-11-08 10:43:10 DEBUG [org.testSuite.AllTests] printStat:161 - Total runs:2
+2016-11-08 10:43:10 DEBUG [org.testSuite.AllTests] printStat:163 - Failed runs:0
+2016-11-08 10:43:10 DEBUG [org.testSuite.AllTests] printStat:149 - Curpack:extra01 Class: If_SwitchTest
+2016-11-08 10:43:10 INFO  [org.extra01.If_SwitchTest] testLesson3:73 - OK
+2016-11-08 10:43:10 DEBUG [org.testSuite.AllTests] printStat:161 - Total runs:1
+2016-11-08 10:43:10 DEBUG [org.testSuite.AllTests] printStat:163 - Failed runs:0
+2016-11-08 10:43:10 DEBUG [org.testSuite.AllTests] printStat:149 - Curpack:extra01 Class: MathExerciseTest
+2016-11-08 10:43:10 DEBUG [org.testSuite.AllTests] printStat:161 - Total runs:1
+2016-11-08 10:43:10 DEBUG [org.testSuite.AllTests] printStat:163 - Failed runs:0
+2016-11-08 10:43:10 DEBUG [org.testSuite.AllTests] printStat:149 - Curpack:extra02 Class: LetsRideTest
+2016-11-08 10:43:10 DEBUG [org.testSuite.AllTests] collectEntries:195 - 
+activity02	activity03	activity04	activity05	activity06	activity07	activity08	activity09	activity10	activity11	activity12	activity13	activity14	activity15	activity16	activity17	activity18	activity19	activity20	extra03	extra01	
+=1/1	=12/12	=3/3	=4/4	=6/6	=11/11	=8/8	=12/12	=6/6	=5/5	=4/4	=6/6	=1/1	=17/17	=7/7	=9/9	=1/1	=1/1	=2/2	=1/1	=4/4	
+2016-11-08 10:43:10 DEBUG [org.testSuite.AllTests] printStat:161 - Total runs:4
+2016-11-08 10:43:10 DEBUG [org.testSuite.AllTests] printStat:163 - Failed runs:0
+2016-11-08 10:43:10 DEBUG [org.testSuite.AllTests] printStat:149 - Curpack:extra04 Class: StringTokenizerExerciseTest
+2016-11-08 10:43:10 DEBUG [org.testSuite.AllTests] collectEntries:195 - 
+activity02	activity03	activity04	activity05	activity06	activity07	activity08	activity09	activity10	activity11	activity12	activity13	activity14	activity15	activity16	activity17	activity18	activity19	activity20	extra03	extra01	extra02	
+=1/1	=12/12	=3/3	=4/4	=6/6	=11/11	=8/8	=12/12	=6/6	=5/5	=4/4	=6/6	=1/1	=17/17	=7/7	=9/9	=1/1	=1/1	=2/2	=1/1	=4/4	=4/4	
+2016-11-08 10:43:10 DEBUG [org.testSuite.AllTests] printStat:161 - Total runs:3
+2016-11-08 10:43:10 DEBUG [org.testSuite.AllTests] printStat:163 - Failed runs:0
+2016-11-08 10:43:10 DEBUG [org.testSuite.AllTests] printStat:149 - Curpack:extra04 Class: StudentTest
+2016-11-08 10:43:10 DEBUG [org.testSuite.AllTests] printStat:161 - Total runs:1
+2016-11-08 10:43:10 DEBUG [org.testSuite.AllTests] printStat:163 - Failed runs:0
+2016-11-08 10:43:10 DEBUG [org.testSuite.AllTests] printStat:149 - Curpack:extra06 Class: InvoiceManagerTest
+2016-11-08 10:43:10 DEBUG [org.testSuite.AllTests] collectEntries:195 - 
+activity02	activity03	activity04	activity05	activity06	activity07	activity08	activity09	activity10	activity11	activity12	activity13	activity14	activity15	activity16	activity17	activity18	activity19	activity20	extra03	extra01	extra02	extra04	
+=1/1	=12/12	=3/3	=4/4	=6/6	=11/11	=8/8	=12/12	=6/6	=5/5	=4/4	=6/6	=1/1	=17/17	=7/7	=9/9	=1/1	=1/1	=2/2	=1/1	=4/4	=4/4	=4/4	
+2016-11-08 10:43:12 DEBUG [org.extra06.InvoiceManagerTest] testInvoiceToItem:52 - 'Invoice:1, date:2016-11-08T10:43+0200, total amount:5.5, items:2
+	['Item:1, name:Name1, price:1.1, count:1, total:1.1', 'Item:2, name:Name2, price:2.2, count:2, total:4.4']
+2016-11-08 10:43:12 INFO  [org.extra06.InvoiceManagerTest] testInvoiceToItem:53 - OK
+2016-11-08 10:43:12 DEBUG [org.extra06.InvoiceManagerTest] testItemToInvoice:90 - 'Invoice:2, date:2016-11-08T10:43+0200, total amount:27.5, items:2
+	['Item:3, name:Name3, price:3.3, count:3, total:9.9', 'Item:4, name:Name4, price:4.4, count:4, total:17.6']
+2016-11-08 10:43:12 INFO  [org.extra06.InvoiceManagerTest] testItemToInvoice:91 - OK
+2016-11-08 10:43:12 DEBUG [org.testSuite.AllTests] printStat:161 - Total runs:2
+2016-11-08 10:43:12 DEBUG [org.testSuite.AllTests] printStat:163 - Failed runs:0
+2016-11-08 10:43:12 DEBUG [org.testSuite.AllTests] collectEntries:195 - 
+activity02	activity03	activity04	activity05	activity06	activity07	activity08	activity09	activity10	activity11	activity12	activity13	activity14	activity15	activity16	activity17	activity18	activity19	activity20	extra03	extra01	extra02	extra04	extra06	
+=1/1	=12/12	=3/3	=4/4	=6/6	=11/11	=8/8	=12/12	=6/6	=5/5	=4/4	=6/6	=1/1	=17/17	=7/7	=9/9	=1/1	=1/1	=2/2	=1/1	=4/4	=4/4	=4/4	=2/2	
+2016-11-08 10:43:12 INFO  [org.testSuite.AllTests] printStat:177 - 
+activity02	activity03	activity04	activity05	activity06	activity07	activity08	activity09	activity10	activity11	activity12	activity13	activity14	activity15	activity16	activity17	activity18	activity19	activity20	extra03	extra01	extra02	extra04	extra06	
+=1/1	=12/12	=3/3	=4/4	=6/6	=11/11	=8/8	=12/12	=6/6	=5/5	=4/4	=6/6	=1/1	=17/17	=7/7	=9/9	=1/1	=1/1	=2/2	=1/1	=4/4	=4/4	=4/4	=2/2	
+
+Total result for exercises:	=24/24
+2016-11-08 11:00:47 DEBUG [org.activity09.OrderTest] test02Hash:76 - Hash1: 241171533 hash2:241171533
+2016-11-08 11:00:47 INFO  [org.activity09.OrderTest] test02Hash:81 - OK
+2016-11-08 11:00:47 INFO  [org.activity09.OrderTest] test03CompareTo:149 - OK
+2016-11-08 11:00:47 INFO  [org.activity09.OrderTest] test01Equals:64 - OK
+2016-11-08 11:01:10 DEBUG [org.activity09.OrderTest] test02Hash:76 - Hash1: 1332527032 hash2:1332527032
+2016-11-08 11:01:10 INFO  [org.activity09.OrderTest] test02Hash:81 - OK
+2016-11-08 11:01:10 INFO  [org.activity09.OrderTest] test03CompareTo:149 - OK
+2016-11-08 11:01:10 INFO  [org.activity09.OrderTest] test01Equals:64 - OK
+2016-11-08 11:10:55 DEBUG [org.activity09.OrderListTest] test01OrderList:48 - Got NoSuchElementException as suspected
+2016-11-08 11:10:55 INFO  [org.activity09.OrderListTest] test01OrderList:50 - OK
+2016-11-08 11:10:55 DEBUG [org.activity09.OrderListTest] test02Add:57 - Initial list of orders:
+[Milk6: Arvīds4: 30, Milk6: Arvīds3: 24, Milk6: Arvīds2: 18, Milk6: Arvīds1: 12, Milk5: Arvīds4: 25, Milk5: Arvīds3: 20, Milk5: Arvīds2: 15, Milk5: Arvīds1: 10, Milk4: Arvīds4: 20, Milk4: Arvīds3: 16, Milk4: Arvīds2: 12, Milk4: Arvīds1: 8, Milk3: Arvīds4: 15, Milk3: Arvīds3: 12, Milk3: Arvīds2: 9, Milk3: Arvīds1: 6, Milk2: Arvīds4: 10, Milk2: Arvīds3: 8, Milk2: Arvīds2: 6, Milk2: Arvīds1: 4, Milk1: Arvīds4: 5, Milk1: Arvīds3: 4, Milk1: Arvīds2: 3, Milk1: Arvīds1: 2]
+2016-11-08 11:10:55 DEBUG [org.activity09.OrderListTest] test03Iterations:79 - Values of elements from iterations:
+Milk6: Arvīds4: 30
+Milk6: Arvīds3: 24
+Milk6: Arvīds2: 18
+Milk6: Arvīds1: 12
+Milk5: Arvīds4: 25
+Milk5: Arvīds3: 20
+Milk5: Arvīds2: 15
+Milk5: Arvīds1: 10
+Milk4: Arvīds4: 20
+Milk4: Arvīds3: 16
+Milk4: Arvīds2: 12
+Milk4: Arvīds1: 8
+Milk3: Arvīds4: 15
+Milk3: Arvīds3: 12
+Milk3: Arvīds2: 9
+Milk3: Arvīds1: 6
+Milk2: Arvīds4: 10
+Milk2: Arvīds3: 8
+Milk2: Arvīds2: 6
+Milk2: Arvīds1: 4
+Milk1: Arvīds4: 5
+Milk1: Arvīds3: 4
+Milk1: Arvīds2: 3
+Milk1: Arvīds1: 2
+2016-11-08 11:10:55 INFO  [org.activity09.OrderListTest] test03Iterations:81 - OK
+2016-11-08 11:10:55 DEBUG [org.activity09.OrderListTest] test04Sort:88 - Sorted list of orders:
+[Milk1: Arvīds1: 2, Milk1: Arvīds2: 3, Milk1: Arvīds3: 4, Milk1: Arvīds4: 5, Milk2: Arvīds1: 4, Milk2: Arvīds2: 6, Milk2: Arvīds3: 8, Milk2: Arvīds4: 10, Milk3: Arvīds1: 6, Milk3: Arvīds2: 9, Milk3: Arvīds3: 12, Milk3: Arvīds4: 15, Milk4: Arvīds1: 8, Milk4: Arvīds2: 12, Milk4: Arvīds3: 16, Milk4: Arvīds4: 20, Milk5: Arvīds1: 10, Milk5: Arvīds2: 15, Milk5: Arvīds3: 20, Milk5: Arvīds4: 25, Milk6: Arvīds1: 12, Milk6: Arvīds2: 18, Milk6: Arvīds3: 24, Milk6: Arvīds4: 30]
+2016-11-08 11:10:55 DEBUG [org.TestUtils] executeCmd:325 - executeCmd([/bin/bash, -c, echo "[
+Milk1: Arvīds1: 2
+Milk1: Arvīds2: 3
+Milk1: Arvīds3: 4
+Milk1: Arvīds4: 5
+Milk2: Arvīds1: 4
+Milk2: Arvīds2: 6
+Milk2: Arvīds3: 8
+Milk2: Arvīds4: 10
+Milk3: Arvīds1: 6
+Milk3: Arvīds2: 9
+Milk3: Arvīds3: 12
+Milk3: Arvīds4: 15
+Milk4: Arvīds1: 8
+Milk4: Arvīds2: 12
+Milk4: Arvīds3: 16
+Milk4: Arvīds4: 20
+Milk5: Arvīds1: 10
+Milk5: Arvīds2: 15
+Milk5: Arvīds3: 20
+Milk5: Arvīds4: 25
+Milk6: Arvīds1: 12
+Milk6: Arvīds2: 18
+Milk6: Arvīds3: 24
+Milk6: Arvīds4: 30
+]"|grep -vE "\[|\]"])
+Output message: Milk1: Arvīds1: 2
+Milk1: Arvīds2: 3
+Milk1: Arvīds3: 4
+Milk1: Arvīds4: 5
+Milk2: Arvīds1: 4
+Milk2: Arvīds2: 6
+Milk2: Arvīds3: 8
+Milk2: Arvīds4: 10
+Milk3: Arvīds1: 6
+Milk3: Arvīds2: 9
+Milk3: Arvīds3: 12
+Milk3: Arvīds4: 15
+Milk4: Arvīds1: 8
+Milk4: Arvīds2: 12
+Milk4: Arvīds3: 16
+Milk4: Arvīds4: 20
+Milk5: Arvīds1: 10
+Milk5: Arvīds2: 15
+Milk5: Arvīds3: 20
+Milk5: Arvīds4: 25
+Milk6: Arvīds1: 12
+Milk6: Arvīds2: 18
+Milk6: Arvīds3: 24
+Milk6: Arvīds4: 30
+
+2016-11-08 11:10:55 DEBUG [org.TestUtils] executeCmd:325 - executeCmd([/bin/bash, -c, echo "[
+Milk1: Arvīds1: 2
+Milk1: Arvīds2: 3
+Milk1: Arvīds3: 4
+Milk1: Arvīds4: 5
+Milk2: Arvīds1: 4
+Milk2: Arvīds2: 6
+Milk2: Arvīds3: 8
+Milk2: Arvīds4: 10
+Milk3: Arvīds1: 6
+Milk3: Arvīds2: 9
+Milk3: Arvīds3: 12
+Milk3: Arvīds4: 15
+Milk4: Arvīds1: 8
+Milk4: Arvīds2: 12
+Milk4: Arvīds3: 16
+Milk4: Arvīds4: 20
+Milk5: Arvīds1: 10
+Milk5: Arvīds2: 15
+Milk5: Arvīds3: 20
+Milk5: Arvīds4: 25
+Milk6: Arvīds1: 12
+Milk6: Arvīds2: 18
+Milk6: Arvīds3: 24
+Milk6: Arvīds4: 30
+]"|grep -vE "\[|\]"|sort -n])
+Output message: Milk1: Arvīds1: 2
+Milk1: Arvīds2: 3
+Milk1: Arvīds3: 4
+Milk1: Arvīds4: 5
+Milk2: Arvīds1: 4
+Milk2: Arvīds2: 6
+Milk2: Arvīds3: 8
+Milk2: Arvīds4: 10
+Milk3: Arvīds1: 6
+Milk3: Arvīds2: 9
+Milk3: Arvīds3: 12
+Milk3: Arvīds4: 15
+Milk4: Arvīds1: 8
+Milk4: Arvīds2: 12
+Milk4: Arvīds3: 16
+Milk4: Arvīds4: 20
+Milk5: Arvīds1: 10
+Milk5: Arvīds2: 15
+Milk5: Arvīds3: 20
+Milk5: Arvīds4: 25
+Milk6: Arvīds1: 12
+Milk6: Arvīds2: 18
+Milk6: Arvīds3: 24
+Milk6: Arvīds4: 30
+
+2016-11-08 11:10:55 INFO  [org.activity09.OrderListTest] test04Sort:95 - OK
+2016-11-08 11:10:55 INFO  [org.activity09.OrderListTest] test05GetItemsSet:102 - OK
+2016-11-08 11:10:55 DEBUG [org.activity09.OrderListTest] test06Remove:113 - Got IllegalStateException as suspected
+2016-11-08 11:12:31 DEBUG [org.activity09.OrderListTest] test01OrderList:48 - Got NoSuchElementException as suspected
+2016-11-08 11:12:31 INFO  [org.activity09.OrderListTest] test01OrderList:50 - OK
+2016-11-08 11:12:31 DEBUG [org.activity09.OrderListTest] test02Add:57 - Initial list of orders:
+[Juice3: Arvīds7: 24, Juice3: Arvīds6: 21, Juice3: Arvīds5: 18, Juice3: Arvīds4: 15, Juice3: Arvīds3: 12, Juice3: Arvīds2: 9, Juice3: Arvīds1: 6, Juice2: Arvīds7: 16, Juice2: Arvīds6: 14, Juice2: Arvīds5: 12, Juice2: Arvīds4: 10, Juice2: Arvīds3: 8, Juice2: Arvīds2: 6, Juice2: Arvīds1: 4, Juice1: Arvīds7: 8, Juice1: Arvīds6: 7, Juice1: Arvīds5: 6, Juice1: Arvīds4: 5, Juice1: Arvīds3: 4, Juice1: Arvīds2: 3, Juice1: Arvīds1: 2]
+2016-11-08 11:12:31 DEBUG [org.activity09.OrderListTest] test03Iterations:79 - Values of elements from iterations:
+Juice3: Arvīds7: 24
+Juice3: Arvīds6: 21
+Juice3: Arvīds5: 18
+Juice3: Arvīds4: 15
+Juice3: Arvīds3: 12
+Juice3: Arvīds2: 9
+Juice3: Arvīds1: 6
+Juice2: Arvīds7: 16
+Juice2: Arvīds6: 14
+Juice2: Arvīds5: 12
+Juice2: Arvīds4: 10
+Juice2: Arvīds3: 8
+Juice2: Arvīds2: 6
+Juice2: Arvīds1: 4
+Juice1: Arvīds7: 8
+Juice1: Arvīds6: 7
+Juice1: Arvīds5: 6
+Juice1: Arvīds4: 5
+Juice1: Arvīds3: 4
+Juice1: Arvīds2: 3
+Juice1: Arvīds1: 2
+2016-11-08 11:12:31 INFO  [org.activity09.OrderListTest] test03Iterations:81 - OK
+2016-11-08 11:12:31 DEBUG [org.activity09.OrderListTest] test04Sort:88 - Sorted list of orders:
+[Juice1: Arvīds1: 2, Juice1: Arvīds2: 3, Juice1: Arvīds3: 4, Juice1: Arvīds4: 5, Juice1: Arvīds5: 6, Juice1: Arvīds6: 7, Juice1: Arvīds7: 8, Juice2: Arvīds1: 4, Juice2: Arvīds2: 6, Juice2: Arvīds3: 8, Juice2: Arvīds4: 10, Juice2: Arvīds5: 12, Juice2: Arvīds6: 14, Juice2: Arvīds7: 16, Juice3: Arvīds1: 6, Juice3: Arvīds2: 9, Juice3: Arvīds3: 12, Juice3: Arvīds4: 15, Juice3: Arvīds5: 18, Juice3: Arvīds6: 21, Juice3: Arvīds7: 24]
+2016-11-08 11:12:31 DEBUG [org.TestUtils] executeCmd:325 - executeCmd([/bin/bash, -c, echo "[
+Juice1: Arvīds1: 2
+Juice1: Arvīds2: 3
+Juice1: Arvīds3: 4
+Juice1: Arvīds4: 5
+Juice1: Arvīds5: 6
+Juice1: Arvīds6: 7
+Juice1: Arvīds7: 8
+Juice2: Arvīds1: 4
+Juice2: Arvīds2: 6
+Juice2: Arvīds3: 8
+Juice2: Arvīds4: 10
+Juice2: Arvīds5: 12
+Juice2: Arvīds6: 14
+Juice2: Arvīds7: 16
+Juice3: Arvīds1: 6
+Juice3: Arvīds2: 9
+Juice3: Arvīds3: 12
+Juice3: Arvīds4: 15
+Juice3: Arvīds5: 18
+Juice3: Arvīds6: 21
+Juice3: Arvīds7: 24
+]"|grep -vE "\[|\]"])
+Output message: Juice1: Arvīds1: 2
+Juice1: Arvīds2: 3
+Juice1: Arvīds3: 4
+Juice1: Arvīds4: 5
+Juice1: Arvīds5: 6
+Juice1: Arvīds6: 7
+Juice1: Arvīds7: 8
+Juice2: Arvīds1: 4
+Juice2: Arvīds2: 6
+Juice2: Arvīds3: 8
+Juice2: Arvīds4: 10
+Juice2: Arvīds5: 12
+Juice2: Arvīds6: 14
+Juice2: Arvīds7: 16
+Juice3: Arvīds1: 6
+Juice3: Arvīds2: 9
+Juice3: Arvīds3: 12
+Juice3: Arvīds4: 15
+Juice3: Arvīds5: 18
+Juice3: Arvīds6: 21
+Juice3: Arvīds7: 24
+
+2016-11-08 11:12:31 DEBUG [org.TestUtils] executeCmd:325 - executeCmd([/bin/bash, -c, echo "[
+Juice1: Arvīds1: 2
+Juice1: Arvīds2: 3
+Juice1: Arvīds3: 4
+Juice1: Arvīds4: 5
+Juice1: Arvīds5: 6
+Juice1: Arvīds6: 7
+Juice1: Arvīds7: 8
+Juice2: Arvīds1: 4
+Juice2: Arvīds2: 6
+Juice2: Arvīds3: 8
+Juice2: Arvīds4: 10
+Juice2: Arvīds5: 12
+Juice2: Arvīds6: 14
+Juice2: Arvīds7: 16
+Juice3: Arvīds1: 6
+Juice3: Arvīds2: 9
+Juice3: Arvīds3: 12
+Juice3: Arvīds4: 15
+Juice3: Arvīds5: 18
+Juice3: Arvīds6: 21
+Juice3: Arvīds7: 24
+]"|grep -vE "\[|\]"|sort -n])
+Output message: Juice1: Arvīds1: 2
+Juice1: Arvīds2: 3
+Juice1: Arvīds3: 4
+Juice1: Arvīds4: 5
+Juice1: Arvīds5: 6
+Juice1: Arvīds6: 7
+Juice1: Arvīds7: 8
+Juice2: Arvīds1: 4
+Juice2: Arvīds2: 6
+Juice2: Arvīds3: 8
+Juice2: Arvīds4: 10
+Juice2: Arvīds5: 12
+Juice2: Arvīds6: 14
+Juice2: Arvīds7: 16
+Juice3: Arvīds1: 6
+Juice3: Arvīds2: 9
+Juice3: Arvīds3: 12
+Juice3: Arvīds4: 15
+Juice3: Arvīds5: 18
+Juice3: Arvīds6: 21
+Juice3: Arvīds7: 24
+
+2016-11-08 11:12:31 INFO  [org.activity09.OrderListTest] test04Sort:95 - OK
+2016-11-08 11:12:31 INFO  [org.activity09.OrderListTest] test05GetItemsSet:102 - OK
+2016-11-08 11:12:31 DEBUG [org.activity09.OrderListTest] test06Remove:113 - Got IllegalStateException as suspected
+2016-11-08 11:13:04 DEBUG [org.activity09.OrderListTest] test01OrderList:48 - Got NoSuchElementException as suspected
+2016-11-08 11:13:04 INFO  [org.activity09.OrderListTest] test01OrderList:50 - OK
+2016-11-08 11:13:04 DEBUG [org.activity09.OrderListTest] test02Add:57 - Initial list of orders:
+[Water3: Andris6: 21, Water3: Andris5: 18, Water3: Andris4: 15, Water3: Andris3: 12, Water3: Andris2: 9, Water3: Andris1: 6, Water2: Andris6: 14, Water2: Andris5: 12, Water2: Andris4: 10, Water2: Andris3: 8, Water2: Andris2: 6, Water2: Andris1: 4, Water1: Andris6: 7, Water1: Andris5: 6, Water1: Andris4: 5, Water1: Andris3: 4, Water1: Andris2: 3, Water1: Andris1: 2]
+2016-11-08 11:13:21 DEBUG [org.activity09.OrderListTest] test03Iterations:79 - Values of elements from iterations:
+Water3: Andris6: 21
+Water3: Andris5: 18
+Water3: Andris4: 15
+Water3: Andris3: 12
+Water3: Andris2: 9
+Water3: Andris1: 6
+Water2: Andris6: 14
+Water2: Andris5: 12
+Water2: Andris4: 10
+Water2: Andris3: 8
+Water2: Andris2: 6
+Water2: Andris1: 4
+Water1: Andris6: 7
+Water1: Andris5: 6
+Water1: Andris4: 5
+Water1: Andris3: 4
+Water1: Andris2: 3
+Water1: Andris1: 2
+2016-11-08 11:13:21 INFO  [org.activity09.OrderListTest] test03Iterations:81 - OK
+2016-11-08 11:13:21 DEBUG [org.activity09.OrderListTest] test04Sort:88 - Sorted list of orders:
+[Water1: Andris1: 2, Water1: Andris2: 3, Water1: Andris3: 4, Water1: Andris4: 5, Water1: Andris5: 6, Water1: Andris6: 7, Water2: Andris1: 4, Water2: Andris2: 6, Water2: Andris3: 8, Water2: Andris4: 10, Water2: Andris5: 12, Water2: Andris6: 14, Water3: Andris1: 6, Water3: Andris2: 9, Water3: Andris3: 12, Water3: Andris4: 15, Water3: Andris5: 18, Water3: Andris6: 21]
+2016-11-08 11:13:21 DEBUG [org.TestUtils] executeCmd:325 - executeCmd([/bin/bash, -c, echo "[
+Water1: Andris1: 2
+Water1: Andris2: 3
+Water1: Andris3: 4
+Water1: Andris4: 5
+Water1: Andris5: 6
+Water1: Andris6: 7
+Water2: Andris1: 4
+Water2: Andris2: 6
+Water2: Andris3: 8
+Water2: Andris4: 10
+Water2: Andris5: 12
+Water2: Andris6: 14
+Water3: Andris1: 6
+Water3: Andris2: 9
+Water3: Andris3: 12
+Water3: Andris4: 15
+Water3: Andris5: 18
+Water3: Andris6: 21
+]"|grep -vE "\[|\]"])
+Output message: Water1: Andris1: 2
+Water1: Andris2: 3
+Water1: Andris3: 4
+Water1: Andris4: 5
+Water1: Andris5: 6
+Water1: Andris6: 7
+Water2: Andris1: 4
+Water2: Andris2: 6
+Water2: Andris3: 8
+Water2: Andris4: 10
+Water2: Andris5: 12
+Water2: Andris6: 14
+Water3: Andris1: 6
+Water3: Andris2: 9
+Water3: Andris3: 12
+Water3: Andris4: 15
+Water3: Andris5: 18
+Water3: Andris6: 21
+
+2016-11-08 11:13:21 DEBUG [org.TestUtils] executeCmd:325 - executeCmd([/bin/bash, -c, echo "[
+Water1: Andris1: 2
+Water1: Andris2: 3
+Water1: Andris3: 4
+Water1: Andris4: 5
+Water1: Andris5: 6
+Water1: Andris6: 7
+Water2: Andris1: 4
+Water2: Andris2: 6
+Water2: Andris3: 8
+Water2: Andris4: 10
+Water2: Andris5: 12
+Water2: Andris6: 14
+Water3: Andris1: 6
+Water3: Andris2: 9
+Water3: Andris3: 12
+Water3: Andris4: 15
+Water3: Andris5: 18
+Water3: Andris6: 21
+]"|grep -vE "\[|\]"|sort -n])
+Output message: Water1: Andris1: 2
+Water1: Andris2: 3
+Water1: Andris3: 4
+Water1: Andris4: 5
+Water1: Andris5: 6
+Water1: Andris6: 7
+Water2: Andris1: 4
+Water2: Andris2: 6
+Water2: Andris3: 8
+Water2: Andris4: 10
+Water2: Andris5: 12
+Water2: Andris6: 14
+Water3: Andris1: 6
+Water3: Andris2: 9
+Water3: Andris3: 12
+Water3: Andris4: 15
+Water3: Andris5: 18
+Water3: Andris6: 21
+
+2016-11-08 11:13:21 INFO  [org.activity09.OrderListTest] test04Sort:95 - OK
+2016-11-08 11:13:21 INFO  [org.activity09.OrderListTest] test05GetItemsSet:102 - OK
+2016-11-08 11:13:21 DEBUG [org.activity09.OrderListTest] test06Remove:113 - Got IllegalStateException as suspected
+2016-11-08 11:14:43 DEBUG [org.activity09.OrderListTest] test01OrderList:48 - Got NoSuchElementException as suspected
+2016-11-08 11:14:43 INFO  [org.activity09.OrderListTest] test01OrderList:50 - OK
+2016-11-08 11:14:43 DEBUG [org.activity09.OrderListTest] test02Add:57 - Initial list of orders:
+[Milk4: Andris8: 36, Milk4: Andris7: 32, Milk4: Andris6: 28, Milk4: Andris5: 24, Milk4: Andris4: 20, Milk4: Andris3: 16, Milk4: Andris2: 12, Milk4: Andris1: 8, Milk3: Andris8: 27, Milk3: Andris7: 24, Milk3: Andris6: 21, Milk3: Andris5: 18, Milk3: Andris4: 15, Milk3: Andris3: 12, Milk3: Andris2: 9, Milk3: Andris1: 6, Milk2: Andris8: 18, Milk2: Andris7: 16, Milk2: Andris6: 14, Milk2: Andris5: 12, Milk2: Andris4: 10, Milk2: Andris3: 8, Milk2: Andris2: 6, Milk2: Andris1: 4, Milk1: Andris8: 9, Milk1: Andris7: 8, Milk1: Andris6: 7, Milk1: Andris5: 6, Milk1: Andris4: 5, Milk1: Andris3: 4, Milk1: Andris2: 3, Milk1: Andris1: 2]
+2016-11-08 11:15:28 DEBUG [org.activity09.OrderListTest] test03Iterations:79 - Values of elements from iterations:
+Milk4: Andris8: 36
+Milk4: Andris7: 32
+Milk4: Andris6: 28
+Milk4: Andris5: 24
+Milk4: Andris4: 20
+Milk4: Andris3: 16
+Milk4: Andris2: 12
+Milk4: Andris1: 8
+Milk3: Andris8: 27
+Milk3: Andris7: 24
+Milk3: Andris6: 21
+Milk3: Andris5: 18
+Milk3: Andris4: 15
+Milk3: Andris3: 12
+Milk3: Andris2: 9
+Milk3: Andris1: 6
+Milk2: Andris8: 18
+Milk2: Andris7: 16
+Milk2: Andris6: 14
+Milk2: Andris5: 12
+Milk2: Andris4: 10
+Milk2: Andris3: 8
+Milk2: Andris2: 6
+Milk2: Andris1: 4
+Milk1: Andris8: 9
+Milk1: Andris7: 8
+Milk1: Andris6: 7
+Milk1: Andris5: 6
+Milk1: Andris4: 5
+Milk1: Andris3: 4
+Milk1: Andris2: 3
+Milk1: Andris1: 2
+2016-11-08 11:15:28 INFO  [org.activity09.OrderListTest] test03Iterations:81 - OK
+2016-11-08 11:15:28 DEBUG [org.activity09.OrderListTest] test04Sort:88 - Sorted list of orders:
+[Milk1: Andris1: 2, Milk1: Andris2: 3, Milk1: Andris3: 4, Milk1: Andris4: 5, Milk1: Andris5: 6, Milk1: Andris6: 7, Milk1: Andris7: 8, Milk1: Andris8: 9, Milk2: Andris1: 4, Milk2: Andris2: 6, Milk2: Andris3: 8, Milk2: Andris4: 10, Milk2: Andris5: 12, Milk2: Andris6: 14, Milk2: Andris7: 16, Milk2: Andris8: 18, Milk3: Andris1: 6, Milk3: Andris2: 9, Milk3: Andris3: 12, Milk3: Andris4: 15, Milk3: Andris5: 18, Milk3: Andris6: 21, Milk3: Andris7: 24, Milk3: Andris8: 27, Milk4: Andris1: 8, Milk4: Andris2: 12, Milk4: Andris3: 16, Milk4: Andris4: 20, Milk4: Andris5: 24, Milk4: Andris6: 28, Milk4: Andris7: 32, Milk4: Andris8: 36]
+2016-11-08 11:15:28 DEBUG [org.TestUtils] executeCmd:325 - executeCmd([/bin/bash, -c, echo "[
+Milk1: Andris1: 2
+Milk1: Andris2: 3
+Milk1: Andris3: 4
+Milk1: Andris4: 5
+Milk1: Andris5: 6
+Milk1: Andris6: 7
+Milk1: Andris7: 8
+Milk1: Andris8: 9
+Milk2: Andris1: 4
+Milk2: Andris2: 6
+Milk2: Andris3: 8
+Milk2: Andris4: 10
+Milk2: Andris5: 12
+Milk2: Andris6: 14
+Milk2: Andris7: 16
+Milk2: Andris8: 18
+Milk3: Andris1: 6
+Milk3: Andris2: 9
+Milk3: Andris3: 12
+Milk3: Andris4: 15
+Milk3: Andris5: 18
+Milk3: Andris6: 21
+Milk3: Andris7: 24
+Milk3: Andris8: 27
+Milk4: Andris1: 8
+Milk4: Andris2: 12
+Milk4: Andris3: 16
+Milk4: Andris4: 20
+Milk4: Andris5: 24
+Milk4: Andris6: 28
+Milk4: Andris7: 32
+Milk4: Andris8: 36
+]"|grep -vE "\[|\]"])
+Output message: Milk1: Andris1: 2
+Milk1: Andris2: 3
+Milk1: Andris3: 4
+Milk1: Andris4: 5
+Milk1: Andris5: 6
+Milk1: Andris6: 7
+Milk1: Andris7: 8
+Milk1: Andris8: 9
+Milk2: Andris1: 4
+Milk2: Andris2: 6
+Milk2: Andris3: 8
+Milk2: Andris4: 10
+Milk2: Andris5: 12
+Milk2: Andris6: 14
+Milk2: Andris7: 16
+Milk2: Andris8: 18
+Milk3: Andris1: 6
+Milk3: Andris2: 9
+Milk3: Andris3: 12
+Milk3: Andris4: 15
+Milk3: Andris5: 18
+Milk3: Andris6: 21
+Milk3: Andris7: 24
+Milk3: Andris8: 27
+Milk4: Andris1: 8
+Milk4: Andris2: 12
+Milk4: Andris3: 16
+Milk4: Andris4: 20
+Milk4: Andris5: 24
+Milk4: Andris6: 28
+Milk4: Andris7: 32
+Milk4: Andris8: 36
+
+2016-11-08 11:15:28 DEBUG [org.TestUtils] executeCmd:325 - executeCmd([/bin/bash, -c, echo "[
+Milk1: Andris1: 2
+Milk1: Andris2: 3
+Milk1: Andris3: 4
+Milk1: Andris4: 5
+Milk1: Andris5: 6
+Milk1: Andris6: 7
+Milk1: Andris7: 8
+Milk1: Andris8: 9
+Milk2: Andris1: 4
+Milk2: Andris2: 6
+Milk2: Andris3: 8
+Milk2: Andris4: 10
+Milk2: Andris5: 12
+Milk2: Andris6: 14
+Milk2: Andris7: 16
+Milk2: Andris8: 18
+Milk3: Andris1: 6
+Milk3: Andris2: 9
+Milk3: Andris3: 12
+Milk3: Andris4: 15
+Milk3: Andris5: 18
+Milk3: Andris6: 21
+Milk3: Andris7: 24
+Milk3: Andris8: 27
+Milk4: Andris1: 8
+Milk4: Andris2: 12
+Milk4: Andris3: 16
+Milk4: Andris4: 20
+Milk4: Andris5: 24
+Milk4: Andris6: 28
+Milk4: Andris7: 32
+Milk4: Andris8: 36
+]"|grep -vE "\[|\]"|sort -n])
+Output message: Milk1: Andris1: 2
+Milk1: Andris2: 3
+Milk1: Andris3: 4
+Milk1: Andris4: 5
+Milk1: Andris5: 6
+Milk1: Andris6: 7
+Milk1: Andris7: 8
+Milk1: Andris8: 9
+Milk2: Andris1: 4
+Milk2: Andris2: 6
+Milk2: Andris3: 8
+Milk2: Andris4: 10
+Milk2: Andris5: 12
+Milk2: Andris6: 14
+Milk2: Andris7: 16
+Milk2: Andris8: 18
+Milk3: Andris1: 6
+Milk3: Andris2: 9
+Milk3: Andris3: 12
+Milk3: Andris4: 15
+Milk3: Andris5: 18
+Milk3: Andris6: 21
+Milk3: Andris7: 24
+Milk3: Andris8: 27
+Milk4: Andris1: 8
+Milk4: Andris2: 12
+Milk4: Andris3: 16
+Milk4: Andris4: 20
+Milk4: Andris5: 24
+Milk4: Andris6: 28
+Milk4: Andris7: 32
+Milk4: Andris8: 36
+
+2016-11-08 11:15:28 INFO  [org.activity09.OrderListTest] test04Sort:95 - OK
+2016-11-08 11:15:28 INFO  [org.activity09.OrderListTest] test05GetItemsSet:102 - OK
+2016-11-08 11:15:28 DEBUG [org.activity09.OrderListTest] test06Remove:113 - Got IllegalStateException as suspected
+2016-11-08 11:16:02 DEBUG [org.activity09.OrderListTest] test01OrderList:48 - Got NoSuchElementException as suspected
+2016-11-08 11:16:02 INFO  [org.activity09.OrderListTest] test01OrderList:50 - OK
+2016-11-08 11:16:02 DEBUG [org.activity09.OrderListTest] test02Add:57 - Initial list of orders:
+[Milk4: Andris6: 28, Milk4: Andris5: 24, Milk4: Andris4: 20, Milk4: Andris3: 16, Milk4: Andris2: 12, Milk4: Andris1: 8, Milk3: Andris6: 21, Milk3: Andris5: 18, Milk3: Andris4: 15, Milk3: Andris3: 12, Milk3: Andris2: 9, Milk3: Andris1: 6, Milk2: Andris6: 14, Milk2: Andris5: 12, Milk2: Andris4: 10, Milk2: Andris3: 8, Milk2: Andris2: 6, Milk2: Andris1: 4, Milk1: Andris6: 7, Milk1: Andris5: 6, Milk1: Andris4: 5, Milk1: Andris3: 4, Milk1: Andris2: 3, Milk1: Andris1: 2]
+2016-11-08 11:16:02 DEBUG [org.activity09.OrderListTest] test03Iterations:79 - Values of elements from iterations:
+Milk4: Andris6: 28
+Milk4: Andris5: 24
+Milk4: Andris4: 20
+Milk4: Andris3: 16
+Milk4: Andris2: 12
+Milk4: Andris1: 8
+Milk3: Andris6: 21
+Milk3: Andris5: 18
+Milk3: Andris4: 15
+Milk3: Andris3: 12
+Milk3: Andris2: 9
+Milk3: Andris1: 6
+Milk2: Andris6: 14
+Milk2: Andris5: 12
+Milk2: Andris4: 10
+Milk2: Andris3: 8
+Milk2: Andris2: 6
+Milk2: Andris1: 4
+Milk1: Andris6: 7
+Milk1: Andris5: 6
+Milk1: Andris4: 5
+Milk1: Andris3: 4
+Milk1: Andris2: 3
+Milk1: Andris1: 2
+2016-11-08 11:16:02 INFO  [org.activity09.OrderListTest] test03Iterations:81 - OK
+2016-11-08 11:16:02 DEBUG [org.activity09.OrderListTest] test04Sort:88 - Sorted list of orders:
+[Milk1: Andris1: 2, Milk1: Andris2: 3, Milk1: Andris3: 4, Milk1: Andris4: 5, Milk1: Andris5: 6, Milk1: Andris6: 7, Milk2: Andris1: 4, Milk2: Andris2: 6, Milk2: Andris3: 8, Milk2: Andris4: 10, Milk2: Andris5: 12, Milk2: Andris6: 14, Milk3: Andris1: 6, Milk3: Andris2: 9, Milk3: Andris3: 12, Milk3: Andris4: 15, Milk3: Andris5: 18, Milk3: Andris6: 21, Milk4: Andris1: 8, Milk4: Andris2: 12, Milk4: Andris3: 16, Milk4: Andris4: 20, Milk4: Andris5: 24, Milk4: Andris6: 28]
+2016-11-08 11:16:02 DEBUG [org.TestUtils] executeCmd:325 - executeCmd([/bin/bash, -c, echo "[
+Milk1: Andris1: 2
+Milk1: Andris2: 3
+Milk1: Andris3: 4
+Milk1: Andris4: 5
+Milk1: Andris5: 6
+Milk1: Andris6: 7
+Milk2: Andris1: 4
+Milk2: Andris2: 6
+Milk2: Andris3: 8
+Milk2: Andris4: 10
+Milk2: Andris5: 12
+Milk2: Andris6: 14
+Milk3: Andris1: 6
+Milk3: Andris2: 9
+Milk3: Andris3: 12
+Milk3: Andris4: 15
+Milk3: Andris5: 18
+Milk3: Andris6: 21
+Milk4: Andris1: 8
+Milk4: Andris2: 12
+Milk4: Andris3: 16
+Milk4: Andris4: 20
+Milk4: Andris5: 24
+Milk4: Andris6: 28
+]"|grep -vE "\[|\]"])
+Output message: Milk1: Andris1: 2
+Milk1: Andris2: 3
+Milk1: Andris3: 4
+Milk1: Andris4: 5
+Milk1: Andris5: 6
+Milk1: Andris6: 7
+Milk2: Andris1: 4
+Milk2: Andris2: 6
+Milk2: Andris3: 8
+Milk2: Andris4: 10
+Milk2: Andris5: 12
+Milk2: Andris6: 14
+Milk3: Andris1: 6
+Milk3: Andris2: 9
+Milk3: Andris3: 12
+Milk3: Andris4: 15
+Milk3: Andris5: 18
+Milk3: Andris6: 21
+Milk4: Andris1: 8
+Milk4: Andris2: 12
+Milk4: Andris3: 16
+Milk4: Andris4: 20
+Milk4: Andris5: 24
+Milk4: Andris6: 28
+
+2016-11-08 11:16:02 DEBUG [org.TestUtils] executeCmd:325 - executeCmd([/bin/bash, -c, echo "[
+Milk1: Andris1: 2
+Milk1: Andris2: 3
+Milk1: Andris3: 4
+Milk1: Andris4: 5
+Milk1: Andris5: 6
+Milk1: Andris6: 7
+Milk2: Andris1: 4
+Milk2: Andris2: 6
+Milk2: Andris3: 8
+Milk2: Andris4: 10
+Milk2: Andris5: 12
+Milk2: Andris6: 14
+Milk3: Andris1: 6
+Milk3: Andris2: 9
+Milk3: Andris3: 12
+Milk3: Andris4: 15
+Milk3: Andris5: 18
+Milk3: Andris6: 21
+Milk4: Andris1: 8
+Milk4: Andris2: 12
+Milk4: Andris3: 16
+Milk4: Andris4: 20
+Milk4: Andris5: 24
+Milk4: Andris6: 28
+]"|grep -vE "\[|\]"|sort -n])
+Output message: Milk1: Andris1: 2
+Milk1: Andris2: 3
+Milk1: Andris3: 4
+Milk1: Andris4: 5
+Milk1: Andris5: 6
+Milk1: Andris6: 7
+Milk2: Andris1: 4
+Milk2: Andris2: 6
+Milk2: Andris3: 8
+Milk2: Andris4: 10
+Milk2: Andris5: 12
+Milk2: Andris6: 14
+Milk3: Andris1: 6
+Milk3: Andris2: 9
+Milk3: Andris3: 12
+Milk3: Andris4: 15
+Milk3: Andris5: 18
+Milk3: Andris6: 21
+Milk4: Andris1: 8
+Milk4: Andris2: 12
+Milk4: Andris3: 16
+Milk4: Andris4: 20
+Milk4: Andris5: 24
+Milk4: Andris6: 28
+
+2016-11-08 11:16:02 INFO  [org.activity09.OrderListTest] test04Sort:95 - OK
+2016-11-08 11:16:02 INFO  [org.activity09.OrderListTest] test05GetItemsSet:102 - OK
+2016-11-08 11:16:02 DEBUG [org.activity09.OrderListTest] test06Remove:113 - Got IllegalStateException as suspected
+2016-11-08 11:16:16 DEBUG [org.activity09.OrderListTest] test01OrderList:48 - Got NoSuchElementException as suspected
+2016-11-08 11:16:16 INFO  [org.activity09.OrderListTest] test01OrderList:50 - OK
+2016-11-08 11:16:16 DEBUG [org.activity09.OrderListTest] test02Add:57 - Initial list of orders:
+[Beer6: Andris7: 48, Beer6: Andris6: 42, Beer6: Andris5: 36, Beer6: Andris4: 30, Beer6: Andris3: 24, Beer6: Andris2: 18, Beer6: Andris1: 12, Beer5: Andris7: 40, Beer5: Andris6: 35, Beer5: Andris5: 30, Beer5: Andris4: 25, Beer5: Andris3: 20, Beer5: Andris2: 15, Beer5: Andris1: 10, Beer4: Andris7: 32, Beer4: Andris6: 28, Beer4: Andris5: 24, Beer4: Andris4: 20, Beer4: Andris3: 16, Beer4: Andris2: 12, Beer4: Andris1: 8, Beer3: Andris7: 24, Beer3: Andris6: 21, Beer3: Andris5: 18, Beer3: Andris4: 15, Beer3: Andris3: 12, Beer3: Andris2: 9, Beer3: Andris1: 6, Beer2: Andris7: 16, Beer2: Andris6: 14, Beer2: Andris5: 12, Beer2: Andris4: 10, Beer2: Andris3: 8, Beer2: Andris2: 6, Beer2: Andris1: 4, Beer1: Andris7: 8, Beer1: Andris6: 7, Beer1: Andris5: 6, Beer1: Andris4: 5, Beer1: Andris3: 4, Beer1: Andris2: 3, Beer1: Andris1: 2]
+2016-11-08 11:16:16 DEBUG [org.activity09.OrderListTest] test03Iterations:79 - Values of elements from iterations:
+Beer6: Andris7: 48
+Beer6: Andris6: 42
+Beer6: Andris5: 36
+Beer6: Andris4: 30
+Beer6: Andris3: 24
+Beer6: Andris2: 18
+Beer6: Andris1: 12
+Beer5: Andris7: 40
+Beer5: Andris6: 35
+Beer5: Andris5: 30
+Beer5: Andris4: 25
+Beer5: Andris3: 20
+Beer5: Andris2: 15
+Beer5: Andris1: 10
+Beer4: Andris7: 32
+Beer4: Andris6: 28
+Beer4: Andris5: 24
+Beer4: Andris4: 20
+Beer4: Andris3: 16
+Beer4: Andris2: 12
+Beer4: Andris1: 8
+Beer3: Andris7: 24
+Beer3: Andris6: 21
+Beer3: Andris5: 18
+Beer3: Andris4: 15
+Beer3: Andris3: 12
+Beer3: Andris2: 9
+Beer3: Andris1: 6
+Beer2: Andris7: 16
+Beer2: Andris6: 14
+Beer2: Andris5: 12
+Beer2: Andris4: 10
+Beer2: Andris3: 8
+Beer2: Andris2: 6
+Beer2: Andris1: 4
+Beer1: Andris7: 8
+Beer1: Andris6: 7
+Beer1: Andris5: 6
+Beer1: Andris4: 5
+Beer1: Andris3: 4
+Beer1: Andris2: 3
+Beer1: Andris1: 2
+2016-11-08 11:16:16 INFO  [org.activity09.OrderListTest] test03Iterations:81 - OK
+2016-11-08 11:16:16 DEBUG [org.activity09.OrderListTest] test04Sort:88 - Sorted list of orders:
+[Beer1: Andris1: 2, Beer1: Andris2: 3, Beer1: Andris3: 4, Beer1: Andris4: 5, Beer1: Andris5: 6, Beer1: Andris6: 7, Beer1: Andris7: 8, Beer2: Andris1: 4, Beer2: Andris2: 6, Beer2: Andris3: 8, Beer2: Andris4: 10, Beer2: Andris5: 12, Beer2: Andris6: 14, Beer2: Andris7: 16, Beer3: Andris1: 6, Beer3: Andris2: 9, Beer3: Andris3: 12, Beer3: Andris4: 15, Beer3: Andris5: 18, Beer3: Andris6: 21, Beer3: Andris7: 24, Beer4: Andris1: 8, Beer4: Andris2: 12, Beer4: Andris3: 16, Beer4: Andris4: 20, Beer4: Andris5: 24, Beer4: Andris6: 28, Beer4: Andris7: 32, Beer5: Andris1: 10, Beer5: Andris2: 15, Beer5: Andris3: 20, Beer5: Andris4: 25, Beer5: Andris5: 30, Beer5: Andris6: 35, Beer5: Andris7: 40, Beer6: Andris1: 12, Beer6: Andris2: 18, Beer6: Andris3: 24, Beer6: Andris4: 30, Beer6: Andris5: 36, Beer6: Andris6: 42, Beer6: Andris7: 48]
+2016-11-08 11:16:16 DEBUG [org.TestUtils] executeCmd:325 - executeCmd([/bin/bash, -c, echo "[
+Beer1: Andris1: 2
+Beer1: Andris2: 3
+Beer1: Andris3: 4
+Beer1: Andris4: 5
+Beer1: Andris5: 6
+Beer1: Andris6: 7
+Beer1: Andris7: 8
+Beer2: Andris1: 4
+Beer2: Andris2: 6
+Beer2: Andris3: 8
+Beer2: Andris4: 10
+Beer2: Andris5: 12
+Beer2: Andris6: 14
+Beer2: Andris7: 16
+Beer3: Andris1: 6
+Beer3: Andris2: 9
+Beer3: Andris3: 12
+Beer3: Andris4: 15
+Beer3: Andris5: 18
+Beer3: Andris6: 21
+Beer3: Andris7: 24
+Beer4: Andris1: 8
+Beer4: Andris2: 12
+Beer4: Andris3: 16
+Beer4: Andris4: 20
+Beer4: Andris5: 24
+Beer4: Andris6: 28
+Beer4: Andris7: 32
+Beer5: Andris1: 10
+Beer5: Andris2: 15
+Beer5: Andris3: 20
+Beer5: Andris4: 25
+Beer5: Andris5: 30
+Beer5: Andris6: 35
+Beer5: Andris7: 40
+Beer6: Andris1: 12
+Beer6: Andris2: 18
+Beer6: Andris3: 24
+Beer6: Andris4: 30
+Beer6: Andris5: 36
+Beer6: Andris6: 42
+Beer6: Andris7: 48
+]"|grep -vE "\[|\]"])
+Output message: Beer1: Andris1: 2
+Beer1: Andris2: 3
+Beer1: Andris3: 4
+Beer1: Andris4: 5
+Beer1: Andris5: 6
+Beer1: Andris6: 7
+Beer1: Andris7: 8
+Beer2: Andris1: 4
+Beer2: Andris2: 6
+Beer2: Andris3: 8
+Beer2: Andris4: 10
+Beer2: Andris5: 12
+Beer2: Andris6: 14
+Beer2: Andris7: 16
+Beer3: Andris1: 6
+Beer3: Andris2: 9
+Beer3: Andris3: 12
+Beer3: Andris4: 15
+Beer3: Andris5: 18
+Beer3: Andris6: 21
+Beer3: Andris7: 24
+Beer4: Andris1: 8
+Beer4: Andris2: 12
+Beer4: Andris3: 16
+Beer4: Andris4: 20
+Beer4: Andris5: 24
+Beer4: Andris6: 28
+Beer4: Andris7: 32
+Beer5: Andris1: 10
+Beer5: Andris2: 15
+Beer5: Andris3: 20
+Beer5: Andris4: 25
+Beer5: Andris5: 30
+Beer5: Andris6: 35
+Beer5: Andris7: 40
+Beer6: Andris1: 12
+Beer6: Andris2: 18
+Beer6: Andris3: 24
+Beer6: Andris4: 30
+Beer6: Andris5: 36
+Beer6: Andris6: 42
+Beer6: Andris7: 48
+
+2016-11-08 11:16:16 DEBUG [org.TestUtils] executeCmd:325 - executeCmd([/bin/bash, -c, echo "[
+Beer1: Andris1: 2
+Beer1: Andris2: 3
+Beer1: Andris3: 4
+Beer1: Andris4: 5
+Beer1: Andris5: 6
+Beer1: Andris6: 7
+Beer1: Andris7: 8
+Beer2: Andris1: 4
+Beer2: Andris2: 6
+Beer2: Andris3: 8
+Beer2: Andris4: 10
+Beer2: Andris5: 12
+Beer2: Andris6: 14
+Beer2: Andris7: 16
+Beer3: Andris1: 6
+Beer3: Andris2: 9
+Beer3: Andris3: 12
+Beer3: Andris4: 15
+Beer3: Andris5: 18
+Beer3: Andris6: 21
+Beer3: Andris7: 24
+Beer4: Andris1: 8
+Beer4: Andris2: 12
+Beer4: Andris3: 16
+Beer4: Andris4: 20
+Beer4: Andris5: 24
+Beer4: Andris6: 28
+Beer4: Andris7: 32
+Beer5: Andris1: 10
+Beer5: Andris2: 15
+Beer5: Andris3: 20
+Beer5: Andris4: 25
+Beer5: Andris5: 30
+Beer5: Andris6: 35
+Beer5: Andris7: 40
+Beer6: Andris1: 12
+Beer6: Andris2: 18
+Beer6: Andris3: 24
+Beer6: Andris4: 30
+Beer6: Andris5: 36
+Beer6: Andris6: 42
+Beer6: Andris7: 48
+]"|grep -vE "\[|\]"|sort -n])
+Output message: Beer1: Andris1: 2
+Beer1: Andris2: 3
+Beer1: Andris3: 4
+Beer1: Andris4: 5
+Beer1: Andris5: 6
+Beer1: Andris6: 7
+Beer1: Andris7: 8
+Beer2: Andris1: 4
+Beer2: Andris2: 6
+Beer2: Andris3: 8
+Beer2: Andris4: 10
+Beer2: Andris5: 12
+Beer2: Andris6: 14
+Beer2: Andris7: 16
+Beer3: Andris1: 6
+Beer3: Andris2: 9
+Beer3: Andris3: 12
+Beer3: Andris4: 15
+Beer3: Andris5: 18
+Beer3: Andris6: 21
+Beer3: Andris7: 24
+Beer4: Andris1: 8
+Beer4: Andris2: 12
+Beer4: Andris3: 16
+Beer4: Andris4: 20
+Beer4: Andris5: 24
+Beer4: Andris6: 28
+Beer4: Andris7: 32
+Beer5: Andris1: 10
+Beer5: Andris2: 15
+Beer5: Andris3: 20
+Beer5: Andris4: 25
+Beer5: Andris5: 30
+Beer5: Andris6: 35
+Beer5: Andris7: 40
+Beer6: Andris1: 12
+Beer6: Andris2: 18
+Beer6: Andris3: 24
+Beer6: Andris4: 30
+Beer6: Andris5: 36
+Beer6: Andris6: 42
+Beer6: Andris7: 48
+
+2016-11-08 11:16:16 INFO  [org.activity09.OrderListTest] test04Sort:95 - OK
+2016-11-08 11:16:16 INFO  [org.activity09.OrderListTest] test05GetItemsSet:102 - OK
+2016-11-08 11:16:16 DEBUG [org.activity09.OrderListTest] test06Remove:113 - Got IllegalStateException as suspected
+2016-11-08 11:17:08 DEBUG [org.activity09.OrderListTest] test01OrderList:48 - Got NoSuchElementException as suspected
+2016-11-08 11:17:08 INFO  [org.activity09.OrderListTest] test01OrderList:50 - OK
+2016-11-08 11:17:08 DEBUG [org.activity09.OrderListTest] test02Add:57 - Initial list of orders:
+[Milk4: Andris5: 24, Milk4: Andris4: 20, Milk4: Andris3: 16, Milk4: Andris2: 12, Milk4: Andris1: 8, Milk3: Andris5: 18, Milk3: Andris4: 15, Milk3: Andris3: 12, Milk3: Andris2: 9, Milk3: Andris1: 6, Milk2: Andris5: 12, Milk2: Andris4: 10, Milk2: Andris3: 8, Milk2: Andris2: 6, Milk2: Andris1: 4, Milk1: Andris5: 6, Milk1: Andris4: 5, Milk1: Andris3: 4, Milk1: Andris2: 3, Milk1: Andris1: 2]
+2016-11-08 11:17:08 DEBUG [org.activity09.OrderListTest] test03Iterations:79 - Values of elements from iterations:
+Milk4: Andris5: 24
+Milk4: Andris4: 20
+Milk4: Andris3: 16
+Milk4: Andris2: 12
+Milk4: Andris1: 8
+Milk3: Andris5: 18
+Milk3: Andris4: 15
+Milk3: Andris3: 12
+Milk3: Andris2: 9
+Milk3: Andris1: 6
+Milk2: Andris5: 12
+Milk2: Andris4: 10
+Milk2: Andris3: 8
+Milk2: Andris2: 6
+Milk2: Andris1: 4
+Milk1: Andris5: 6
+Milk1: Andris4: 5
+Milk1: Andris3: 4
+Milk1: Andris2: 3
+Milk1: Andris1: 2
+2016-11-08 11:17:08 INFO  [org.activity09.OrderListTest] test03Iterations:81 - OK
+2016-11-08 11:17:08 DEBUG [org.activity09.OrderListTest] test04Sort:88 - Sorted list of orders:
+[Milk1: Andris1: 2, Milk1: Andris2: 3, Milk1: Andris3: 4, Milk1: Andris4: 5, Milk1: Andris5: 6, Milk2: Andris1: 4, Milk2: Andris2: 6, Milk2: Andris3: 8, Milk2: Andris4: 10, Milk2: Andris5: 12, Milk3: Andris1: 6, Milk3: Andris2: 9, Milk3: Andris3: 12, Milk3: Andris4: 15, Milk3: Andris5: 18, Milk4: Andris1: 8, Milk4: Andris2: 12, Milk4: Andris3: 16, Milk4: Andris4: 20, Milk4: Andris5: 24]
+2016-11-08 11:17:08 DEBUG [org.TestUtils] executeCmd:325 - executeCmd([/bin/bash, -c, echo "[
+Milk1: Andris1: 2
+Milk1: Andris2: 3
+Milk1: Andris3: 4
+Milk1: Andris4: 5
+Milk1: Andris5: 6
+Milk2: Andris1: 4
+Milk2: Andris2: 6
+Milk2: Andris3: 8
+Milk2: Andris4: 10
+Milk2: Andris5: 12
+Milk3: Andris1: 6
+Milk3: Andris2: 9
+Milk3: Andris3: 12
+Milk3: Andris4: 15
+Milk3: Andris5: 18
+Milk4: Andris1: 8
+Milk4: Andris2: 12
+Milk4: Andris3: 16
+Milk4: Andris4: 20
+Milk4: Andris5: 24
+]"|grep -vE "\[|\]"])
+Output message: Milk1: Andris1: 2
+Milk1: Andris2: 3
+Milk1: Andris3: 4
+Milk1: Andris4: 5
+Milk1: Andris5: 6
+Milk2: Andris1: 4
+Milk2: Andris2: 6
+Milk2: Andris3: 8
+Milk2: Andris4: 10
+Milk2: Andris5: 12
+Milk3: Andris1: 6
+Milk3: Andris2: 9
+Milk3: Andris3: 12
+Milk3: Andris4: 15
+Milk3: Andris5: 18
+Milk4: Andris1: 8
+Milk4: Andris2: 12
+Milk4: Andris3: 16
+Milk4: Andris4: 20
+Milk4: Andris5: 24
+
+2016-11-08 11:17:08 DEBUG [org.TestUtils] executeCmd:325 - executeCmd([/bin/bash, -c, echo "[
+Milk1: Andris1: 2
+Milk1: Andris2: 3
+Milk1: Andris3: 4
+Milk1: Andris4: 5
+Milk1: Andris5: 6
+Milk2: Andris1: 4
+Milk2: Andris2: 6
+Milk2: Andris3: 8
+Milk2: Andris4: 10
+Milk2: Andris5: 12
+Milk3: Andris1: 6
+Milk3: Andris2: 9
+Milk3: Andris3: 12
+Milk3: Andris4: 15
+Milk3: Andris5: 18
+Milk4: Andris1: 8
+Milk4: Andris2: 12
+Milk4: Andris3: 16
+Milk4: Andris4: 20
+Milk4: Andris5: 24
+]"|grep -vE "\[|\]"|sort -n])
+Output message: Milk1: Andris1: 2
+Milk1: Andris2: 3
+Milk1: Andris3: 4
+Milk1: Andris4: 5
+Milk1: Andris5: 6
+Milk2: Andris1: 4
+Milk2: Andris2: 6
+Milk2: Andris3: 8
+Milk2: Andris4: 10
+Milk2: Andris5: 12
+Milk3: Andris1: 6
+Milk3: Andris2: 9
+Milk3: Andris3: 12
+Milk3: Andris4: 15
+Milk3: Andris5: 18
+Milk4: Andris1: 8
+Milk4: Andris2: 12
+Milk4: Andris3: 16
+Milk4: Andris4: 20
+Milk4: Andris5: 24
+
+2016-11-08 11:17:08 INFO  [org.activity09.OrderListTest] test04Sort:95 - OK
+2016-11-08 11:17:08 INFO  [org.activity09.OrderListTest] test05GetItemsSet:102 - OK
+2016-11-08 11:17:08 DEBUG [org.activity09.OrderListTest] test06Remove:113 - Got IllegalStateException as suspected
+2016-11-08 11:18:12 DEBUG [org.activity09.OrderListTest] test01OrderList:48 - Got NoSuchElementException as suspected
+2016-11-08 11:18:12 INFO  [org.activity09.OrderListTest] test01OrderList:50 - OK
+2016-11-08 11:18:12 DEBUG [org.activity09.OrderListTest] test02Add:57 - Initial list of orders:
+[Vodka6: Aigars5: 36, Vodka6: Aigars4: 30, Vodka6: Aigars3: 24, Vodka6: Aigars2: 18, Vodka6: Aigars1: 12, Vodka5: Aigars5: 30, Vodka5: Aigars4: 25, Vodka5: Aigars3: 20, Vodka5: Aigars2: 15, Vodka5: Aigars1: 10, Vodka4: Aigars5: 24, Vodka4: Aigars4: 20, Vodka4: Aigars3: 16, Vodka4: Aigars2: 12, Vodka4: Aigars1: 8, Vodka3: Aigars5: 18, Vodka3: Aigars4: 15, Vodka3: Aigars3: 12, Vodka3: Aigars2: 9, Vodka3: Aigars1: 6, Vodka2: Aigars5: 12, Vodka2: Aigars4: 10, Vodka2: Aigars3: 8, Vodka2: Aigars2: 6, Vodka2: Aigars1: 4, Vodka1: Aigars5: 6, Vodka1: Aigars4: 5, Vodka1: Aigars3: 4, Vodka1: Aigars2: 3, Vodka1: Aigars1: 2]
+2016-11-08 11:18:52 DEBUG [org.activity09.OrderListTest] test03Iterations:79 - Values of elements from iterations:
+Vodka6: Aigars5: 36
+Vodka6: Aigars4: 30
+Vodka6: Aigars3: 24
+Vodka6: Aigars2: 18
+Vodka6: Aigars1: 12
+Vodka5: Aigars5: 30
+Vodka5: Aigars4: 25
+Vodka5: Aigars3: 20
+Vodka5: Aigars2: 15
+Vodka5: Aigars1: 10
+Vodka4: Aigars5: 24
+Vodka4: Aigars4: 20
+Vodka4: Aigars3: 16
+Vodka4: Aigars2: 12
+Vodka4: Aigars1: 8
+Vodka3: Aigars5: 18
+Vodka3: Aigars4: 15
+Vodka3: Aigars3: 12
+Vodka3: Aigars2: 9
+Vodka3: Aigars1: 6
+Vodka2: Aigars5: 12
+Vodka2: Aigars4: 10
+Vodka2: Aigars3: 8
+Vodka2: Aigars2: 6
+Vodka2: Aigars1: 4
+Vodka1: Aigars5: 6
+Vodka1: Aigars4: 5
+Vodka1: Aigars3: 4
+Vodka1: Aigars2: 3
+Vodka1: Aigars1: 2
+2016-11-08 11:18:52 INFO  [org.activity09.OrderListTest] test03Iterations:81 - OK
+2016-11-08 11:18:52 DEBUG [org.activity09.OrderListTest] test04Sort:88 - Sorted list of orders:
+[Vodka1: Aigars1: 2, Vodka1: Aigars2: 3, Vodka1: Aigars3: 4, Vodka1: Aigars4: 5, Vodka1: Aigars5: 6, Vodka2: Aigars1: 4, Vodka2: Aigars2: 6, Vodka2: Aigars3: 8, Vodka2: Aigars4: 10, Vodka2: Aigars5: 12, Vodka3: Aigars1: 6, Vodka3: Aigars2: 9, Vodka3: Aigars3: 12, Vodka3: Aigars4: 15, Vodka3: Aigars5: 18, Vodka4: Aigars1: 8, Vodka4: Aigars2: 12, Vodka4: Aigars3: 16, Vodka4: Aigars4: 20, Vodka4: Aigars5: 24, Vodka5: Aigars1: 10, Vodka5: Aigars2: 15, Vodka5: Aigars3: 20, Vodka5: Aigars4: 25, Vodka5: Aigars5: 30, Vodka6: Aigars1: 12, Vodka6: Aigars2: 18, Vodka6: Aigars3: 24, Vodka6: Aigars4: 30, Vodka6: Aigars5: 36]
+2016-11-08 11:18:53 DEBUG [org.TestUtils] executeCmd:325 - executeCmd([/bin/bash, -c, echo "[
+Vodka1: Aigars1: 2
+Vodka1: Aigars2: 3
+Vodka1: Aigars3: 4
+Vodka1: Aigars4: 5
+Vodka1: Aigars5: 6
+Vodka2: Aigars1: 4
+Vodka2: Aigars2: 6
+Vodka2: Aigars3: 8
+Vodka2: Aigars4: 10
+Vodka2: Aigars5: 12
+Vodka3: Aigars1: 6
+Vodka3: Aigars2: 9
+Vodka3: Aigars3: 12
+Vodka3: Aigars4: 15
+Vodka3: Aigars5: 18
+Vodka4: Aigars1: 8
+Vodka4: Aigars2: 12
+Vodka4: Aigars3: 16
+Vodka4: Aigars4: 20
+Vodka4: Aigars5: 24
+Vodka5: Aigars1: 10
+Vodka5: Aigars2: 15
+Vodka5: Aigars3: 20
+Vodka5: Aigars4: 25
+Vodka5: Aigars5: 30
+Vodka6: Aigars1: 12
+Vodka6: Aigars2: 18
+Vodka6: Aigars3: 24
+Vodka6: Aigars4: 30
+Vodka6: Aigars5: 36
+]"|grep -vE "\[|\]"])
+Output message: Vodka1: Aigars1: 2
+Vodka1: Aigars2: 3
+Vodka1: Aigars3: 4
+Vodka1: Aigars4: 5
+Vodka1: Aigars5: 6
+Vodka2: Aigars1: 4
+Vodka2: Aigars2: 6
+Vodka2: Aigars3: 8
+Vodka2: Aigars4: 10
+Vodka2: Aigars5: 12
+Vodka3: Aigars1: 6
+Vodka3: Aigars2: 9
+Vodka3: Aigars3: 12
+Vodka3: Aigars4: 15
+Vodka3: Aigars5: 18
+Vodka4: Aigars1: 8
+Vodka4: Aigars2: 12
+Vodka4: Aigars3: 16
+Vodka4: Aigars4: 20
+Vodka4: Aigars5: 24
+Vodka5: Aigars1: 10
+Vodka5: Aigars2: 15
+Vodka5: Aigars3: 20
+Vodka5: Aigars4: 25
+Vodka5: Aigars5: 30
+Vodka6: Aigars1: 12
+Vodka6: Aigars2: 18
+Vodka6: Aigars3: 24
+Vodka6: Aigars4: 30
+Vodka6: Aigars5: 36
+
+2016-11-08 11:18:53 DEBUG [org.TestUtils] executeCmd:325 - executeCmd([/bin/bash, -c, echo "[
+Vodka1: Aigars1: 2
+Vodka1: Aigars2: 3
+Vodka1: Aigars3: 4
+Vodka1: Aigars4: 5
+Vodka1: Aigars5: 6
+Vodka2: Aigars1: 4
+Vodka2: Aigars2: 6
+Vodka2: Aigars3: 8
+Vodka2: Aigars4: 10
+Vodka2: Aigars5: 12
+Vodka3: Aigars1: 6
+Vodka3: Aigars2: 9
+Vodka3: Aigars3: 12
+Vodka3: Aigars4: 15
+Vodka3: Aigars5: 18
+Vodka4: Aigars1: 8
+Vodka4: Aigars2: 12
+Vodka4: Aigars3: 16
+Vodka4: Aigars4: 20
+Vodka4: Aigars5: 24
+Vodka5: Aigars1: 10
+Vodka5: Aigars2: 15
+Vodka5: Aigars3: 20
+Vodka5: Aigars4: 25
+Vodka5: Aigars5: 30
+Vodka6: Aigars1: 12
+Vodka6: Aigars2: 18
+Vodka6: Aigars3: 24
+Vodka6: Aigars4: 30
+Vodka6: Aigars5: 36
+]"|grep -vE "\[|\]"|sort -n])
+Output message: Vodka1: Aigars1: 2
+Vodka1: Aigars2: 3
+Vodka1: Aigars3: 4
+Vodka1: Aigars4: 5
+Vodka1: Aigars5: 6
+Vodka2: Aigars1: 4
+Vodka2: Aigars2: 6
+Vodka2: Aigars3: 8
+Vodka2: Aigars4: 10
+Vodka2: Aigars5: 12
+Vodka3: Aigars1: 6
+Vodka3: Aigars2: 9
+Vodka3: Aigars3: 12
+Vodka3: Aigars4: 15
+Vodka3: Aigars5: 18
+Vodka4: Aigars1: 8
+Vodka4: Aigars2: 12
+Vodka4: Aigars3: 16
+Vodka4: Aigars4: 20
+Vodka4: Aigars5: 24
+Vodka5: Aigars1: 10
+Vodka5: Aigars2: 15
+Vodka5: Aigars3: 20
+Vodka5: Aigars4: 25
+Vodka5: Aigars5: 30
+Vodka6: Aigars1: 12
+Vodka6: Aigars2: 18
+Vodka6: Aigars3: 24
+Vodka6: Aigars4: 30
+Vodka6: Aigars5: 36
+
+2016-11-08 11:18:53 INFO  [org.activity09.OrderListTest] test04Sort:95 - OK
+2016-11-08 11:18:53 INFO  [org.activity09.OrderListTest] test05GetItemsSet:102 - OK
+2016-11-08 11:18:53 DEBUG [org.activity09.OrderListTest] test06Remove:113 - Got IllegalStateException as suspected
+2016-11-08 11:19:16 DEBUG [org.activity09.OrderListTest] test01OrderList:48 - Got NoSuchElementException as suspected
+2016-11-08 11:19:16 INFO  [org.activity09.OrderListTest] test01OrderList:50 - OK
+2016-11-08 11:19:16 DEBUG [org.activity09.OrderListTest] test02Add:57 - Initial list of orders:
+[Juice4: Ansis7: 32, Juice4: Ansis6: 28, Juice4: Ansis5: 24, Juice4: Ansis4: 20, Juice4: Ansis3: 16, Juice4: Ansis2: 12, Juice4: Ansis1: 8, Juice3: Ansis7: 24, Juice3: Ansis6: 21, Juice3: Ansis5: 18, Juice3: Ansis4: 15, Juice3: Ansis3: 12, Juice3: Ansis2: 9, Juice3: Ansis1: 6, Juice2: Ansis7: 16, Juice2: Ansis6: 14, Juice2: Ansis5: 12, Juice2: Ansis4: 10, Juice2: Ansis3: 8, Juice2: Ansis2: 6, Juice2: Ansis1: 4, Juice1: Ansis7: 8, Juice1: Ansis6: 7, Juice1: Ansis5: 6, Juice1: Ansis4: 5, Juice1: Ansis3: 4, Juice1: Ansis2: 3, Juice1: Ansis1: 2]
+2016-11-08 11:19:28 DEBUG [org.activity09.OrderListTest] test03Iterations:79 - Values of elements from iterations:
+Juice4: Ansis7: 32
+Juice4: Ansis6: 28
+Juice4: Ansis5: 24
+Juice4: Ansis4: 20
+Juice4: Ansis3: 16
+Juice4: Ansis2: 12
+Juice4: Ansis1: 8
+Juice3: Ansis7: 24
+Juice3: Ansis6: 21
+Juice3: Ansis5: 18
+Juice3: Ansis4: 15
+Juice3: Ansis3: 12
+Juice3: Ansis2: 9
+Juice3: Ansis1: 6
+Juice2: Ansis7: 16
+Juice2: Ansis6: 14
+Juice2: Ansis5: 12
+Juice2: Ansis4: 10
+Juice2: Ansis3: 8
+Juice2: Ansis2: 6
+Juice2: Ansis1: 4
+Juice1: Ansis7: 8
+Juice1: Ansis6: 7
+Juice1: Ansis5: 6
+Juice1: Ansis4: 5
+Juice1: Ansis3: 4
+Juice1: Ansis2: 3
+Juice1: Ansis1: 2
+2016-11-08 11:19:28 INFO  [org.activity09.OrderListTest] test03Iterations:81 - OK
+2016-11-08 11:19:28 DEBUG [org.activity09.OrderListTest] test04Sort:88 - Sorted list of orders:
+[Juice1: Ansis1: 2, Juice1: Ansis2: 3, Juice1: Ansis3: 4, Juice1: Ansis4: 5, Juice1: Ansis5: 6, Juice1: Ansis6: 7, Juice1: Ansis7: 8, Juice2: Ansis1: 4, Juice2: Ansis2: 6, Juice2: Ansis3: 8, Juice2: Ansis4: 10, Juice2: Ansis5: 12, Juice2: Ansis6: 14, Juice2: Ansis7: 16, Juice3: Ansis1: 6, Juice3: Ansis2: 9, Juice3: Ansis3: 12, Juice3: Ansis4: 15, Juice3: Ansis5: 18, Juice3: Ansis6: 21, Juice3: Ansis7: 24, Juice4: Ansis1: 8, Juice4: Ansis2: 12, Juice4: Ansis3: 16, Juice4: Ansis4: 20, Juice4: Ansis5: 24, Juice4: Ansis6: 28, Juice4: Ansis7: 32]
+2016-11-08 11:19:28 DEBUG [org.TestUtils] executeCmd:325 - executeCmd([/bin/bash, -c, echo "[
+Juice1: Ansis1: 2
+Juice1: Ansis2: 3
+Juice1: Ansis3: 4
+Juice1: Ansis4: 5
+Juice1: Ansis5: 6
+Juice1: Ansis6: 7
+Juice1: Ansis7: 8
+Juice2: Ansis1: 4
+Juice2: Ansis2: 6
+Juice2: Ansis3: 8
+Juice2: Ansis4: 10
+Juice2: Ansis5: 12
+Juice2: Ansis6: 14
+Juice2: Ansis7: 16
+Juice3: Ansis1: 6
+Juice3: Ansis2: 9
+Juice3: Ansis3: 12
+Juice3: Ansis4: 15
+Juice3: Ansis5: 18
+Juice3: Ansis6: 21
+Juice3: Ansis7: 24
+Juice4: Ansis1: 8
+Juice4: Ansis2: 12
+Juice4: Ansis3: 16
+Juice4: Ansis4: 20
+Juice4: Ansis5: 24
+Juice4: Ansis6: 28
+Juice4: Ansis7: 32
+]"|grep -vE "\[|\]"])
+Output message: Juice1: Ansis1: 2
+Juice1: Ansis2: 3
+Juice1: Ansis3: 4
+Juice1: Ansis4: 5
+Juice1: Ansis5: 6
+Juice1: Ansis6: 7
+Juice1: Ansis7: 8
+Juice2: Ansis1: 4
+Juice2: Ansis2: 6
+Juice2: Ansis3: 8
+Juice2: Ansis4: 10
+Juice2: Ansis5: 12
+Juice2: Ansis6: 14
+Juice2: Ansis7: 16
+Juice3: Ansis1: 6
+Juice3: Ansis2: 9
+Juice3: Ansis3: 12
+Juice3: Ansis4: 15
+Juice3: Ansis5: 18
+Juice3: Ansis6: 21
+Juice3: Ansis7: 24
+Juice4: Ansis1: 8
+Juice4: Ansis2: 12
+Juice4: Ansis3: 16
+Juice4: Ansis4: 20
+Juice4: Ansis5: 24
+Juice4: Ansis6: 28
+Juice4: Ansis7: 32
+
+2016-11-08 11:19:28 DEBUG [org.TestUtils] executeCmd:325 - executeCmd([/bin/bash, -c, echo "[
+Juice1: Ansis1: 2
+Juice1: Ansis2: 3
+Juice1: Ansis3: 4
+Juice1: Ansis4: 5
+Juice1: Ansis5: 6
+Juice1: Ansis6: 7
+Juice1: Ansis7: 8
+Juice2: Ansis1: 4
+Juice2: Ansis2: 6
+Juice2: Ansis3: 8
+Juice2: Ansis4: 10
+Juice2: Ansis5: 12
+Juice2: Ansis6: 14
+Juice2: Ansis7: 16
+Juice3: Ansis1: 6
+Juice3: Ansis2: 9
+Juice3: Ansis3: 12
+Juice3: Ansis4: 15
+Juice3: Ansis5: 18
+Juice3: Ansis6: 21
+Juice3: Ansis7: 24
+Juice4: Ansis1: 8
+Juice4: Ansis2: 12
+Juice4: Ansis3: 16
+Juice4: Ansis4: 20
+Juice4: Ansis5: 24
+Juice4: Ansis6: 28
+Juice4: Ansis7: 32
+]"|grep -vE "\[|\]"|sort -n])
+Output message: Juice1: Ansis1: 2
+Juice1: Ansis2: 3
+Juice1: Ansis3: 4
+Juice1: Ansis4: 5
+Juice1: Ansis5: 6
+Juice1: Ansis6: 7
+Juice1: Ansis7: 8
+Juice2: Ansis1: 4
+Juice2: Ansis2: 6
+Juice2: Ansis3: 8
+Juice2: Ansis4: 10
+Juice2: Ansis5: 12
+Juice2: Ansis6: 14
+Juice2: Ansis7: 16
+Juice3: Ansis1: 6
+Juice3: Ansis2: 9
+Juice3: Ansis3: 12
+Juice3: Ansis4: 15
+Juice3: Ansis5: 18
+Juice3: Ansis6: 21
+Juice3: Ansis7: 24
+Juice4: Ansis1: 8
+Juice4: Ansis2: 12
+Juice4: Ansis3: 16
+Juice4: Ansis4: 20
+Juice4: Ansis5: 24
+Juice4: Ansis6: 28
+Juice4: Ansis7: 32
+
+2016-11-08 11:19:28 INFO  [org.activity09.OrderListTest] test04Sort:95 - OK
+2016-11-08 11:19:28 INFO  [org.activity09.OrderListTest] test05GetItemsSet:102 - OK
+2016-11-08 11:19:28 DEBUG [org.activity09.OrderListTest] test06Remove:113 - Got IllegalStateException as suspected
+2016-11-08 11:20:18 DEBUG [org.activity09.OrderListTest] test01OrderList:48 - Got NoSuchElementException as suspected
+2016-11-08 11:20:18 INFO  [org.activity09.OrderListTest] test01OrderList:50 - OK
+2016-11-08 11:20:18 DEBUG [org.activity09.OrderListTest] test02Add:57 - Initial list of orders:
+[Juice3: Aigars5: 18, Juice3: Aigars4: 15, Juice3: Aigars3: 12, Juice3: Aigars2: 9, Juice3: Aigars1: 6, Juice2: Aigars5: 12, Juice2: Aigars4: 10, Juice2: Aigars3: 8, Juice2: Aigars2: 6, Juice2: Aigars1: 4, Juice1: Aigars5: 6, Juice1: Aigars4: 5, Juice1: Aigars3: 4, Juice1: Aigars2: 3, Juice1: Aigars1: 2]
+2016-11-08 11:20:20 INFO  [org.activity09.OrderListTest] test02Add:68 - OK
+2016-11-08 11:20:20 DEBUG [org.activity09.OrderListTest] test03Iterations:79 - Values of elements from iterations:
+Juice3: Aigars5: 18
+Juice3: Aigars4: 15
+Juice3: Aigars3: 12
+Juice3: Aigars2: 9
+Juice3: Aigars1: 6
+Juice2: Aigars5: 12
+Juice2: Aigars4: 10
+Juice2: Aigars3: 8
+Juice2: Aigars2: 6
+Juice2: Aigars1: 4
+Juice1: Aigars5: 6
+Juice1: Aigars4: 5
+Juice1: Aigars3: 4
+Juice1: Aigars2: 3
+Juice1: Aigars1: 2
+2016-11-08 11:20:20 INFO  [org.activity09.OrderListTest] test03Iterations:81 - OK
+2016-11-08 11:20:20 DEBUG [org.activity09.OrderListTest] test04Sort:88 - Sorted list of orders:
+[Juice1: Aigars1: 2, Juice1: Aigars2: 3, Juice1: Aigars3: 4, Juice1: Aigars4: 5, Juice1: Aigars5: 6, Juice2: Aigars1: 4, Juice2: Aigars2: 6, Juice2: Aigars3: 8, Juice2: Aigars4: 10, Juice2: Aigars5: 12, Juice3: Aigars1: 6, Juice3: Aigars2: 9, Juice3: Aigars3: 12, Juice3: Aigars4: 15, Juice3: Aigars5: 18]
+2016-11-08 11:20:20 DEBUG [org.TestUtils] executeCmd:325 - executeCmd([/bin/bash, -c, echo "[
+Juice1: Aigars1: 2
+Juice1: Aigars2: 3
+Juice1: Aigars3: 4
+Juice1: Aigars4: 5
+Juice1: Aigars5: 6
+Juice2: Aigars1: 4
+Juice2: Aigars2: 6
+Juice2: Aigars3: 8
+Juice2: Aigars4: 10
+Juice2: Aigars5: 12
+Juice3: Aigars1: 6
+Juice3: Aigars2: 9
+Juice3: Aigars3: 12
+Juice3: Aigars4: 15
+Juice3: Aigars5: 18
+]"|grep -vE "\[|\]"])
+Output message: Juice1: Aigars1: 2
+Juice1: Aigars2: 3
+Juice1: Aigars3: 4
+Juice1: Aigars4: 5
+Juice1: Aigars5: 6
+Juice2: Aigars1: 4
+Juice2: Aigars2: 6
+Juice2: Aigars3: 8
+Juice2: Aigars4: 10
+Juice2: Aigars5: 12
+Juice3: Aigars1: 6
+Juice3: Aigars2: 9
+Juice3: Aigars3: 12
+Juice3: Aigars4: 15
+Juice3: Aigars5: 18
+
+2016-11-08 11:20:20 DEBUG [org.TestUtils] executeCmd:325 - executeCmd([/bin/bash, -c, echo "[
+Juice1: Aigars1: 2
+Juice1: Aigars2: 3
+Juice1: Aigars3: 4
+Juice1: Aigars4: 5
+Juice1: Aigars5: 6
+Juice2: Aigars1: 4
+Juice2: Aigars2: 6
+Juice2: Aigars3: 8
+Juice2: Aigars4: 10
+Juice2: Aigars5: 12
+Juice3: Aigars1: 6
+Juice3: Aigars2: 9
+Juice3: Aigars3: 12
+Juice3: Aigars4: 15
+Juice3: Aigars5: 18
+]"|grep -vE "\[|\]"|sort -n])
+Output message: Juice1: Aigars1: 2
+Juice1: Aigars2: 3
+Juice1: Aigars3: 4
+Juice1: Aigars4: 5
+Juice1: Aigars5: 6
+Juice2: Aigars1: 4
+Juice2: Aigars2: 6
+Juice2: Aigars3: 8
+Juice2: Aigars4: 10
+Juice2: Aigars5: 12
+Juice3: Aigars1: 6
+Juice3: Aigars2: 9
+Juice3: Aigars3: 12
+Juice3: Aigars4: 15
+Juice3: Aigars5: 18
+
+2016-11-08 11:20:20 INFO  [org.activity09.OrderListTest] test04Sort:95 - OK
+2016-11-08 11:20:20 INFO  [org.activity09.OrderListTest] test05GetItemsSet:102 - OK
+2016-11-08 11:20:20 DEBUG [org.activity09.OrderListTest] test06Remove:113 - Got IllegalStateException as suspected
+2016-11-08 11:20:21 DEBUG [org.activity09.OrderListTest] test06Remove:139 - Got NoSuchElementException as suspected
+2016-11-08 11:20:21 DEBUG [org.activity09.OrderListTest] test06Remove:145 - Got IllegalStateException as suspected
+2016-11-08 11:20:21 INFO  [org.activity09.OrderListTest] test06Remove:157 - OK
+2016-11-08 11:35:33 INFO  [org.extra01.If_SwitchTest] testLesson3:73 - OK
+2016-11-08 11:35:33 INFO  [org.activity07.MartianTest] testArms:80 - OK
+2016-11-08 11:35:33 INFO  [org.activity07.MartianTest] testEatHuman:58 - OK
+2016-11-08 11:35:33 INFO  [org.activity07.MartianTest] testIsAlive:101 - OK
+2016-11-08 11:35:33 INFO  [org.activity07.MartianTest] testKillHimself:69 - OK
+2016-11-08 11:35:33 INFO  [org.activity07.MartianTest] testLegs:91 - OK
+2016-11-08 11:35:33 INFO  [org.activity07.MartianTest] testWeight:39 - OK
+2016-11-08 11:35:33 INFO  [org.activity07.HumanTest] test01HumanWithoutWeight:23 - OK
+2016-11-08 11:35:33 INFO  [org.activity07.HumanTest] test02HumanWithWeight:36 - OK
+2016-11-08 11:35:33 INFO  [org.activity07.HumanTest] test03HumanWeight:51 - OK
+2016-11-08 11:35:33 INFO  [org.activity07.HumanTest] test04KillHimself:64 - OK
+2016-11-08 11:35:33 INFO  [org.activity07.HumanTest] test05Arms:75 - OK
+2016-11-08 11:35:34 INFO  [org.activity18.DatabaseUnitTest] test:52 - StudentManager connection: com.mysql.jdbc.JDBC4Connection@46a97805
+2016-11-08 11:35:34 INFO  [org.activity13.DatabaseTest] resetDatabase:191 - Database dump restored
+2016-11-08 11:35:34 DEBUG [org.TestUtils] executeCmd:325 - executeCmd([/bin/bash, -c, netstat -ntl|grep 3306|awk '{print $1}'])
+Output message: tcp
+
+2016-11-08 11:35:34 INFO  [org.activity18.DatabaseUnitTest1] beforeClass:39 - Connection successfully established!
+2016-11-08 11:35:34 DEBUG [org.activity18.DatabaseUnitTest1] test0InsertStudentAll:83 - OK
+2016-11-08 11:35:34 DEBUG [org.activity18.DatabaseUnitTest1] test1FindStudent:99 - OK
+2016-11-08 11:35:34 DEBUG [org.activity18.DatabaseUnitTest1] test2UpdateStudent:112 - OK
+2016-11-08 11:35:34 DEBUG [org.activity18.DatabaseUnitTest1] test3InsertStudent:123 - OK
+2016-11-08 11:35:34 DEBUG [org.activity18.DatabaseUnitTest1] test4DeleteStudent:134 - OK
+2016-11-08 11:35:34 DEBUG [org.activity18.DatabaseUnitTest1] test5DeleteStudentFalse:145 - OK
+2016-11-08 11:35:34 DEBUG [org.activity18.DatabaseUnitTest1] test5UpdateStudentFalse:158 - OK
+2016-11-08 11:35:34 DEBUG [org.activity18.DatabaseUnitTest1] test6FindID:172 - OK
+2016-11-08 11:35:34 DEBUG [org.activity18.DatabaseUnitTest] test:81 - *** Coverage run started ***
+2016-11-08 11:35:34 DEBUG [org.TestUtils] executeCmd:328 - executeCmd([/bin/bash, -c, rm jacoco.exec 2>/dev/null]) executed successfully
+2016-11-08 11:35:34 DEBUG [org.TestUtils] executeCmd:325 - executeCmd([/bin/bash, -c, cat .classpath|grep M2_REPO|cut -d\" -f4])
+Output message: M2_REPO/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar
+M2_REPO/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar
+M2_REPO/javax/inject/javax.inject/1/javax.inject-1.jar
+M2_REPO/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar
+M2_REPO/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar
+M2_REPO/org/apache/ibatis/ibatis-sqlmap/2.3.0/ibatis-sqlmap-2.3.0.jar
+M2_REPO/junit/junit/4.12/junit-4.12.jar
+M2_REPO/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+M2_REPO/log4j/log4j/1.2.17/log4j-1.2.17.jar
+M2_REPO/com/miglayout/miglayout/3.5.5/miglayout-3.5.5.jar
+M2_REPO/org/jacoco/org.jacoco.core/0.7.7.201606060606/org.jacoco.core-0.7.7.201606060606.jar
+M2_REPO/org/ow2/asm/asm-debug-all/5.1/asm-debug-all-5.1.jar
+M2_REPO/org/mockito/mockito-all/1.10.19/mockito-all-1.10.19.jar
+M2_REPO/org/hibernate/hibernate-entitymanager/4.1.4.Final/hibernate-entitymanager-4.1.4.Final.jar
+M2_REPO/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.jar
+M2_REPO/org/hibernate/hibernate-core/4.1.4.Final/hibernate-core-4.1.4.Final.jar
+M2_REPO/antlr/antlr/2.7.7/antlr-2.7.7.jar
+M2_REPO/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.0.Final/jboss-transaction-api_1.1_spec-1.0.0.Final.jar
+M2_REPO/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar
+M2_REPO/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar
+M2_REPO/org/javassist/javassist/3.15.0-GA/javassist-3.15.0-GA.jar
+M2_REPO/org/hibernate/common/hibernate-commons-annotations/4.0.1.Final/hibernate-commons-annotations-4.0.1.Final.jar
+M2_REPO/com/h2database/h2/1.4.192/h2-1.4.192.jar
+M2_REPO/org/springframework/spring-context/4.3.1.RELEASE/spring-context-4.3.1.RELEASE.jar
+M2_REPO/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar
+M2_REPO/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar
+M2_REPO/org/springframework/spring-core/4.3.1.RELEASE/spring-core-4.3.1.RELEASE.jar
+M2_REPO/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+M2_REPO/org/springframework/spring-expression/4.3.1.RELEASE/spring-expression-4.3.1.RELEASE.jar
+M2_REPO/org/springframework/spring-web/4.3.1.RELEASE/spring-web-4.3.1.RELEASE.jar
+M2_REPO/org/springframework/boot/spring-boot-autoconfigure/1.3.6.RELEASE/spring-boot-autoconfigure-1.3.6.RELEASE.jar
+M2_REPO/org/springframework/boot/spring-boot/1.3.6.RELEASE/spring-boot-1.3.6.RELEASE.jar
+M2_REPO/org/springframework/boot/spring-boot-maven-plugin/1.3.6.RELEASE/spring-boot-maven-plugin-1.3.6.RELEASE.jar
+M2_REPO/org/springframework/boot/spring-boot-loader-tools/1.3.6.RELEASE/spring-boot-loader-tools-1.3.6.RELEASE.jar
+M2_REPO/org/apache/maven/maven-archiver/2.6/maven-archiver-2.6.jar
+M2_REPO/org/apache/maven/maven-artifact/3.1.1/maven-artifact-3.1.1.jar
+M2_REPO/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.jar
+M2_REPO/org/apache/maven/maven-model/3.1.1/maven-model-3.1.1.jar
+M2_REPO/org/apache/maven/maven-core/3.1.1/maven-core-3.1.1.jar
+M2_REPO/org/apache/maven/maven-settings/3.1.1/maven-settings-3.1.1.jar
+M2_REPO/org/codehaus/plexus/plexus-interpolation/1.21/plexus-interpolation-1.21.jar
+M2_REPO/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5.jar
+M2_REPO/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.jar
+M2_REPO/org/slf4j/slf4j-api/1.7.20/slf4j-api-1.7.20.jar
+M2_REPO/org/slf4j/jcl-over-slf4j/1.7.21/jcl-over-slf4j-1.7.21.jar
+M2_REPO/org/apache/maven/maven-profile/2.0.8/maven-profile-2.0.8.jar
+M2_REPO/org/apache/maven/maven-repository-metadata/3.1.1/maven-repository-metadata-3.1.1.jar
+M2_REPO/org/apache/maven/maven-project/2.0.8/maven-project-2.0.8.jar
+M2_REPO/org/apache/maven/maven-artifact-manager/2.0.8/maven-artifact-manager-2.0.8.jar
+M2_REPO/org/apache/maven/maven-plugin-registry/2.0.8/maven-plugin-registry-2.0.8.jar
+M2_REPO/org/apache/maven/maven-plugin-api/3.1.1/maven-plugin-api-3.1.1.jar
+M2_REPO/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar
+M2_REPO/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar
+M2_REPO/org/apache/maven/shared/maven-shared-utils/0.7/maven-shared-utils-0.7.jar
+M2_REPO/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
+M2_REPO/org/codehaus/plexus/plexus-archiver/2.8.1/plexus-archiver-2.8.1.jar
+M2_REPO/org/codehaus/plexus/plexus-io/2.3.2/plexus-io-2.3.2.jar
+M2_REPO/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar
+M2_REPO/org/apache/maven/maven-settings-builder/3.1.1/maven-settings-builder-3.1.1.jar
+M2_REPO/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
+M2_REPO/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M5/org.eclipse.sisu.plexus-0.0.0.M5.jar
+M2_REPO/com/google/guava/guava/10.0.1/guava-10.0.1.jar
+M2_REPO/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar
+M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+M2_REPO/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M5/org.eclipse.sisu.inject-0.0.0.M5.jar
+M2_REPO/org/codehaus/plexus/plexus-classworlds/2.5.1/plexus-classworlds-2.5.1.jar
+M2_REPO/org/apache/maven/maven-model-builder/3.1.1/maven-model-builder-3.1.1.jar
+M2_REPO/org/apache/maven/maven-aether-provider/3.1.1/maven-aether-provider-3.1.1.jar
+M2_REPO/org/eclipse/aether/aether-api/0.9.0.M2/aether-api-0.9.0.M2.jar
+M2_REPO/org/eclipse/aether/aether-spi/0.9.0.M2/aether-spi-0.9.0.M2.jar
+M2_REPO/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2.jar
+M2_REPO/org/eclipse/aether/aether-impl/0.9.0.M2/aether-impl-0.9.0.M2.jar
+M2_REPO/org/apache/maven/shared/maven-common-artifact-filters/1.4/maven-common-artifact-filters-1.4.jar
+M2_REPO/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.jar
+M2_REPO/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.jar
+M2_REPO/com/google/collections/google-collections/1.0/google-collections-1.0.jar
+M2_REPO/org/springframework/spring-test/4.3.1.RELEASE/spring-test-4.3.1.RELEASE.jar
+M2_REPO/org/springframework/boot/spring-boot-starter-web/1.3.6.RELEASE/spring-boot-starter-web-1.3.6.RELEASE.jar
+M2_REPO/org/springframework/boot/spring-boot-starter/1.3.6.RELEASE/spring-boot-starter-1.3.6.RELEASE.jar
+M2_REPO/org/springframework/boot/spring-boot-starter-logging/1.3.6.RELEASE/spring-boot-starter-logging-1.3.6.RELEASE.jar
+M2_REPO/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.jar
+M2_REPO/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7.jar
+M2_REPO/org/slf4j/jul-to-slf4j/1.7.21/jul-to-slf4j-1.7.21.jar
+M2_REPO/org/slf4j/log4j-over-slf4j/1.7.21/log4j-over-slf4j-1.7.21.jar
+M2_REPO/org/yaml/snakeyaml/1.16/snakeyaml-1.16.jar
+M2_REPO/org/springframework/boot/spring-boot-starter-tomcat/1.3.6.RELEASE/spring-boot-starter-tomcat-1.3.6.RELEASE.jar
+M2_REPO/org/apache/tomcat/embed/tomcat-embed-core/8.0.36/tomcat-embed-core-8.0.36.jar
+M2_REPO/org/apache/tomcat/embed/tomcat-embed-el/8.0.36/tomcat-embed-el-8.0.36.jar
+M2_REPO/org/apache/tomcat/embed/tomcat-embed-logging-juli/8.0.36/tomcat-embed-logging-juli-8.0.36.jar
+M2_REPO/org/apache/tomcat/embed/tomcat-embed-websocket/8.0.36/tomcat-embed-websocket-8.0.36.jar
+M2_REPO/org/springframework/boot/spring-boot-starter-validation/1.3.6.RELEASE/spring-boot-starter-validation-1.3.6.RELEASE.jar
+M2_REPO/org/hibernate/hibernate-validator/5.2.4.Final/hibernate-validator-5.2.4.Final.jar
+M2_REPO/com/fasterxml/classmate/1.1.0/classmate-1.1.0.jar
+M2_REPO/com/fasterxml/jackson/core/jackson-databind/2.6.7/jackson-databind-2.6.7.jar
+M2_REPO/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0.jar
+M2_REPO/com/fasterxml/jackson/core/jackson-core/2.6.7/jackson-core-2.6.7.jar
+M2_REPO/org/springframework/spring-webmvc/4.2.7.RELEASE/spring-webmvc-4.2.7.RELEASE.jar
+
+2016-11-08 11:35:35 DEBUG [org.TestUtils] executeCmd:325 - executeCmd([/bin/bash, -c, netstat -ntl|grep 3306|awk '{print $1}'])
+Output message: tcp
+
+2016-11-08 11:35:36 INFO  [org.activity18.DatabaseUnitTest1] beforeClass:39 - Connection successfully established!
+2016-11-08 11:35:36 DEBUG [org.activity18.DatabaseUnitTest1] test0InsertStudentAll:83 - OK
+2016-11-08 11:35:36 DEBUG [org.activity18.DatabaseUnitTest1] test1FindStudent:99 - OK
+2016-11-08 11:35:36 DEBUG [org.activity18.DatabaseUnitTest1] test2UpdateStudent:112 - OK
+2016-11-08 11:35:36 DEBUG [org.activity18.DatabaseUnitTest1] test3InsertStudent:123 - OK
+2016-11-08 11:35:36 DEBUG [org.activity18.DatabaseUnitTest1] test4DeleteStudent:134 - OK
+2016-11-08 11:35:36 DEBUG [org.activity18.DatabaseUnitTest1] test5DeleteStudentFalse:145 - OK
+2016-11-08 11:35:36 DEBUG [org.activity18.DatabaseUnitTest1] test5UpdateStudentFalse:158 - OK
+2016-11-08 11:35:36 DEBUG [org.activity18.DatabaseUnitTest1] test6FindID:172 - OK
+2016-11-08 11:35:36 DEBUG [org.TestUtils] executeCmd:325 - executeCmd([java, -cp, target/classes:target/test-classes:bin:lib/*:/home/valdis/.m2/repository/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar:/home/valdis/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/home/valdis/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/valdis/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar:/home/valdis/.m2/repository/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar:/home/valdis/.m2/repository/org/apache/ibatis/ibatis-sqlmap/2.3.0/ibatis-sqlmap-2.3.0.jar:/home/valdis/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/valdis/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/valdis/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/valdis/.m2/repository/com/miglayout/miglayout/3.5.5/miglayout-3.5.5.jar:/home/valdis/.m2/repository/org/jacoco/org.jacoco.core/0.7.7.201606060606/org.jacoco.core-0.7.7.201606060606.jar:/home/valdis/.m2/repository/org/ow2/asm/asm-debug-all/5.1/asm-debug-all-5.1.jar:/home/valdis/.m2/repository/org/mockito/mockito-all/1.10.19/mockito-all-1.10.19.jar:/home/valdis/.m2/repository/org/hibernate/hibernate-entitymanager/4.1.4.Final/hibernate-entitymanager-4.1.4.Final.jar:/home/valdis/.m2/repository/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.jar:/home/valdis/.m2/repository/org/hibernate/hibernate-core/4.1.4.Final/hibernate-core-4.1.4.Final.jar:/home/valdis/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/valdis/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.0.Final/jboss-transaction-api_1.1_spec-1.0.0.Final.jar:/home/valdis/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/home/valdis/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar:/home/valdis/.m2/repository/org/javassist/javassist/3.15.0-GA/javassist-3.15.0-GA.jar:/home/valdis/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.1.Final/hibernate-commons-annotations-4.0.1.Final.jar:/home/valdis/.m2/repository/com/h2database/h2/1.4.192/h2-1.4.192.jar:/home/valdis/.m2/repository/org/springframework/spring-context/4.3.1.RELEASE/spring-context-4.3.1.RELEASE.jar:/home/valdis/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar:/home/valdis/.m2/repository/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar:/home/valdis/.m2/repository/org/springframework/spring-core/4.3.1.RELEASE/spring-core-4.3.1.RELEASE.jar:/home/valdis/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/valdis/.m2/repository/org/springframework/spring-expression/4.3.1.RELEASE/spring-expression-4.3.1.RELEASE.jar:/home/valdis/.m2/repository/org/springframework/spring-web/4.3.1.RELEASE/spring-web-4.3.1.RELEASE.jar:/home/valdis/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.3.6.RELEASE/spring-boot-autoconfigure-1.3.6.RELEASE.jar:/home/valdis/.m2/repository/org/springframework/boot/spring-boot/1.3.6.RELEASE/spring-boot-1.3.6.RELEASE.jar:/home/valdis/.m2/repository/org/springframework/boot/spring-boot-maven-plugin/1.3.6.RELEASE/spring-boot-maven-plugin-1.3.6.RELEASE.jar:/home/valdis/.m2/repository/org/springframework/boot/spring-boot-loader-tools/1.3.6.RELEASE/spring-boot-loader-tools-1.3.6.RELEASE.jar:/home/valdis/.m2/repository/org/apache/maven/maven-archiver/2.6/maven-archiver-2.6.jar:/home/valdis/.m2/repository/org/apache/maven/maven-artifact/3.1.1/maven-artifact-3.1.1.jar:/home/valdis/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.jar:/home/valdis/.m2/repository/org/apache/maven/maven-model/3.1.1/maven-model-3.1.1.jar:/home/valdis/.m2/repository/org/apache/maven/maven-core/3.1.1/maven-core-3.1.1.jar:/home/valdis/.m2/repository/org/apache/maven/maven-settings/3.1.1/maven-settings-3.1.1.jar:/home/valdis/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.21/plexus-interpolation-1.21.jar:/home/valdis/.m2/repository/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5.jar:/home/valdis/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.jar:/home/valdis/.m2/repository/org/slf4j/slf4j-api/1.7.20/slf4j-api-1.7.20.jar:/home/valdis/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.21/jcl-over-slf4j-1.7.21.jar:/home/valdis/.m2/repository/org/apache/maven/maven-profile/2.0.8/maven-profile-2.0.8.jar:/home/valdis/.m2/repository/org/apache/maven/maven-repository-metadata/3.1.1/maven-repository-metadata-3.1.1.jar:/home/valdis/.m2/repository/org/apache/maven/maven-project/2.0.8/maven-project-2.0.8.jar:/home/valdis/.m2/repository/org/apache/maven/maven-artifact-manager/2.0.8/maven-artifact-manager-2.0.8.jar:/home/valdis/.m2/repository/org/apache/maven/maven-plugin-registry/2.0.8/maven-plugin-registry-2.0.8.jar:/home/valdis/.m2/repository/org/apache/maven/maven-plugin-api/3.1.1/maven-plugin-api-3.1.1.jar:/home/valdis/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/home/valdis/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/home/valdis/.m2/repository/org/apache/maven/shared/maven-shared-utils/0.7/maven-shared-utils-0.7.jar:/home/valdis/.m2/repository/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar:/home/valdis/.m2/repository/org/codehaus/plexus/plexus-archiver/2.8.1/plexus-archiver-2.8.1.jar:/home/valdis/.m2/repository/org/codehaus/plexus/plexus-io/2.3.2/plexus-io-2.3.2.jar:/home/valdis/.m2/repository/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar:/home/valdis/.m2/repository/org/apache/maven/maven-settings-builder/3.1.1/maven-settings-builder-3.1.1.jar:/home/valdis/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/home/valdis/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M5/org.eclipse.sisu.plexus-0.0.0.M5.jar:/home/valdis/.m2/repository/com/google/guava/guava/10.0.1/guava-10.0.1.jar:/home/valdis/.m2/repository/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar:/home/valdis/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/home/valdis/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M5/org.eclipse.sisu.inject-0.0.0.M5.jar:/home/valdis/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.5.1/plexus-classworlds-2.5.1.jar:/home/valdis/.m2/repository/org/apache/maven/maven-model-builder/3.1.1/maven-model-builder-3.1.1.jar:/home/valdis/.m2/repository/org/apache/maven/maven-aether-provider/3.1.1/maven-aether-provider-3.1.1.jar:/home/valdis/.m2/repository/org/eclipse/aether/aether-api/0.9.0.M2/aether-api-0.9.0.M2.jar:/home/valdis/.m2/repository/org/eclipse/aether/aether-spi/0.9.0.M2/aether-spi-0.9.0.M2.jar:/home/valdis/.m2/repository/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2.jar:/home/valdis/.m2/repository/org/eclipse/aether/aether-impl/0.9.0.M2/aether-impl-0.9.0.M2.jar:/home/valdis/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/1.4/maven-common-artifact-filters-1.4.jar:/home/valdis/.m2/repository/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.jar:/home/valdis/.m2/repository/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.jar:/home/valdis/.m2/repository/com/google/collections/google-collections/1.0/google-collections-1.0.jar:/home/valdis/.m2/repository/org/springframework/spring-test/4.3.1.RELEASE/spring-test-4.3.1.RELEASE.jar:/home/valdis/.m2/repository/org/springframework/boot/spring-boot-starter-web/1.3.6.RELEASE/spring-boot-starter-web-1.3.6.RELEASE.jar:/home/valdis/.m2/repository/org/springframework/boot/spring-boot-starter/1.3.6.RELEASE/spring-boot-starter-1.3.6.RELEASE.jar:/home/valdis/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.3.6.RELEASE/spring-boot-starter-logging-1.3.6.RELEASE.jar:/home/valdis/.m2/repository/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.jar:/home/valdis/.m2/repository/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7.jar:/home/valdis/.m2/repository/org/slf4j/jul-to-slf4j/1.7.21/jul-to-slf4j-1.7.21.jar:/home/valdis/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.21/log4j-over-slf4j-1.7.21.jar:/home/valdis/.m2/repository/org/yaml/snakeyaml/1.16/snakeyaml-1.16.jar:/home/valdis/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/1.3.6.RELEASE/spring-boot-starter-tomcat-1.3.6.RELEASE.jar:/home/valdis/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.0.36/tomcat-embed-core-8.0.36.jar:/home/valdis/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/8.0.36/tomcat-embed-el-8.0.36.jar:/home/valdis/.m2/repository/org/apache/tomcat/embed/tomcat-embed-logging-juli/8.0.36/tomcat-embed-logging-juli-8.0.36.jar:/home/valdis/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/8.0.36/tomcat-embed-websocket-8.0.36.jar:/home/valdis/.m2/repository/org/springframework/boot/spring-boot-starter-validation/1.3.6.RELEASE/spring-boot-starter-validation-1.3.6.RELEASE.jar:/home/valdis/.m2/repository/org/hibernate/hibernate-validator/5.2.4.Final/hibernate-validator-5.2.4.Final.jar:/home/valdis/.m2/repository/com/fasterxml/classmate/1.1.0/classmate-1.1.0.jar:/home/valdis/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.6.7/jackson-databind-2.6.7.jar:/home/valdis/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0.jar:/home/valdis/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.6.7/jackson-core-2.6.7.jar:/home/valdis/.m2/repository/org/springframework/spring-webmvc/4.2.7.RELEASE/spring-webmvc-4.2.7.RELEASE.jar:, -javaagent:/home/valdis/.m2/repository/org/jacoco/org.jacoco.agent/0.7.7.201606060606/org.jacoco.agent-0.7.7.201606060606-runtime.jar, org.activity18.DatabaseUnitTest])
+Output message: 2016-11-08 11:35:35 DEBUG [org.TestUtils] executeCmd:325 - executeCmd([/bin/bash, -c, netstat -ntl|grep 3306|awk '{print $1}'])
+Output message: tcp
+
+2016-11-08 11:35:36 INFO  [org.activity18.DatabaseUnitTest1] beforeClass:39 - Connection successfully established!
+2016-11-08 11:35:36 DEBUG [org.activity18.DatabaseUnitTest1] test0InsertStudentAll:83 - OK
+2016-11-08 11:35:36 DEBUG [org.activity18.DatabaseUnitTest1] test1FindStudent:99 - OK
+2016-11-08 11:35:36 DEBUG [org.activity18.DatabaseUnitTest1] test2UpdateStudent:112 - OK
+2016-11-08 11:35:36 DEBUG [org.activity18.DatabaseUnitTest1] test3InsertStudent:123 - OK
+2016-11-08 11:35:36 DEBUG [org.activity18.DatabaseUnitTest1] test4DeleteStudent:134 - OK
+2016-11-08 11:35:36 DEBUG [org.activity18.DatabaseUnitTest1] test5DeleteStudentFalse:145 - OK
+2016-11-08 11:35:36 DEBUG [org.activity18.DatabaseUnitTest1] test5UpdateStudentFalse:158 - OK
+2016-11-08 11:35:36 DEBUG [org.activity18.DatabaseUnitTest1] test6FindID:172 - OK
+
+2016-11-08 11:35:36 DEBUG [org.TestUtils] visitClassExecution:451 - org/activity18/Student = 4/4
+2016-11-08 11:35:36 DEBUG [org.TestUtils] visitClassExecution:451 - org/activity18/StudentManager = 50/53
+2016-11-08 11:35:36 DEBUG [org.TestUtils] executeCmd:328 - executeCmd([/bin/bash, -c, rm jacoco.exec]) executed successfully
+2016-11-08 11:35:36 DEBUG [org.activity18.DatabaseUnitTest] test:87 - *** Coverage run finished sucessfully ***
+2016-11-08 11:35:36 INFO  [org.activity18.DatabaseUnitTest] showResults:127 - Total test coverage is: 0,97
+2016-11-08 11:35:39 INFO  [org.activity03.OwlTest] testOwl:27 - OK
+2016-11-08 11:35:39 INFO  [org.activity03.OwlTest] testOwl:41 - OK
+2016-11-08 11:35:39 INFO  [org.activity03.BasicMathFunctionsTest] testIncrement:98 - OK
+2016-11-08 11:35:39 INFO  [org.activity03.BasicMathFunctionsTest] testMultiplication:59 - OK
+2016-11-08 11:35:39 INFO  [org.activity03.BasicMathFunctionsTest] testAddition:33 - OK
+2016-11-08 11:35:39 INFO  [org.activity03.BasicMathFunctionsTest] testSubstraction:46 - OK
+2016-11-08 11:35:39 INFO  [org.activity03.BasicMathFunctionsTest] testDivision:72 - OK
+2016-11-08 11:35:39 INFO  [org.activity03.BasicMathFunctionsTest] testModulo:85 - OK
+2016-11-08 11:35:39 INFO  [org.activity03.RandomPersonTest] testMethods:117 - OK het ☻
+2016-11-08 11:35:39 INFO  [org.activity03.ZodiacTest] testGetZodiac:46 - OK
+2016-11-08 11:35:39 DEBUG [org.activity03.OwlFarmTest] testRun:28 - Farm size: 2
+2016-11-08 11:35:39 INFO  [org.activity03.OwlFarmTest] testRun:45 - OK
+2016-11-08 11:35:39 INFO  [org.activity03.OwlFarmTest] testChangeName:67 - OK
+2016-11-08 11:35:39 DEBUG [org.activity11.ArrayFillerManagerTest] setValues:182 - Latency: 0 minValue:-100 maxValue:100
+2016-11-08 11:35:39 DEBUG [org.activity11.ArrayFillerManagerTest] checkValues:220 - min: -86 max: 98 dev:71 dist:33
+2016-11-08 11:35:39 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2016-11-08 11:35:39 INFO  [org.activity11.ArrayFillerManagerTest] test1FillValuesStupidly:42 - OK
+2016-11-08 11:35:39 DEBUG [org.activity11.ArrayFillerManagerTest] setValues:182 - Latency: 0 minValue:100 maxValue:1000
+2016-11-08 11:35:39 DEBUG [org.activity11.ArrayFillerManagerTest] checkValues:220 - min: 167 max: 995 dev:325 dist:150
+2016-11-08 11:35:39 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2016-11-08 11:35:39 INFO  [org.activity11.ArrayFillerManagerTest] test2FillValuesSequentially:54 - OK
+2016-11-08 11:35:39 DEBUG [org.activity11.ArrayFillerManagerTest] setValues:182 - Latency: 0 minValue:1000 maxValue:10000
+2016-11-08 11:35:39 DEBUG [org.activity11.ArrayFillerManagerTest] checkValues:220 - min: 1103 max: 9797 dev:3668 dist:1500
+2016-11-08 11:35:39 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2016-11-08 11:35:39 INFO  [org.activity11.ArrayFillerManagerTest] test3FillValuesParallelly:66 - OK
+2016-11-08 11:35:39 DEBUG [org.activity11.ArrayFillerManagerTest] setValues:182 - Latency: 1 minValue:0 maxValue:100
+2016-11-08 11:35:39 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:85 - fillStupidly() processing time: 1 ms
+2016-11-08 11:35:39 DEBUG [org.activity11.ArrayFillerManagerTest] setValues:182 - Latency: 6 minValue:200 maxValue:500
+2016-11-08 11:35:39 DEBUG [org.activity11.ArrayFillerManagerTest] setValues:182 - Latency: 4 minValue:1000 maxValue:10000
+2016-11-08 11:35:39 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:115 - OK
+2016-11-08 11:35:39 DEBUG [org.activity11.ArrayFillerManagerTest] setValues:182 - Latency: 1 minValue:1 maxValue:100
+2016-11-08 11:35:39 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:132 - Stupid processing: 10cells/11ms = 0,91cells/s
+2016-11-08 11:35:39 DEBUG [org.activity11.ArrayFillerManagerTest] setValues:182 - Latency: 1 minValue:1 maxValue:100
+2016-11-08 11:35:39 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:146 - Sequential processing: 10000cells/3ms = 3333,33cells/s
+2016-11-08 11:35:39 DEBUG [org.activity11.ArrayFillerManagerTest] setValues:182 - Latency: 1 minValue:1 maxValue:100
+2016-11-08 11:35:39 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:162 - Parallel processing: 100000cells/7ms = 14285,71cells/s
+2016-11-08 11:35:39 DEBUG [org.activity04.BlackKnightTest] setBattle:29 - Knight Arthur was created
+2016-11-08 11:35:39 DEBUG [org.activity04.BlackKnightTest] setBattle:29 - Knight Cnut was created
+2016-11-08 11:35:39 DEBUG [org.activity04.BlackKnightTest] setBattle:29 - Knight Edward was created
+2016-11-08 11:35:39 INFO  [org.activity04.BlackKnightTest] testKnightResponses:70 - OK
+2016-11-08 11:35:39 DEBUG [org.activity04.BlackKnightTest] setBattle:29 - Knight Arthur was created
+2016-11-08 11:35:39 DEBUG [org.activity04.BlackKnightTest] setBattle:29 - Knight Cnut was created
+2016-11-08 11:35:39 INFO  [org.activity04.BlackKnightTest] testStaticCounters:100 - OK
+2016-11-08 11:35:39 DEBUG [org.activity04.ArrayTest] setUp:38 - Start: [1, 5, 3]
+2016-11-08 11:35:39 DEBUG [org.activity04.ArrayTest] testMain:61 - Should be: [1, 3, 5]
+2016-11-08 11:35:39 DEBUG [org.activity04.ArrayTest] testMain:68 - Actual is: [1, 3, 5]
+2016-11-08 11:35:39 INFO  [org.activity04.ArrayTest] testMain:72 - OK
+2016-11-08 11:35:39 DEBUG [org.TestUtils] executeCmd:325 - executeCmd([/bin/bash, -c, netstat -ntl|grep 3306|awk '{print $1}'])
+Output message: tcp
+
+2016-11-08 11:35:39 DEBUG [org.activity13.DatabaseTest] setUpBeforeClass:48 - Connection successfully established!
+2016-11-08 11:35:39 INFO  [org.activity13.DatabaseTest] resetDatabase:191 - Database dump restored
+2016-11-08 11:35:39 INFO  [org.activity13.DatabaseTest] setUpBeforeClass:50 - OK
+2016-11-08 11:35:39 INFO  [org.activity13.DatabaseTest] test01FindTeacherByID:63 - OK
+2016-11-08 11:35:39 INFO  [org.activity13.DatabaseTest] test02FindTeachersByNames:79 - OK
+2016-11-08 11:35:39 INFO  [org.activity13.DatabaseTest] test03InsertTeacher:97 - OK
+2016-11-08 11:35:39 INFO  [org.activity13.DatabaseTest] test04InsertTeacherAll:120 - OK
+2016-11-08 11:35:39 INFO  [org.activity13.DatabaseTest] test05UpdateTeacher:149 - OK
+2016-11-08 11:35:39 INFO  [org.activity13.DatabaseTest] test06DeleteTeacher:169 - OK
+2016-11-08 11:35:39 DEBUG [org.activity17.GameTest] setUpBeforeClass:24 - Lazy initialization test for runGame() call OK
+2016-11-08 11:35:39 DEBUG [org.activity17.Reference] <init>:21 - Board size: 3×2
+2016-11-08 11:35:39 DEBUG [org.activity17.GameTest] test:46 - Board:
+○○○
+○○○
+2016-11-08 11:35:39 DEBUG [org.activity17.Reference] runGame:107 - CrocodileSimple 0/3=0.0
+2016-11-08 11:35:39 DEBUG [org.activity17.Reference] runGame:112 - CrocodileGreedy 0/7=0.0
+2016-11-08 11:35:39 DEBUG [org.activity17.GameTest] test:48 - Suspected game result: Tie
+2016-11-08 11:35:39 INFO  [org.activity17.GameTest] test:51 - Game result: Tie
+2016-11-08 11:35:39 INFO  [org.activity17.GameTest] test:52 - OK
+2016-11-08 11:35:39 DEBUG [org.activity17.Reference] <init>:21 - Board size: 2×2
+2016-11-08 11:35:39 DEBUG [org.activity17.BoardTest] test0Constructor:34 - Board size:2×2
+2016-11-08 11:35:39 DEBUG [org.activity17.BoardTest] test3GetSetCandy:65 - Candies:
+●○
+○○
+2016-11-08 11:35:39 DEBUG [org.activity17.Reference] <init>:21 - Board size: 5×3
+2016-11-08 11:35:39 DEBUG [org.activity17.CrocodileTest] test1CrocodileSimple:35 - board before movement: 
+●●○●○
+●○●○●
+●○○●○
+2016-11-08 11:35:39 DEBUG [org.activity17.CrocodileTest] test1CrocodileSimple:39 - board after movement:
+◎◎◎◎◎
+●○●○◎
+●○○●◎
+2016-11-08 11:35:39 DEBUG [org.activity17.CrocodileTest] test1CrocodileSimple:40 - CrocodileSimple, candies: 4, moves:6
+2016-11-08 11:35:39 INFO  [org.activity17.CrocodileTest] test1CrocodileSimple:51 - OK
+2016-11-08 11:35:39 DEBUG [org.activity17.Reference] <init>:21 - Board size: 5×4
+2016-11-08 11:35:39 DEBUG [org.activity17.CrocodileTest] test2CrocodileGreedey:61 - board before movement: 
+○○○○○
+○○○○●
+○○●○○
+○○○●○
+2016-11-08 11:35:39 DEBUG [org.activity17.CrocodileTest] test2CrocodileGreedey:65 - board after movement:
+◎◎◎◎◎
+◎◎◎◎◎
+◎◎◎◎◎
+◎◎◎◎◎
+2016-11-08 11:35:39 DEBUG [org.activity17.CrocodileTest] test2CrocodileGreedey:66 - CrocodileGreedy, candies: 3, moves:23
+2016-11-08 11:35:39 INFO  [org.activity17.CrocodileTest] test2CrocodileGreedey:77 - OK
+2016-11-08 11:35:39 DEBUG [org.activity06.EncapsulationTest] testShip:81 - tb:Id:fd6a3 cons:0.0l/100km, tank:0l, fuel:0.00l
+2016-11-08 11:35:39 INFO  [org.activity06.EncapsulationTest] testShip:96 - OK
+2016-11-08 11:35:39 DEBUG [org.activity06.EncapsulationTest] testAmphibia:139 - tb:Id:80b9 cons:4.0l/100km, tank:40l, fuel:40.00l
+2016-11-08 11:35:39 DEBUG [org.activity06.EncapsulationTest] testAmphibia:157 - Id:80b9 cons:4.0l/100km, tank:40l, fuel:38.52l
+2016-11-08 11:35:39 INFO  [org.activity06.EncapsulationTest] testAmphibia:169 - OK
+2016-11-08 11:35:39 INFO  [org.activity06.EncapsulationTest] testVehicle:126 - OK
+2016-11-08 11:35:39 DEBUG [org.activity06.EncapsulationTest] testTransport:55 - ta:Id:52aa2 cons:3.0l/100km, tank:20l, fuel:20.00l
+2016-11-08 11:35:39 INFO  [org.activity06.EncapsulationTest] testTransport:67 - OK
+2016-11-08 11:35:39 INFO  [org.activity15.AnimalTest] testProperties:43 - OK
+2016-11-08 11:35:39 INFO  [org.activity15.AnimalTest] testAge:60 - OK
+2016-11-08 11:35:40 INFO  [org.activity15.AnimalTest] testDiagram:87 - OK
+2016-11-08 11:35:40 INFO  [org.activity15.AnimalTest] testAge:60 - OK
+2016-11-08 11:35:40 INFO  [org.activity15.HawkTest] testColor:61 - OK
+2016-11-08 11:35:40 INFO  [org.activity15.BirdTest] testCanFly:55 - OK
+2016-11-08 11:35:40 INFO  [org.activity15.AnimalTest] testAge:60 - OK
+2016-11-08 11:35:40 INFO  [org.activity15.BirdTest] testCanFly:55 - OK
+2016-11-08 11:35:40 INFO  [org.activity15.AnimalTest] testAge:60 - OK
+2016-11-08 11:35:40 INFO  [org.activity15.MammalTest] testIsDomestic:56 - OK
+2016-11-08 11:35:40 INFO  [org.activity15.AnimalTest] testAge:60 - OK
+2016-11-08 11:35:40 INFO  [org.activity15.DogTest] testName:72 - OK
+2016-11-08 11:35:40 INFO  [org.activity15.MammalTest] testIsDomestic:56 - OK
+2016-11-08 11:35:40 INFO  [org.activity02.HelloTest] testMain:40 - OK
+2016-11-08 11:35:40 INFO  [org.activity08.SimpleCalcExceptionsTest] testAdd:55 - OK
+2016-11-08 11:35:40 INFO  [org.activity08.SimpleCalcExceptionsTest] testSubtract:70 - OK
+2016-11-08 11:35:40 INFO  [org.activity08.SimpleCalcExceptionsTest] testDivide:112 - OK
+2016-11-08 11:35:40 INFO  [org.activity08.SimpleCalcExceptionsTest] testMultiply:86 - OK
+2016-11-08 11:35:40 INFO  [org.activity08.SimpleCalcAssertionsTest] testAdd:40 - OK
+2016-11-08 11:35:40 INFO  [org.activity08.SimpleCalcAssertionsTest] testSubtract:57 - OK
+2016-11-08 11:35:40 INFO  [org.activity08.SimpleCalcAssertionsTest] testDivide:93 - OK
+2016-11-08 11:35:40 INFO  [org.activity08.SimpleCalcAssertionsTest] testMultiply:75 - OK
+2016-11-08 11:35:40 INFO  [org.activity08.SimpleCalcAssertionsTest] testAdd:40 - OK
+2016-11-08 11:35:40 INFO  [org.activity08.SimpleCalcAssertionsTest] testSubtract:57 - OK
+2016-11-08 11:35:40 INFO  [org.activity08.SimpleCalcAssertionsTest] testDivide:93 - OK
+2016-11-08 11:35:40 INFO  [org.activity08.SimpleCalcAssertionsTest] testMultiply:75 - OK
+2016-11-08 11:35:40 INFO  [org.activity08.SimpleCalcExceptionsTest] testAdd:55 - OK
+2016-11-08 11:35:40 INFO  [org.activity08.SimpleCalcExceptionsTest] testSubtract:70 - OK
+2016-11-08 11:35:40 INFO  [org.activity08.SimpleCalcExceptionsTest] testDivide:112 - OK
+2016-11-08 11:35:40 INFO  [org.activity08.SimpleCalcExceptionsTest] testMultiply:86 - OK
+2016-11-08 11:35:40 INFO  [org.activity14.XMLCarTest] test1Positive:79 - OK
+2016-11-08 11:35:43 WARN  [hibernate.ejb.internal.EntityManagerFactoryRegistry] addEntityManagerFactory:80 - HHH000436: Entity manager factory name (h2-local) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+2016-11-08 11:35:43 DEBUG [org.extra06.InvoiceManagerTest] testInvoiceToItem:52 - 'Invoice:1, date:2016-11-08T11:35+0200, total amount:5.5, items:2
+	['Item:1, name:Name1, price:1.1, count:1, total:1.1', 'Item:2, name:Name2, price:2.2, count:2, total:4.4']
+2016-11-08 11:35:43 INFO  [org.extra06.InvoiceManagerTest] testInvoiceToItem:53 - OK
+2016-11-08 11:35:43 DEBUG [org.extra06.InvoiceManagerTest] testItemToInvoice:90 - 'Invoice:2, date:2016-11-08T11:35+0200, total amount:27.5, items:2
+	['Item:3, name:Name3, price:3.3, count:3, total:9.9', 'Item:4, name:Name4, price:4.4, count:4, total:17.6']
+2016-11-08 11:35:43 INFO  [org.extra06.InvoiceManagerTest] testItemToInvoice:91 - OK
+2016-11-08 11:35:43 DEBUG [org.activity10.StreamEditorTest] test3FileToStdout:152 - File — StdOut value: ogibyg
+ogibyg
+
+2016-11-08 11:35:44 DEBUG [org.activity10.StreamEditorTest] test4FileToFile:183 - File — File value: zefem
+zefem
+
+2016-11-08 11:35:44 INFO  [org.activity10.StreamEditorTest] test5Editing:257 - OK
+2016-11-08 11:35:44 DEBUG [org.activity09.OrderListTest] test01OrderList:48 - Got NoSuchElementException as suspected
+2016-11-08 11:35:44 INFO  [org.activity09.OrderListTest] test01OrderList:50 - OK
+2016-11-08 11:35:44 DEBUG [org.activity09.OrderListTest] test02Add:57 - Initial list of orders:
+[Beer6: Ansis8: 54, Beer6: Ansis7: 48, Beer6: Ansis6: 42, Beer6: Ansis5: 36, Beer6: Ansis4: 30, Beer6: Ansis3: 24, Beer6: Ansis2: 18, Beer6: Ansis1: 12, Beer5: Ansis8: 45, Beer5: Ansis7: 40, Beer5: Ansis6: 35, Beer5: Ansis5: 30, Beer5: Ansis4: 25, Beer5: Ansis3: 20, Beer5: Ansis2: 15, Beer5: Ansis1: 10, Beer4: Ansis8: 36, Beer4: Ansis7: 32, Beer4: Ansis6: 28, Beer4: Ansis5: 24, Beer4: Ansis4: 20, Beer4: Ansis3: 16, Beer4: Ansis2: 12, Beer4: Ansis1: 8, Beer3: Ansis8: 27, Beer3: Ansis7: 24, Beer3: Ansis6: 21, Beer3: Ansis5: 18, Beer3: Ansis4: 15, Beer3: Ansis3: 12, Beer3: Ansis2: 9, Beer3: Ansis1: 6, Beer2: Ansis8: 18, Beer2: Ansis7: 16, Beer2: Ansis6: 14, Beer2: Ansis5: 12, Beer2: Ansis4: 10, Beer2: Ansis3: 8, Beer2: Ansis2: 6, Beer2: Ansis1: 4, Beer1: Ansis8: 9, Beer1: Ansis7: 8, Beer1: Ansis6: 7, Beer1: Ansis5: 6, Beer1: Ansis4: 5, Beer1: Ansis3: 4, Beer1: Ansis2: 3, Beer1: Ansis1: 2]
+2016-11-08 11:35:44 INFO  [org.activity09.OrderListTest] test02Add:68 - OK
+2016-11-08 11:35:44 DEBUG [org.activity09.OrderListTest] test03Iterations:79 - Values of elements from iterations:
+Beer6: Ansis8: 54
+Beer6: Ansis7: 48
+Beer6: Ansis6: 42
+Beer6: Ansis5: 36
+Beer6: Ansis4: 30
+Beer6: Ansis3: 24
+Beer6: Ansis2: 18
+Beer6: Ansis1: 12
+Beer5: Ansis8: 45
+Beer5: Ansis7: 40
+Beer5: Ansis6: 35
+Beer5: Ansis5: 30
+Beer5: Ansis4: 25
+Beer5: Ansis3: 20
+Beer5: Ansis2: 15
+Beer5: Ansis1: 10
+Beer4: Ansis8: 36
+Beer4: Ansis7: 32
+Beer4: Ansis6: 28
+Beer4: Ansis5: 24
+Beer4: Ansis4: 20
+Beer4: Ansis3: 16
+Beer4: Ansis2: 12
+Beer4: Ansis1: 8
+Beer3: Ansis8: 27
+Beer3: Ansis7: 24
+Beer3: Ansis6: 21
+Beer3: Ansis5: 18
+Beer3: Ansis4: 15
+Beer3: Ansis3: 12
+Beer3: Ansis2: 9
+Beer3: Ansis1: 6
+Beer2: Ansis8: 18
+Beer2: Ansis7: 16
+Beer2: Ansis6: 14
+Beer2: Ansis5: 12
+Beer2: Ansis4: 10
+Beer2: Ansis3: 8
+Beer2: Ansis2: 6
+Beer2: Ansis1: 4
+Beer1: Ansis8: 9
+Beer1: Ansis7: 8
+Beer1: Ansis6: 7
+Beer1: Ansis5: 6
+Beer1: Ansis4: 5
+Beer1: Ansis3: 4
+Beer1: Ansis2: 3
+Beer1: Ansis1: 2
+2016-11-08 11:35:44 INFO  [org.activity09.OrderListTest] test03Iterations:81 - OK
+2016-11-08 11:35:44 DEBUG [org.activity09.OrderListTest] test04Sort:88 - Sorted list of orders:
+[Beer1: Ansis1: 2, Beer1: Ansis2: 3, Beer1: Ansis3: 4, Beer1: Ansis4: 5, Beer1: Ansis5: 6, Beer1: Ansis6: 7, Beer1: Ansis7: 8, Beer1: Ansis8: 9, Beer2: Ansis1: 4, Beer2: Ansis2: 6, Beer2: Ansis3: 8, Beer2: Ansis4: 10, Beer2: Ansis5: 12, Beer2: Ansis6: 14, Beer2: Ansis7: 16, Beer2: Ansis8: 18, Beer3: Ansis1: 6, Beer3: Ansis2: 9, Beer3: Ansis3: 12, Beer3: Ansis4: 15, Beer3: Ansis5: 18, Beer3: Ansis6: 21, Beer3: Ansis7: 24, Beer3: Ansis8: 27, Beer4: Ansis1: 8, Beer4: Ansis2: 12, Beer4: Ansis3: 16, Beer4: Ansis4: 20, Beer4: Ansis5: 24, Beer4: Ansis6: 28, Beer4: Ansis7: 32, Beer4: Ansis8: 36, Beer5: Ansis1: 10, Beer5: Ansis2: 15, Beer5: Ansis3: 20, Beer5: Ansis4: 25, Beer5: Ansis5: 30, Beer5: Ansis6: 35, Beer5: Ansis7: 40, Beer5: Ansis8: 45, Beer6: Ansis1: 12, Beer6: Ansis2: 18, Beer6: Ansis3: 24, Beer6: Ansis4: 30, Beer6: Ansis5: 36, Beer6: Ansis6: 42, Beer6: Ansis7: 48, Beer6: Ansis8: 54]
+2016-11-08 11:35:44 DEBUG [org.TestUtils] executeCmd:325 - executeCmd([/bin/bash, -c, echo "[
+Beer1: Ansis1: 2
+Beer1: Ansis2: 3
+Beer1: Ansis3: 4
+Beer1: Ansis4: 5
+Beer1: Ansis5: 6
+Beer1: Ansis6: 7
+Beer1: Ansis7: 8
+Beer1: Ansis8: 9
+Beer2: Ansis1: 4
+Beer2: Ansis2: 6
+Beer2: Ansis3: 8
+Beer2: Ansis4: 10
+Beer2: Ansis5: 12
+Beer2: Ansis6: 14
+Beer2: Ansis7: 16
+Beer2: Ansis8: 18
+Beer3: Ansis1: 6
+Beer3: Ansis2: 9
+Beer3: Ansis3: 12
+Beer3: Ansis4: 15
+Beer3: Ansis5: 18
+Beer3: Ansis6: 21
+Beer3: Ansis7: 24
+Beer3: Ansis8: 27
+Beer4: Ansis1: 8
+Beer4: Ansis2: 12
+Beer4: Ansis3: 16
+Beer4: Ansis4: 20
+Beer4: Ansis5: 24
+Beer4: Ansis6: 28
+Beer4: Ansis7: 32
+Beer4: Ansis8: 36
+Beer5: Ansis1: 10
+Beer5: Ansis2: 15
+Beer5: Ansis3: 20
+Beer5: Ansis4: 25
+Beer5: Ansis5: 30
+Beer5: Ansis6: 35
+Beer5: Ansis7: 40
+Beer5: Ansis8: 45
+Beer6: Ansis1: 12
+Beer6: Ansis2: 18
+Beer6: Ansis3: 24
+Beer6: Ansis4: 30
+Beer6: Ansis5: 36
+Beer6: Ansis6: 42
+Beer6: Ansis7: 48
+Beer6: Ansis8: 54
+]"|grep -vE "\[|\]"])
+Output message: Beer1: Ansis1: 2
+Beer1: Ansis2: 3
+Beer1: Ansis3: 4
+Beer1: Ansis4: 5
+Beer1: Ansis5: 6
+Beer1: Ansis6: 7
+Beer1: Ansis7: 8
+Beer1: Ansis8: 9
+Beer2: Ansis1: 4
+Beer2: Ansis2: 6
+Beer2: Ansis3: 8
+Beer2: Ansis4: 10
+Beer2: Ansis5: 12
+Beer2: Ansis6: 14
+Beer2: Ansis7: 16
+Beer2: Ansis8: 18
+Beer3: Ansis1: 6
+Beer3: Ansis2: 9
+Beer3: Ansis3: 12
+Beer3: Ansis4: 15
+Beer3: Ansis5: 18
+Beer3: Ansis6: 21
+Beer3: Ansis7: 24
+Beer3: Ansis8: 27
+Beer4: Ansis1: 8
+Beer4: Ansis2: 12
+Beer4: Ansis3: 16
+Beer4: Ansis4: 20
+Beer4: Ansis5: 24
+Beer4: Ansis6: 28
+Beer4: Ansis7: 32
+Beer4: Ansis8: 36
+Beer5: Ansis1: 10
+Beer5: Ansis2: 15
+Beer5: Ansis3: 20
+Beer5: Ansis4: 25
+Beer5: Ansis5: 30
+Beer5: Ansis6: 35
+Beer5: Ansis7: 40
+Beer5: Ansis8: 45
+Beer6: Ansis1: 12
+Beer6: Ansis2: 18
+Beer6: Ansis3: 24
+Beer6: Ansis4: 30
+Beer6: Ansis5: 36
+Beer6: Ansis6: 42
+Beer6: Ansis7: 48
+Beer6: Ansis8: 54
+
+2016-11-08 11:35:44 DEBUG [org.TestUtils] executeCmd:325 - executeCmd([/bin/bash, -c, echo "[
+Beer1: Ansis1: 2
+Beer1: Ansis2: 3
+Beer1: Ansis3: 4
+Beer1: Ansis4: 5
+Beer1: Ansis5: 6
+Beer1: Ansis6: 7
+Beer1: Ansis7: 8
+Beer1: Ansis8: 9
+Beer2: Ansis1: 4
+Beer2: Ansis2: 6
+Beer2: Ansis3: 8
+Beer2: Ansis4: 10
+Beer2: Ansis5: 12
+Beer2: Ansis6: 14
+Beer2: Ansis7: 16
+Beer2: Ansis8: 18
+Beer3: Ansis1: 6
+Beer3: Ansis2: 9
+Beer3: Ansis3: 12
+Beer3: Ansis4: 15
+Beer3: Ansis5: 18
+Beer3: Ansis6: 21
+Beer3: Ansis7: 24
+Beer3: Ansis8: 27
+Beer4: Ansis1: 8
+Beer4: Ansis2: 12
+Beer4: Ansis3: 16
+Beer4: Ansis4: 20
+Beer4: Ansis5: 24
+Beer4: Ansis6: 28
+Beer4: Ansis7: 32
+Beer4: Ansis8: 36
+Beer5: Ansis1: 10
+Beer5: Ansis2: 15
+Beer5: Ansis3: 20
+Beer5: Ansis4: 25
+Beer5: Ansis5: 30
+Beer5: Ansis6: 35
+Beer5: Ansis7: 40
+Beer5: Ansis8: 45
+Beer6: Ansis1: 12
+Beer6: Ansis2: 18
+Beer6: Ansis3: 24
+Beer6: Ansis4: 30
+Beer6: Ansis5: 36
+Beer6: Ansis6: 42
+Beer6: Ansis7: 48
+Beer6: Ansis8: 54
+]"|grep -vE "\[|\]"|sort -n])
+Output message: Beer1: Ansis1: 2
+Beer1: Ansis2: 3
+Beer1: Ansis3: 4
+Beer1: Ansis4: 5
+Beer1: Ansis5: 6
+Beer1: Ansis6: 7
+Beer1: Ansis7: 8
+Beer1: Ansis8: 9
+Beer2: Ansis1: 4
+Beer2: Ansis2: 6
+Beer2: Ansis3: 8
+Beer2: Ansis4: 10
+Beer2: Ansis5: 12
+Beer2: Ansis6: 14
+Beer2: Ansis7: 16
+Beer2: Ansis8: 18
+Beer3: Ansis1: 6
+Beer3: Ansis2: 9
+Beer3: Ansis3: 12
+Beer3: Ansis4: 15
+Beer3: Ansis5: 18
+Beer3: Ansis6: 21
+Beer3: Ansis7: 24
+Beer3: Ansis8: 27
+Beer4: Ansis1: 8
+Beer4: Ansis2: 12
+Beer4: Ansis3: 16
+Beer4: Ansis4: 20
+Beer4: Ansis5: 24
+Beer4: Ansis6: 28
+Beer4: Ansis7: 32
+Beer4: Ansis8: 36
+Beer5: Ansis1: 10
+Beer5: Ansis2: 15
+Beer5: Ansis3: 20
+Beer5: Ansis4: 25
+Beer5: Ansis5: 30
+Beer5: Ansis6: 35
+Beer5: Ansis7: 40
+Beer5: Ansis8: 45
+Beer6: Ansis1: 12
+Beer6: Ansis2: 18
+Beer6: Ansis3: 24
+Beer6: Ansis4: 30
+Beer6: Ansis5: 36
+Beer6: Ansis6: 42
+Beer6: Ansis7: 48
+Beer6: Ansis8: 54
+
+2016-11-08 11:35:44 INFO  [org.activity09.OrderListTest] test04Sort:95 - OK
+2016-11-08 11:35:44 INFO  [org.activity09.OrderListTest] test05GetItemsSet:102 - OK
+2016-11-08 11:35:44 DEBUG [org.activity09.OrderListTest] test06Remove:113 - Got IllegalStateException as suspected
+2016-11-08 11:35:44 DEBUG [org.activity09.OrderListTest] test06Remove:139 - Got NoSuchElementException as suspected
+2016-11-08 11:35:44 DEBUG [org.activity09.OrderListTest] test06Remove:145 - Got IllegalStateException as suspected
+2016-11-08 11:35:44 INFO  [org.activity09.OrderListTest] test06Remove:157 - OK
+2016-11-08 11:35:44 DEBUG [org.activity09.OrderTest] test02Hash:65 - Hash1: -1042376333 hash2:-1042376333
+2016-11-08 11:35:44 INFO  [org.activity09.OrderTest] test02Hash:69 - OK
+2016-11-08 11:35:44 INFO  [org.activity09.OrderTest] test03CompareTo:127 - OK
+2016-11-08 11:35:44 INFO  [org.activity09.OrderTest] test01Equals:52 - OK
+2016-11-08 11:35:44 DEBUG [org.TestUtils] executeCmd:328 - executeCmd([/bin/bash, -c, pids=$(lsof -i tcp:9999|grep ESTABLISHED|awk '{print $2}'); for i in $pids; do kill -9 $i; done]) executed successfully
+2016-11-08 11:35:44 DEBUG [org.TestUtils] executeCmd:328 - executeCmd([/bin/bash, -c, sid=$(lsof -i tcp:9999|grep LISTEN|awk '{print $2}'); if [ -n "$sid" ]; then kill -9 $sid; fi]) executed successfully
+2016-11-08 11:35:44 DEBUG [org.activity12.ChatServerTest] beforeClass:39 - Clients and server killed
+2016-11-08 11:35:44 DEBUG [org.activity12.ChatServerTest] beforeClass:51 - Server started
+2016-11-08 11:35:44 DEBUG [org.TestUtils] executeCmd:325 - executeCmd([/bin/bash, -c, lsof -i tcp:9999|grep LISTEN|awk '{print $2}'])
+Output message: 14490
+
+2016-11-08 11:35:44 DEBUG [org.activity12.ChatServerTest] beforeClass:57 - Server process id:14490
+
+2016-11-08 11:35:44 DEBUG [org.activity12.ChatServerTest] test3Chat1Client:95 - TestServer started
+2016-11-08 11:35:44 DEBUG [org.activity12.ChatServerTest] test3Chat1Client:113 - Client0 received: > 2016-11-08 11:35:44.735
+2016-11-08 11:35:44 INFO  [org.activity12.ChatServerTest] test3Chat1Client:121 - testServer OK
+2016-11-08 11:35:44 DEBUG [org.activity12.ChatServerTest] test4Chat2Clients:147 - TestServer started
+2016-11-08 11:35:44 DEBUG [org.activity12.ChatServerTest] test4Chat2Clients:165 - Client0 received: > 2016-11-08 11:35:44.740
+2016-11-08 11:35:44 DEBUG [org.activity12.ChatServerTest] test4Chat2Clients:186 - Client1 received: > 2016-11-08 11:35:44.751
+2016-11-08 11:35:44 DEBUG [org.activity12.ChatServerTest] test4Chat2Clients:192 - Client0 received: > 2016-11-08 11:35:44.751
+2016-11-08 11:35:44 INFO  [org.activity12.ChatServerTest] test4Chat2Clients:201 - testServer OK
+2016-11-08 11:35:44 DEBUG [org.TestUtils] executeCmd:328 - executeCmd([/bin/bash, -c, pids=$(lsof -i tcp:9999|grep ESTABLISHED|awk '{print $2}'); for i in $pids; do kill -9 $i; done]) executed successfully
+2016-11-08 11:35:44 DEBUG [org.activity12.ChatServerTest] afterClass:63 - Clients and server killed
+2016-11-08 11:35:47 INFO  [org.activity19.ColorSliderTest] test02ColorSlider:74 - OK
+2016-11-08 11:35:47 INFO  [org.activity16.HolidayTest] testGetNearest:30 - OK
+2016-11-08 11:35:47 DEBUG [org.activity16.GenericsTest] resetLog:29 - resetLog
+2016-11-08 11:35:47 INFO  [org.activity16.GenericsTest] testPop:58 - OK
+2016-11-08 11:35:47 DEBUG [org.activity16.GenericsTest] resetLog:29 - resetLog
+2016-11-08 11:35:47 INFO  [org.activity16.GenericsTest] testTypes:90 - OK
+2016-11-08 11:35:47 DEBUG [org.activity16.GenericsTest] resetLog:29 - resetLog
+2016-11-08 11:35:47 INFO  [org.activity16.GenericsTest] testPush:40 - OK
+2016-11-08 11:35:47 INFO  [org.activity16.RegExTest] testIsLuckyNumber:33 - OK
+2016-11-08 11:35:47 INFO  [org.activity16.RegExTest] testFindKenny:49 - OK
+2016-11-08 11:35:47 INFO  [org.activity16.RegExTest] testIsGood:69 - OK
+2016-11-08 11:45:40 DEBUG [org.activity09.OrderListTest] test01OrderList:48 - Got NoSuchElementException as suspected
+2016-11-08 11:45:40 INFO  [org.activity09.OrderListTest] test01OrderList:50 - OK
+2016-11-08 11:45:40 DEBUG [org.activity09.OrderListTest] test02Add:57 - Initial list of orders:
+[Vodka6: Arvīds4: 30, Vodka6: Arvīds3: 24, Vodka6: Arvīds2: 18, Vodka6: Arvīds1: 12, Vodka5: Arvīds4: 25, Vodka5: Arvīds3: 20, Vodka5: Arvīds2: 15, Vodka5: Arvīds1: 10, Vodka4: Arvīds4: 20, Vodka4: Arvīds3: 16, Vodka4: Arvīds2: 12, Vodka4: Arvīds1: 8, Vodka3: Arvīds4: 15, Vodka3: Arvīds3: 12, Vodka3: Arvīds2: 9, Vodka3: Arvīds1: 6, Vodka2: Arvīds4: 10, Vodka2: Arvīds3: 8, Vodka2: Arvīds2: 6, Vodka2: Arvīds1: 4, Vodka1: Arvīds4: 5, Vodka1: Arvīds3: 4, Vodka1: Arvīds2: 3, Vodka1: Arvīds1: 2]
+2016-11-08 11:45:40 INFO  [org.activity09.OrderListTest] test02Add:68 - OK
+2016-11-08 11:45:40 DEBUG [org.activity09.OrderListTest] test03Iterations:79 - Values of elements from iterations:
+Vodka6: Arvīds4: 30
+Vodka6: Arvīds3: 24
+Vodka6: Arvīds2: 18
+Vodka6: Arvīds1: 12
+Vodka5: Arvīds4: 25
+Vodka5: Arvīds3: 20
+Vodka5: Arvīds2: 15
+Vodka5: Arvīds1: 10
+Vodka4: Arvīds4: 20
+Vodka4: Arvīds3: 16
+Vodka4: Arvīds2: 12
+Vodka4: Arvīds1: 8
+Vodka3: Arvīds4: 15
+Vodka3: Arvīds3: 12
+Vodka3: Arvīds2: 9
+Vodka3: Arvīds1: 6
+Vodka2: Arvīds4: 10
+Vodka2: Arvīds3: 8
+Vodka2: Arvīds2: 6
+Vodka2: Arvīds1: 4
+Vodka1: Arvīds4: 5
+Vodka1: Arvīds3: 4
+Vodka1: Arvīds2: 3
+Vodka1: Arvīds1: 2
+2016-11-08 11:45:40 INFO  [org.activity09.OrderListTest] test03Iterations:81 - OK
+2016-11-08 11:45:40 DEBUG [org.activity09.OrderListTest] test04Sort:88 - Sorted list of orders:
+[Vodka1: Arvīds1: 2, Vodka1: Arvīds2: 3, Vodka1: Arvīds3: 4, Vodka1: Arvīds4: 5, Vodka2: Arvīds1: 4, Vodka2: Arvīds2: 6, Vodka2: Arvīds3: 8, Vodka2: Arvīds4: 10, Vodka3: Arvīds1: 6, Vodka3: Arvīds2: 9, Vodka3: Arvīds3: 12, Vodka3: Arvīds4: 15, Vodka4: Arvīds1: 8, Vodka4: Arvīds2: 12, Vodka4: Arvīds3: 16, Vodka4: Arvīds4: 20, Vodka5: Arvīds1: 10, Vodka5: Arvīds2: 15, Vodka5: Arvīds3: 20, Vodka5: Arvīds4: 25, Vodka6: Arvīds1: 12, Vodka6: Arvīds2: 18, Vodka6: Arvīds3: 24, Vodka6: Arvīds4: 30]
+2016-11-08 11:45:40 DEBUG [org.TestUtils] executeCmd:325 - executeCmd([/bin/bash, -c, echo "[
+Vodka1: Arvīds1: 2
+Vodka1: Arvīds2: 3
+Vodka1: Arvīds3: 4
+Vodka1: Arvīds4: 5
+Vodka2: Arvīds1: 4
+Vodka2: Arvīds2: 6
+Vodka2: Arvīds3: 8
+Vodka2: Arvīds4: 10
+Vodka3: Arvīds1: 6
+Vodka3: Arvīds2: 9
+Vodka3: Arvīds3: 12
+Vodka3: Arvīds4: 15
+Vodka4: Arvīds1: 8
+Vodka4: Arvīds2: 12
+Vodka4: Arvīds3: 16
+Vodka4: Arvīds4: 20
+Vodka5: Arvīds1: 10
+Vodka5: Arvīds2: 15
+Vodka5: Arvīds3: 20
+Vodka5: Arvīds4: 25
+Vodka6: Arvīds1: 12
+Vodka6: Arvīds2: 18
+Vodka6: Arvīds3: 24
+Vodka6: Arvīds4: 30
+]"|grep -vE "\[|\]"])
+Output message: Vodka1: Arvīds1: 2
+Vodka1: Arvīds2: 3
+Vodka1: Arvīds3: 4
+Vodka1: Arvīds4: 5
+Vodka2: Arvīds1: 4
+Vodka2: Arvīds2: 6
+Vodka2: Arvīds3: 8
+Vodka2: Arvīds4: 10
+Vodka3: Arvīds1: 6
+Vodka3: Arvīds2: 9
+Vodka3: Arvīds3: 12
+Vodka3: Arvīds4: 15
+Vodka4: Arvīds1: 8
+Vodka4: Arvīds2: 12
+Vodka4: Arvīds3: 16
+Vodka4: Arvīds4: 20
+Vodka5: Arvīds1: 10
+Vodka5: Arvīds2: 15
+Vodka5: Arvīds3: 20
+Vodka5: Arvīds4: 25
+Vodka6: Arvīds1: 12
+Vodka6: Arvīds2: 18
+Vodka6: Arvīds3: 24
+Vodka6: Arvīds4: 30
+
+2016-11-08 11:45:40 DEBUG [org.TestUtils] executeCmd:325 - executeCmd([/bin/bash, -c, echo "[
+Vodka1: Arvīds1: 2
+Vodka1: Arvīds2: 3
+Vodka1: Arvīds3: 4
+Vodka1: Arvīds4: 5
+Vodka2: Arvīds1: 4
+Vodka2: Arvīds2: 6
+Vodka2: Arvīds3: 8
+Vodka2: Arvīds4: 10
+Vodka3: Arvīds1: 6
+Vodka3: Arvīds2: 9
+Vodka3: Arvīds3: 12
+Vodka3: Arvīds4: 15
+Vodka4: Arvīds1: 8
+Vodka4: Arvīds2: 12
+Vodka4: Arvīds3: 16
+Vodka4: Arvīds4: 20
+Vodka5: Arvīds1: 10
+Vodka5: Arvīds2: 15
+Vodka5: Arvīds3: 20
+Vodka5: Arvīds4: 25
+Vodka6: Arvīds1: 12
+Vodka6: Arvīds2: 18
+Vodka6: Arvīds3: 24
+Vodka6: Arvīds4: 30
+]"|grep -vE "\[|\]"|sort -n])
+Output message: Vodka1: Arvīds1: 2
+Vodka1: Arvīds2: 3
+Vodka1: Arvīds3: 4
+Vodka1: Arvīds4: 5
+Vodka2: Arvīds1: 4
+Vodka2: Arvīds2: 6
+Vodka2: Arvīds3: 8
+Vodka2: Arvīds4: 10
+Vodka3: Arvīds1: 6
+Vodka3: Arvīds2: 9
+Vodka3: Arvīds3: 12
+Vodka3: Arvīds4: 15
+Vodka4: Arvīds1: 8
+Vodka4: Arvīds2: 12
+Vodka4: Arvīds3: 16
+Vodka4: Arvīds4: 20
+Vodka5: Arvīds1: 10
+Vodka5: Arvīds2: 15
+Vodka5: Arvīds3: 20
+Vodka5: Arvīds4: 25
+Vodka6: Arvīds1: 12
+Vodka6: Arvīds2: 18
+Vodka6: Arvīds3: 24
+Vodka6: Arvīds4: 30
+
+2016-11-08 11:45:40 INFO  [org.activity09.OrderListTest] test04Sort:95 - OK
+2016-11-08 11:45:40 INFO  [org.activity09.OrderListTest] test05GetItemsSet:102 - OK
+2016-11-08 11:45:40 DEBUG [org.activity09.OrderListTest] test06Remove:113 - Got IllegalStateException as suspected
+2016-11-08 11:45:40 DEBUG [org.activity09.OrderListTest] test06Remove:139 - Got NoSuchElementException as suspected
+2016-11-08 11:45:40 DEBUG [org.activity09.OrderListTest] test06Remove:145 - Got IllegalStateException as suspected
+2016-11-08 11:45:40 INFO  [org.activity09.OrderListTest] test06Remove:157 - OK
