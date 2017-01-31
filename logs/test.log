@@ -173,3 +173,9 @@ Stack trace:
 java.lang.NullPointerException
 Stack trace:
 [Ljava.lang.StackTraceElement;@5474c6c
+2017-01-31 19:49:34 INFO  [org.activity03.BlackKnightTest] testStaticCounters:101 - OK
+2017-01-31 19:50:14 INFO  [org.activity03.BlackKnightTest] testStaticCounters:101 - OK
+2017-01-31 19:51:06 INFO  [org.activity03.BlackKnightTest] testKnightResponses:71 - OK
+2017-01-31 19:51:06 INFO  [org.activity03.BlackKnightTest] testStaticCounters:101 - OK
+2017-01-31 19:52:05 INFO  [org.activity03.BlackKnightTest] testKnightResponses:71 - OK
+2017-01-31 19:52:05 INFO  [org.activity03.BlackKnightTest] testStaticCounters:101 - OK

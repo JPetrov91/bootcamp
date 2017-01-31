@@ -126,23 +126,27 @@ public class BlackKnight {
 			if(aliveKnights > 0) {
 				ArrayList<String> list = getAliveKnightsNames(fromArrayToArrayList(knights));
 				String[] aliveKnights11 = fromArrayListtoArray(list);
-				//printnames(aliveKnights11);
-				return "You'l newer win! " + printnames(aliveKnights11) + " will still fight!";
+				return "You'l newer win! " + printnames(aliveKnights11) + "will still fight!";
 		}
 			else return "You'l burn in hell forever!";
 		}
 	}
 	
-	public static void printnames(String[] array) {
+	public static String printnames(String[] array) {
+		StringBuilder sb = new StringBuilder();
 		int lastAliveKnight = array.length;
 		System.out.println("lk: " + lastAliveKnight);
 		for(int i = 0; i < array.length; i++) {
+			String str = array[i];
 			if(i == (lastAliveKnight-1)) {
-				System.out.print(array[i] + " ");
+				sb.append(str + " ");
 				break;
 			}
-			System.out.print(array[i] + ", ");
+			sb.append(str + ", ");
+			//System.out.print(array[i] + ", ");
 		}
+		System.out.println(sb);
+		return sb.toString();
 	}
 	
 	public static ArrayList<String> getAliveKnightsNames(ArrayList<BlackKnight> list) {
