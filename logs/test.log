@@ -39,3 +39,137 @@ Stack trace:
 2017-01-30 17:44:58 INFO  [org.extra01.If_SwitchTest] testLesson3:72 - OK
 2017-01-30 17:46:04 INFO  [org.extra01.If_SwitchTest] testLesson3:72 - OK
 2017-01-30 17:48:27 INFO  [org.extra01.If_SwitchTest] testLesson3:72 - OK
+2017-01-31 09:53:47 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@5f150435
+2017-01-31 10:06:52 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@5f150435
+2017-01-31 10:31:55 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@71e7a66b
+2017-01-31 10:31:55 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@5474c6c
+2017-01-31 11:12:16 INFO  [org.activity03.RandomPersonTest] testMethods:101 - OK hiqaq ☺
+2017-01-31 11:16:52 INFO  [org.activity03.ArrayTest] testMain:73 - OK
+2017-01-31 11:17:53 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@71e7a66b
+2017-01-31 11:17:53 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@5474c6c
+2017-01-31 11:22:13 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@71e7a66b
+2017-01-31 11:22:13 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@5474c6c
+2017-01-31 11:55:22 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@71e7a66b
+2017-01-31 11:57:10 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@71e7a66b
+2017-01-31 12:02:03 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@71e7a66b
+2017-01-31 12:02:03 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@5474c6c
+2017-01-31 12:09:53 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@71e7a66b
+2017-01-31 12:09:53 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@5474c6c
+2017-01-31 12:27:17 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@71e7a66b
+2017-01-31 12:28:28 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@71e7a66b
+2017-01-31 14:01:42 INFO  [org.extra02.OwlTest] testOwl:24 - OK
+2017-01-31 14:01:42 INFO  [org.extra02.OwlTest] testOwl:38 - OK
+2017-01-31 15:13:16 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@3930015a
+2017-01-31 15:22:58 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@3930015a
+2017-01-31 15:53:15 ERROR [org.activity04.TrafficManagementTest] testTransport:65 - java.util.MissingFormatArgumentException: Format specifier '%.2f'
+2017-01-31 15:56:00 ERROR [org.activity04.TrafficManagementTest] testTransport:65 - java.util.MissingFormatArgumentException: Format specifier '%.2f'
+2017-01-31 15:56:57 ERROR [org.activity04.TrafficManagementTest] testTransport:65 - java.util.MissingFormatArgumentException: Format specifier '%.2f'
+2017-01-31 15:57:27 ERROR [org.activity04.TrafficManagementTest] testTransport:65 - java.util.MissingFormatArgumentException: Format specifier '%.2f'
+2017-01-31 16:54:25 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@1c53fd30
+2017-01-31 17:03:04 INFO  [org.extra02.OwlFarmTest] testChangeName:58 - OK
+2017-01-31 17:05:16 INFO  [org.extra02.OwlFarmTest] testChangeName:58 - OK
+2017-01-31 17:05:52 INFO  [org.extra02.OwlTest] testOwl:24 - OK
+2017-01-31 17:05:52 INFO  [org.extra02.OwlTest] testOwl:38 - OK
+2017-01-31 17:05:59 INFO  [org.extra02.OwlFarmTest] testChangeName:58 - OK
+2017-01-31 17:13:16 INFO  [org.extra02.LetsRideTest] testFreeSeats:50 - OK
+2017-01-31 17:13:16 INFO  [org.extra02.LetsRideTest] testIsFull:67 - OK
+2017-01-31 17:13:43 INFO  [org.extra02.OwlFarmTest] testChangeName:58 - OK
+2017-01-31 17:16:16 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@71e7a66b
+2017-01-31 17:28:26 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@71e7a66b
+2017-01-31 17:29:40 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@71e7a66b
+2017-01-31 17:31:37 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@71e7a66b
+2017-01-31 17:40:21 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@71e7a66b
+2017-01-31 17:49:13 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@71e7a66b
+2017-01-31 17:49:55 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@71e7a66b
+2017-01-31 17:52:41 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@71e7a66b
+2017-01-31 17:55:51 INFO  [org.activity03.ZodiacTest] testGetZodiac:46 - OK
+2017-01-31 17:57:44 INFO  [org.extra01.If_SwitchTest] testLesson3:72 - OK
+2017-01-31 17:59:37 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@71e7a66b
+2017-01-31 17:59:37 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@5474c6c

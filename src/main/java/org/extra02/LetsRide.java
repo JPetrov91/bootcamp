@@ -14,6 +14,9 @@ public class LetsRide {
 
 	public LetsRide(int busStopCount, int passengersInStop, int seatsCount) {
 		// TODO #1: Set passed values to LetsRide object
+		this.busStopCount = busStopCount;
+		this.passengersCount = passengersCount + passengersInStop;
+		this.seatsCount = seatsCount;
 	}
 
 	public int passengersAtRouteEnd() {
@@ -28,6 +31,7 @@ public class LetsRide {
 
 	public int freeSeats() {
 		int freeSeats = 0;
+		freeSeats = this.seatsCount - this.passengersCount;
 		// TODO #3: Calculate how much seats are free in bus
 		return freeSeats;
 	}
@@ -35,6 +39,9 @@ public class LetsRide {
 	public boolean isFull() {
 		boolean status = false;
 		// TODO #4: Check if bus is full.
+		if(freeSeats() == 0) {
+			status = true;
+		}
 		return status;
 	}
 

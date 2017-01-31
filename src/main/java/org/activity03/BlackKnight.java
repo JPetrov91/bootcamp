@@ -1,5 +1,7 @@
 package org.activity03;
 
+import java.util.ArrayList;
+
 /**
  * Black Knight is brave soldier who fights till he is alive. He doesn't bother
  * if some of his arms or legs are cut off. You can kill him only when he lose
@@ -22,6 +24,40 @@ public class BlackKnight {
 	public static void setBattle(int initialNumber) {
 		// TODO initialize new array of knights with the passed size.
 		// Reset total numbers of total and alive knights to zero
+		knights = new BlackKnight[initialNumber];
+		totalKnights = 0;
+		aliveKnights = 0;
+	}
+	public static void main(String[] args) {
+		setBattle(5);
+		BlackKnight bk0 = new BlackKnight("Vasya0");
+		BlackKnight bk1 = new BlackKnight("Vasya1");
+		BlackKnight bk2 = new BlackKnight("Vasya2");
+		BlackKnight bk3 = new BlackKnight("Vasya3");
+		BlackKnight bk4 = new BlackKnight("Vasya4");
+		
+		for(int i = 0; i < knights.length; i++) {
+			System.out.println(aliveKnights);
+			if(knights[i].name.equals("Vasya2")) {
+				System.out.println(knights[i].cutOffHead());
+				System.out.println(knights[i].cutOffArm());
+			}
+			System.out.print(knights[i].name + " ");
+			System.out.print(knights[i].alive + " ");
+			System.out.print(knights[i].arms + " ");
+			System.out.print(knights[i].legs + " ");
+			System.out.print(knights[i].head + " ");
+			System.out.println();
+			
+		}
+		
+		ArrayList<BlackKnight> list = fromArrayToArrayList(knights);
+		ArrayList<String> strlist = getAliveKnightsNames(list);
+		String[] array = fromArrayListtoArray(strlist);
+		printnames(array);
+		
+		
+		
 	}
 
 	public BlackKnight(String name) {
@@ -31,6 +67,14 @@ public class BlackKnight {
 		// 3. put reference of this knight into next free cell of knights static
 		// array
 		// 4. increase number of total and alive knights of static counters
+		this.name = name;
+		this.arms = 2;
+		this.legs = 2;
+		this.head = 1;
+		this.alive = true;
+		knights[totalKnights] = this;
+		totalKnights++;
+		aliveKnights++;
 	}
 
 	public String cutOffArm() {
@@ -38,7 +82,14 @@ public class BlackKnight {
 		// If knight is dead, return "Only chicken beats dead!"
 		// If knight has some arms, cut one off and return "Bugger!"
 		// Else return just "Haah!"
-		return "";
+		if(!this.alive) {
+			return "Only chicken beats dead!";
+		}
+		else if(this.arms>0) {
+			this.arms--;
+			return "Bugger!";
+		}
+		return "Haah!";
 	}
 
 	public String cutOffLeg() {
@@ -46,9 +97,15 @@ public class BlackKnight {
 		// If knight is dead, return "Only chicken beats dead!"
 		// If knight has some legs, cut one off and return "Bollocks!"
 		// Else return just "Haah!"
-		return "";
+		if(!this.alive) {
+			return "Only chicken beats dead!";
+		}
+		else if(this.legs>0) {
+			this.legs--;
+			return "Bollocks!";
+		}
+		return "Haah!";
 	}
-
 	public String cutOffHead() {
 		// TODO handle cutting off knight's head in following way:
 		// If knight is dead, return "Only chicken beats dead!"
@@ -58,7 +115,62 @@ public class BlackKnight {
 		// "You'l newer win! Arthur, Cnut will still fight!"
 		// Where "Arthur, Cnut" are names of still alive knights
 		// Else return "You'l burn in hell forever!"
-		return "";
+		if(!this.alive) {
+			return "Only chicken beats dead!";
+		}
+		else {
+			this.head--;
+			aliveKnights--;
+			deadKnights++;
+			this.alive = false;
+			if(aliveKnights > 0) {
+				ArrayList<String> list = getAliveKnightsNames(fromArrayToArrayList(knights));
+				String[] aliveKnights11 = fromArrayListtoArray(list);
+				//printnames(aliveKnights11);
+				return "You'l newer win! " + printnames(aliveKnights11) + " will still fight!";
+		}
+			else return "You'l burn in hell forever!";
+		}
+	}
+	
+	public static void printnames(String[] array) {
+		int lastAliveKnight = array.length;
+		System.out.println("lk: " + lastAliveKnight);
+		for(int i = 0; i < array.length; i++) {
+			if(i == (lastAliveKnight-1)) {
+				System.out.print(array[i] + " ");
+				break;
+			}
+			System.out.print(array[i] + ", ");
+		}
+	}
+	
+	public static ArrayList<String> getAliveKnightsNames(ArrayList<BlackKnight> list) {
+		ArrayList<String> aliveKnightsNames = new ArrayList<String>();
+		for(BlackKnight knight : list) {
+			if(knight.alive) {
+				aliveKnightsNames.add(knight.name);
+			}
+		}
+		return aliveKnightsNames;
+	}
+	
+	public static ArrayList<BlackKnight> fromArrayToArrayList(BlackKnight[] array) {
+		ArrayList<BlackKnight> list = new ArrayList<BlackKnight>();
+		for(int i = 0; i < array.length; i++) {
+			list.add(array[i]);
+		}
+		return list;
+	}
+	
+	public static String[] fromArrayListtoArray(ArrayList<String> aliveKnightsList) {
+		int n = aliveKnightsList.size();
+		String[] aliveKnightsArray = new String[n];
+		for(int i = 0; i < aliveKnightsArray.length; i++) {
+			aliveKnightsArray[i] = aliveKnightsList.get(0);
+			aliveKnightsList.remove(0);
+		}
+		return aliveKnightsArray;
 	}
 
 }

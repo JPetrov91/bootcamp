@@ -13,6 +13,7 @@ public class OwlFarm {
 		// Change your code here, to check, how it works
 		OwlFarm owlFarm = new OwlFarm();
 		owlFarm.setupFarm();
+		System.out.println(owlFarm);
 	}
 
 	public void setupFarm() {
@@ -26,6 +27,14 @@ public class OwlFarm {
 		// and initialize owls with names into owls array
 
 		// TODO #3 Make first owl to catch one mouse.
+		Random rand = new Random();
+		int numberOfOwls = rand.nextInt(5) + 1;
+		this.owls = new Owl[numberOfOwls];
+		String[] names = {"Alfonso", "Bob", "Charly", "Diana", "Edgar"};
+		for(int i = 0; i < owls.length; i++) {
+			Owl owl = new Owl(names[i]);
+			owls[i] = owl;
+		}
 
 	}
 
@@ -41,17 +50,23 @@ public class OwlFarm {
 		// TODO #5 Parse through owls and check their names.
 		// If current name of owl is as startName, change it to the and setters
 		// for it
+		for(int i = 0; i < owls.length; i++) {
+			Owl owl = owls[i];
+			if((owl.getName()).equals(startName)) {
+				owl.setName(endName);
+			}
+		}
 	}
 
 	public Owl[] getOwls() {
 
 		// TODO return reference to owl array
-		return null;
+		return owls;
 	}
 
 	public int getOwlCount() {
 		// TODO return count of owls (array length)
-		return 0;
+		return owls.length;
 	}
 
 }

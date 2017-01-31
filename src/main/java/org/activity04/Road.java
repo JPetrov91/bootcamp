@@ -7,7 +7,7 @@ public class Road {
 
 	public int getDistance() {
 		// TODO return distance of the road
-		return 0;
+		return this.distance;
 	}
 
 	@Override
@@ -15,7 +15,7 @@ public class Road {
 		// TODO return string in form: "From — To, 00km"
 		// Note that — is not dash ("minus key" in jargon), but m-dash!
 		// See more at: https://en.wikipedia.org/wiki/Dash
-		return "";
+		return from + " — " + to + ", " + distance +"km";
 	}
 
 
@@ -23,10 +23,16 @@ public class Road {
 	public Road() {
 		// TODO implement Road constructor that without parameters
 		// values are set to "" or 0;
+		this.from = "";
+		this.to = "";
+		this.distance = 0;
 	}
 
 	public Road(String from, String to, int distance) {
 		// TODO save passed values into road properties
+		this.from = from;
+		this.to = to;
+		this.distance = distance;
 	}
 
 	public String getFrom() {

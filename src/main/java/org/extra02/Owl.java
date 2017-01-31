@@ -6,26 +6,29 @@ public class Owl {
 	public int catchedMiceCount;
 	private String name;
 	private final int cuteness;
+	
 
 	public Owl(String name) {
 		// TODO assign passed name to newly created structure of the owl
 		// objectCreate new owl, assign passed name to it
 		// Set its cuteness to the highest possible value
-		cuteness = 0;
+		cuteness = Integer.MAX_VALUE;
+		this.name = name;
 	}
 
 	public String getName() {
 		// TODO Return owl's name
-		return "";
+		return this.name;
 	}
 
 	public void setName(String name) {
 		// TODO Change current owl name to the specified name
+		this.name = name;
 	}
 
 	public int getCuteness() {
 		// TODO Return cuteness level
-		return 0;
+		return cuteness;
 	}
 
 }

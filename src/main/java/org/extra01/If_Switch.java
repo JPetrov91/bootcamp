@@ -87,7 +87,6 @@ public class If_Switch {
 		// default
 		// value was chosen
 		// HINT: Use switch-case.
-		//String returnSeason;
 		switch(season) {
 		case WINTER:
 			return "Winter";
