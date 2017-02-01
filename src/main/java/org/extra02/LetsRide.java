@@ -11,11 +11,21 @@ public class LetsRide {
 	int passengersAtStart;// passengers at the start in bus
 	int passengersCount;// overall passengers count in bus
 	int seatsCount;// bus seats count
+	
+	public static void main(String[] args) {
+		LetsRide ld = new LetsRide(1, 5, 20);
+		System.out.println(ld.passengersAtRouteEnd());
+		System.out.println(ld.freeSeats());
+		System.out.println(ld.isFull());
+		System.out.println(ld.freeSeats());
+		
+	}
 
 	public LetsRide(int busStopCount, int passengersInStop, int seatsCount) {
 		// TODO #1: Set passed values to LetsRide object
 		this.busStopCount = busStopCount;
-		this.passengersCount = passengersCount + passengersInStop;
+		this.passengersAtStart = passengersInStop;
+		this.passengersCount = passengersAtStart;
 		this.seatsCount = seatsCount;
 	}
 
@@ -26,6 +36,12 @@ public class LetsRide {
 		// passenger count will be increased by 2, in stop No.4 it
 		// will be increased by 4 and so on until bus reaches route end.
 		// Note: Overall passenger count can't exceed seat count
+		int passengersInBusStop = 0;
+		while(passengersInBusStop <= busStopCount) {
+			passengersCount = passengersCount + passengersInBusStop;
+			passengersInBusStop++;
+			if(passengersInBusStop > freeSeats()) break;
+		}
 		return passengersCount;
 	}
 

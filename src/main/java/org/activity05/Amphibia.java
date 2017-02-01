@@ -1,5 +1,7 @@
 package org.activity05;
 
+import java.util.Locale;
+
 import org.activity04.Road;
 import org.activity04.Transport;
 
@@ -7,7 +9,7 @@ import org.activity04.Transport;
 // "is a Transport" and "looks like a Ship and a Vehicle"
 // (has properties and methods of both).
 
-	public class Amphibia {
+	public class Amphibia extends Transport {
 
 	// TODO #2. Create variables to store necessary properties of
 	// Ship and Vehicle into Amphibia.
@@ -17,8 +19,19 @@ import org.activity04.Transport;
 
 	// TODO #3: Implement constructor, which set id, number of sails and
 	// wheels for amphibia.
+		private String id;
+		private float consumption;
+		private int tankSize;
+		private byte sails;
+		private int wheels;
+		Transport transport;
+		
+		
 	public Amphibia(String id, float consumption, int tankSize, byte sails,
 			int wheels) {
+		super(id, consumption, tankSize);
+		this.sails = sails;
+		this.wheels = wheels;
 	}
 
 	// TODO #5: implement method which shows how amphibia moves
@@ -32,7 +45,19 @@ import org.activity04.Transport;
 	// Note, that on road amphibia should behave in the same way as a Transport,
 	// but on water road — as a Ship.
 	public String move(Road road) {
-		return "";
+		int distanceForTransport = road.getDistance();
+		float needFuelForDistance = distanceForTransport * this.getConsumption()/100;
+		if(this.getFuelInTank() < needFuelForDistance) {
+			return "Cannot drive on " + road.toString();
+		}
+		else if(road instanceof WaterRoad) {
+			this.fuelInTank = this.fuelInTank - needFuelForDistance;
+			return this.getType() + " is sailing with " + sails +" sails on " + road.toString();
+		}
+		else {
+			this.fuelInTank = this.fuelInTank - needFuelForDistance;
+			return this.getType() + " is driving with " + wheels + " wheels on " + road.toString();
+		}
 	}
 
 }

@@ -7,7 +7,7 @@ public class Transport {
 	private String id; // Transport registration number
 	private float consumption; // fuel consumption in litres per 100km
 	private int tankSize; // tank size in litres
-	public float fuelInTank; // fuel in tank
+	private float fuelInTank; // fuel in tank
 	
 
 	public Transport(String id, float consumption, int tankSize) {
@@ -17,6 +17,10 @@ public class Transport {
 		this.consumption = consumption;
 		this.tankSize = tankSize;
 		this.fuelInTank = tankSize;
+	}
+	
+	public Transport() {
+		
 	}
 
 	public float getConsumption() {

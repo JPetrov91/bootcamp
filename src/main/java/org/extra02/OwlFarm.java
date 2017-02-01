@@ -1,6 +1,7 @@
 package org.extra02;
 
 import java.util.Random;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class OwlFarm {
 	private Owl[] owls;
@@ -13,7 +14,11 @@ public class OwlFarm {
 		// Change your code here, to check, how it works
 		OwlFarm owlFarm = new OwlFarm();
 		owlFarm.setupFarm();
-		System.out.println(owlFarm);
+		Owl[] owls = owlFarm.getOwls();
+		for(int i = 0; i < owlFarm.getOwlCount(); i++) {
+			Owl owl = owls[i];
+			System.out.println(owl.getName() + " " + owl.getCuteness());
+		}
 	}
 
 	public void setupFarm() {
@@ -27,15 +32,18 @@ public class OwlFarm {
 		// and initialize owls with names into owls array
 
 		// TODO #3 Make first owl to catch one mouse.
-		Random rand = new Random();
-		int numberOfOwls = rand.nextInt(5) + 1;
+//		Random rand = new Random();
+//		int numberOfOwls = rand.nextInt(5) + 1;
+		int min = 1;
+		int max = 5;
+		int numberOfOwls = ThreadLocalRandom.current().nextInt(min, max+1);
 		this.owls = new Owl[numberOfOwls];
 		String[] names = {"Alfonso", "Bob", "Charly", "Diana", "Edgar"};
 		for(int i = 0; i < owls.length; i++) {
 			Owl owl = new Owl(names[i]);
 			owls[i] = owl;
 		}
-
+		owls[0].catchedMiceCount++;
 	}
 
 	/**

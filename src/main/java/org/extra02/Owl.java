@@ -12,7 +12,7 @@ public class Owl {
 		// TODO assign passed name to newly created structure of the owl
 		// objectCreate new owl, assign passed name to it
 		// Set its cuteness to the highest possible value
-		cuteness = Integer.MAX_VALUE;
+		cuteness = 2147483647;
 		this.name = name;
 	}
 
