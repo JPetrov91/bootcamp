@@ -45,4 +45,6 @@ public interface Humanoid {
 	 * @return "Alive" or "Dead" depending on his status
 	 */
 	public String isAlive();
+	
+	public Humanoid clone();
 }

@@ -40,7 +40,7 @@ import org.activity04.Transport;
 			return "Cannot drive on " + road.toString();
 		}
 		else {
-			this.fuelInTank = this.fuelInTank - needFuelForDistance;
+			this.setFuelInTank(this.getFuelInTank() - needFuelForDistance);
 			return this.getType() + " is driving on " + road.toString() + " with " + wheels + " wheels";
 		}
 	}

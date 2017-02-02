@@ -19,8 +19,8 @@ public class Transport {
 		this.fuelInTank = tankSize;
 	}
 	
-	public Transport() {
-		
+	public Transport(String id) {
+		this.id = id;
 	}
 
 	public float getConsumption() {
@@ -36,7 +36,10 @@ public class Transport {
 	public String getId() {
 		// TODO return required value
 		return this.id;
-
+	}
+	
+	public void setFuelInTank(float fuelInTank) {
+		this.fuelInTank = fuelInTank;
 	}
 
 	// Return transport id and type as string e.g. "AAA Transport"

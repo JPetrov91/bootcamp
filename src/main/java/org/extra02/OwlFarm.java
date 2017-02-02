@@ -10,16 +10,16 @@ public class OwlFarm {
 	// You can use main() method to test your implementation by
 	// running it as a Java application
 	// Note that Unit tests don't invoke this method
-	public static void main(String[] args) {
-		// Change your code here, to check, how it works
-		OwlFarm owlFarm = new OwlFarm();
-		owlFarm.setupFarm();
-		Owl[] owls = owlFarm.getOwls();
-		for(int i = 0; i < owlFarm.getOwlCount(); i++) {
-			Owl owl = owls[i];
-			System.out.println(owl.getName() + " " + owl.getCuteness());
-		}
-	}
+//	public static void main(String[] args) {
+//		// Change your code here, to check, how it works
+//		OwlFarm owlFarm = new OwlFarm();
+//		owlFarm.setupFarm();
+//		Owl[] owls = owlFarm.getOwls();
+//		for(int i = 0; i < owlFarm.getOwlCount(); i++) {
+//			Owl owl = owls[i];
+//			System.out.println(owl.getName() + " " + owl.getCuteness());
+//		}
+//	}
 
 	public void setupFarm() {
 		// TODO #1 Generate random number 1..5 (including) use it as
@@ -40,8 +40,9 @@ public class OwlFarm {
 		this.owls = new Owl[numberOfOwls];
 		String[] names = {"Alfonso", "Bob", "Charly", "Diana", "Edgar"};
 		for(int i = 0; i < owls.length; i++) {
-			Owl owl = new Owl(names[i]);
-			owls[i] = owl;
+//			Owl owl = new Owl(names[i]);
+//			owls[i] = owl;
+			owls[i] = new Owl(names[i]);
 		}
 		owls[0].catchedMiceCount++;
 	}

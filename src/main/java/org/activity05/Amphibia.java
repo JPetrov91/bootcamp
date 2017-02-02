@@ -51,11 +51,10 @@ import org.activity04.Transport;
 			return "Cannot drive on " + road.toString();
 		}
 		else if(road instanceof WaterRoad) {
-			this.fuelInTank = this.fuelInTank - needFuelForDistance;
 			return this.getType() + " is sailing with " + sails +" sails on " + road.toString();
 		}
 		else {
-			this.fuelInTank = this.fuelInTank - needFuelForDistance;
+			this.setFuelInTank(this.getFuelInTank() - needFuelForDistance);
 			return this.getType() + " is driving with " + wheels + " wheels on " + road.toString();
 		}
 	}

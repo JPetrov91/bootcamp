@@ -1,7 +1,7 @@
 package org.activity06;
 
 
-public class Human implements Humanoid {
+public class Human implements Humanoid, Cloneable {
 	public int weight;
 	String backpack;
 	public boolean isAlive;
@@ -14,6 +14,11 @@ public class Human implements Humanoid {
 	public Human(int weight) {
 		this.weight = weight;
 		isAlive = true;
+	}
+	
+	public Human(Human human) {
+		this.weight = human.weight;
+		this.backpack = human.backpack;
 	}
 
 	@Override
@@ -61,6 +66,16 @@ public class Human implements Humanoid {
 	public String getBackpack() {
 		// TODO Auto-generated method stub
 		return backpack;
+	}
+	
+	public Human clone() {
+		Human human = null;
+		try {
+			human = (Human) super.clone();
+		} catch (CloneNotSupportedException e) {
+			System.out.println(e);
+		}
+		return human;
 	}
 
 }

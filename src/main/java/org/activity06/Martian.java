@@ -29,17 +29,31 @@ public class Martian implements Humanoid, Alien, Cloneable {
 	@Override
 	public void setBackpack(Object item) {
 		// TODO Auto-generated method stub
-		if(item instanceof Object) {
-			backpack = (Object) item;
-		} else if(item instanceof Humanoid) {
-			backpack = (Humanoid) item;
-		} else if(item instanceof Alien) {
-			backpack = (Alien) item;
-		}
+		backpack = item;
 	}
 	
 	public void setBackpack(String item) {
 		backpack = item;
+	}
+	
+	@Override
+	public Object getBackpack() {
+		// TODO Auto-generated method stub
+		if(backpack instanceof Martian) {
+			//return (Alien) backpack;
+			Martian m = (Martian)backpack;
+			System.out.println("martian");
+			return m.clone();
+		}
+		else if(backpack instanceof Human) {
+			return new Human((Human)backpack);
+		}
+		else if(backpack instanceof String) {
+			//System.out.println("string");
+			String str = new String((String) backpack);
+			return (String) str;
+		}
+		else return "";
 	}
 
 	@Override
@@ -65,12 +79,6 @@ public class Martian implements Humanoid, Alien, Cloneable {
 	public int getArmCount() {
 		// TODO Auto-generated method stub
 		return ARM_COUNT;
-	}
-
-	@Override
-	public Object getBackpack() {
-		// TODO Auto-generated method stub
-		return null;
 	}
 
 	@Override

@@ -1,6 +1,5 @@
 package org.activity05;
 
-import java.util.Locale;
 
 import org.activity04.Road;
 import org.activity04.Transport;
@@ -14,12 +13,15 @@ import org.activity04.Transport;
 	 * @param id
 	 * @param sails
 	 */
-		private byte sails;
+		protected String id;
+		protected byte sails;
 		
 	public Ship(String id, byte sails) {
 		// TODO #3: Set passed id and number of sails for ship
 		// Set other properties of the Transport
-		this.sails = sails;
+		super(id);
+		//this.id = id;
+		this.sails = (byte)sails;
 	}
 
 	/*
@@ -31,6 +33,12 @@ import org.activity04.Transport;
 	// where x is actual number of sails
 	// Else return "Cannot sail on " + Road representation as String
 	public String move(Road road) {
+//		int distanceForTransport = road.getDistance();
+//		float needFuelForDistance = distanceForTransport * this.getConsumption()/100;
+//		this.setFuelInTank(this.getFuelInTank() - needFuelForDistance);
+		if(road instanceof WaterRoad) {
 		return this.getType() + " is sailing on " + road.toString() +  " with " + sails + " sails";
+		}
+		else return "Cannot sail on " + road.toString();
 	}
 }

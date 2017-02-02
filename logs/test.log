@@ -573,3 +573,271 @@ Stack trace:
 2017-02-01 18:06:22 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
 2017-02-01 18:06:22 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
 2017-02-01 18:06:22 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 09:08:31 INFO  [org.activity05.EncapsulationTest] testVehicle:130 - OK
+2017-02-02 09:08:31 INFO  [org.activity05.EncapsulationTest] testTransport:71 - OK
+2017-02-02 09:09:56 INFO  [org.activity05.EncapsulationTest] testVehicle:130 - OK
+2017-02-02 09:09:56 INFO  [org.activity05.EncapsulationTest] testTransport:71 - OK
+2017-02-02 09:11:32 INFO  [org.activity05.EncapsulationTest] testAmphibia:173 - OK
+2017-02-02 09:11:32 INFO  [org.activity05.EncapsulationTest] testVehicle:130 - OK
+2017-02-02 09:11:32 INFO  [org.activity05.EncapsulationTest] testTransport:71 - OK
+2017-02-02 09:11:59 INFO  [org.activity05.EncapsulationTest] testAmphibia:173 - OK
+2017-02-02 09:11:59 INFO  [org.activity05.EncapsulationTest] testVehicle:130 - OK
+2017-02-02 09:11:59 INFO  [org.activity05.EncapsulationTest] testTransport:71 - OK
+2017-02-02 09:15:46 INFO  [org.activity05.EncapsulationTest] testAmphibia:173 - OK
+2017-02-02 09:15:46 INFO  [org.activity05.EncapsulationTest] testVehicle:130 - OK
+2017-02-02 09:15:46 INFO  [org.activity05.EncapsulationTest] testTransport:71 - OK
+2017-02-02 10:05:39 INFO  [org.extra03.ArrayListMethodsTest] testAll:28 - OK
+2017-02-02 10:11:07 INFO  [org.activity05.EncapsulationTest] testAmphibia:173 - OK
+2017-02-02 10:11:07 INFO  [org.activity05.EncapsulationTest] testVehicle:130 - OK
+2017-02-02 10:11:07 INFO  [org.activity05.EncapsulationTest] testTransport:71 - OK
+2017-02-02 10:20:30 INFO  [org.activity05.EncapsulationTest] testAmphibia:173 - OK
+2017-02-02 10:20:30 INFO  [org.activity05.EncapsulationTest] testVehicle:130 - OK
+2017-02-02 10:20:30 INFO  [org.activity05.EncapsulationTest] testTransport:71 - OK
+2017-02-02 10:35:03 INFO  [org.activity05.EncapsulationTest] testAmphibia:173 - OK
+2017-02-02 10:35:03 INFO  [org.activity05.EncapsulationTest] testVehicle:130 - OK
+2017-02-02 10:35:03 INFO  [org.activity05.EncapsulationTest] testTransport:71 - OK
+2017-02-02 10:37:17 INFO  [org.activity05.EncapsulationTest] testShip:100 - OK
+2017-02-02 10:37:17 INFO  [org.activity05.EncapsulationTest] testAmphibia:173 - OK
+2017-02-02 10:37:17 INFO  [org.activity05.EncapsulationTest] testVehicle:130 - OK
+2017-02-02 10:37:17 INFO  [org.activity05.EncapsulationTest] testTransport:71 - OK
+2017-02-02 10:39:47 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 10:39:47 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 10:39:47 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 10:39:47 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 10:39:47 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 10:39:47 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 10:58:57 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 10:58:57 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 10:58:57 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 10:58:57 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 10:58:57 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 10:58:57 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 11:03:01 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 11:03:01 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 11:03:01 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 11:03:01 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 11:03:01 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 11:03:01 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 11:10:10 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 11:10:10 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 11:10:10 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 11:10:10 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 11:10:10 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 11:10:10 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 11:25:19 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 11:25:19 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 11:25:19 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 11:25:19 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 11:25:19 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 11:25:19 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 11:26:49 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 11:26:49 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 11:26:49 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 11:26:49 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 11:26:49 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 11:26:49 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 11:33:08 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 11:33:08 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 11:33:08 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 11:33:08 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 11:33:08 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 11:33:08 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 11:34:43 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 11:34:43 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 11:34:43 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 11:34:43 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 11:34:43 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 11:34:43 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 11:35:10 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 11:35:10 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 11:35:10 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 11:35:10 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 11:35:10 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 11:35:10 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 11:35:13 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 11:35:13 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 11:35:13 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 11:35:13 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 11:35:13 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 11:35:13 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 11:36:12 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 11:36:12 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 11:36:12 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 11:36:12 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 11:36:12 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 11:36:12 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 11:40:03 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 11:40:03 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 11:40:03 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 11:40:03 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 11:40:03 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 11:40:03 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 11:40:35 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 11:40:35 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 11:40:35 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 11:40:35 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 11:40:35 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 11:40:35 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 11:42:25 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 11:42:25 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 11:42:25 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 11:42:25 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 11:42:25 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 11:42:25 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 11:43:04 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 11:43:04 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 11:43:04 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 11:43:04 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 11:43:04 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 11:43:04 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 11:44:26 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 11:44:26 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 11:44:26 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 11:44:26 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 11:44:26 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 11:44:26 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 11:44:52 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 11:44:52 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 11:44:52 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 11:44:52 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 11:44:52 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 11:44:52 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 11:44:52 ERROR [org.TestUtils] handleError:227 - 
+java.lang.ClassCastException, message: java.lang.Object cannot be cast to java.lang.String
+Stack trace:
+[Ljava.lang.StackTraceElement;@77f03bb1
+2017-02-02 11:46:38 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 11:46:38 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 11:46:38 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 11:46:38 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 11:46:38 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 11:46:38 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 11:47:47 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 11:47:47 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 11:47:47 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 11:47:47 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 11:47:47 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 11:47:47 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 11:47:47 ERROR [org.TestUtils] handleError:227 - 
+java.lang.ClassCastException, message: java.lang.Object cannot be cast to java.lang.String
+Stack trace:
+[Ljava.lang.StackTraceElement;@77f03bb1
+2017-02-02 11:48:09 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 11:48:09 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 11:48:09 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 11:48:09 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 11:48:09 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 11:48:09 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 11:59:16 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 11:59:16 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 11:59:16 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 11:59:16 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 11:59:16 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 11:59:16 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 12:00:03 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 12:00:03 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 12:00:03 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 12:00:03 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 12:00:03 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 12:00:03 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 12:00:58 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 12:00:58 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 12:00:58 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 12:00:58 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 12:00:58 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 12:00:58 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 12:01:27 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 12:01:27 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 12:01:27 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 12:01:27 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 12:01:27 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 12:01:27 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 12:01:52 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 12:01:52 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 12:01:52 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 12:01:52 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 12:01:52 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 12:01:52 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 12:03:09 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 12:03:09 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 12:03:09 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 12:03:09 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 12:03:09 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 12:03:09 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 12:03:32 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 12:03:32 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 12:03:32 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 12:03:32 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 12:03:32 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 12:03:32 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 12:04:01 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 12:04:01 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 12:04:01 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 12:04:01 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 12:04:01 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 12:04:01 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 12:04:01 INFO  [org.activity06.MartianTest] test7Backpack:133 - OK
+2017-02-02 12:04:33 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 12:04:33 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 12:04:33 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 12:04:33 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 12:04:33 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 12:04:33 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 12:04:33 INFO  [org.activity06.MartianTest] test7Backpack:133 - OK
+2017-02-02 12:04:35 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 12:04:35 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 12:04:35 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 12:04:35 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 12:04:35 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 12:04:35 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 12:04:35 INFO  [org.activity06.MartianTest] test7Backpack:133 - OK
+2017-02-02 12:04:38 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 12:04:38 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 12:04:38 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 12:04:38 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 12:04:38 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 12:04:38 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 12:04:38 INFO  [org.activity06.MartianTest] test7Backpack:133 - OK
+2017-02-02 13:45:05 INFO  [org.extra02.OwlFarmTest] testRun:37 - OK
+2017-02-02 13:45:05 INFO  [org.extra02.OwlFarmTest] testChangeName:58 - OK
+2017-02-02 13:53:56 INFO  [org.extra02.OwlFarmTest] testRun:37 - OK
+2017-02-02 13:53:56 INFO  [org.extra02.OwlFarmTest] testChangeName:58 - OK
+2017-02-02 13:55:41 INFO  [org.extra02.OwlFarmTest] testRun:37 - OK
+2017-02-02 13:55:41 INFO  [org.extra02.OwlFarmTest] testChangeName:58 - OK
+2017-02-02 14:01:49 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-02 14:01:49 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-02 14:01:49 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-02 14:01:49 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-02 14:01:49 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-02 14:01:49 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-02 14:01:49 INFO  [org.activity06.MartianTest] test7Backpack:133 - OK
+2017-02-02 14:06:02 INFO  [org.activity06.HumanTest] test01HumanWithoutWeight:26 - OK
+2017-02-02 14:06:02 INFO  [org.activity06.HumanTest] test02HumanWithWeight:39 - OK
+2017-02-02 14:06:02 INFO  [org.activity06.HumanTest] test03HumanWeight:53 - OK
+2017-02-02 14:06:02 INFO  [org.activity06.HumanTest] test04KillHimself:66 - OK
+2017-02-02 14:06:02 INFO  [org.activity06.HumanTest] test05Arms:77 - OK
+2017-02-02 14:06:02 INFO  [org.activity06.HumanTest] test06Backpack:92 - OK
+2017-02-02 14:55:35 ERROR [org.TestUtils] handleError:227 - 
+org.w3c.dom.DOMException, message: HIERARCHY_REQUEST_ERR: An attempt was made to insert a node where it is not permitted. 
+Stack trace:
+[Ljava.lang.StackTraceElement;@282ba1e
+2017-02-02 16:37:58 ERROR [org.TestUtils] handleError:227 - 
+java.lang.ClassCastException, message: com.sun.org.apache.xerces.internal.jaxp.validation.ValidatorImpl cannot be cast to javax.validation.Validator
+Stack trace:
+[Ljava.lang.StackTraceElement;@7a92922
+2017-02-02 16:45:00 ERROR [org.TestUtils] handleError:227 - 
+java.lang.ClassCastException, message: com.sun.org.apache.xerces.internal.jaxp.validation.ValidatorImpl cannot be cast to javax.validation.Validator
+Stack trace:
+[Ljava.lang.StackTraceElement;@7a92922
+2017-02-02 16:48:21 ERROR [org.TestUtils] handleError:227 - 
+java.lang.ClassCastException, message: com.sun.org.apache.xerces.internal.jaxp.validation.ValidatorImpl cannot be cast to javax.validation.Validator
+Stack trace:
+[Ljava.lang.StackTraceElement;@7a92922
+2017-02-02 16:58:38 ERROR [org.TestUtils] handleError:227 - 
+java.lang.ClassCastException, message: com.sun.org.apache.xerces.internal.jaxp.validation.ValidatorImpl cannot be cast to javax.validation.Validator
+Stack trace:
+[Ljava.lang.StackTraceElement;@7a92922
+2017-02-02 19:39:28 ERROR [org.TestUtils] handleError:227 - 
+org.dom4j.DocumentException, message: ./src/main/java/org/extra07/car_sale.xml (No such file or directory) Nested exception: ./src/main/java/org/extra07/car_sale.xml (No such file or directory)
+Stack trace:
+[Ljava.lang.StackTraceElement;@c818063
