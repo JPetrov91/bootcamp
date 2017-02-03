@@ -8,9 +8,32 @@ import java.util.LinkedList;
 // StringBuilder to be able referring to it by its name only
 
 public class Generics<E extends Number> extends LinkedList<E> {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 2340531446262587030L;
 	// TODO #2
 	// Use Eclipse code generation prompter to add generated serial version ID
 	// for this class to avoid warning
+
+	public Generics() {
+		super();
+		StringBuilder log = new StringBuilder();
+		log.append("Generetics instance created");
+	}
+
+	@Override
+	public E pop() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void push(E arg0) {
+		// TODO Auto-generated method stub
+		super.push(arg0);
+	}
 
 	// TODO #3
 	// Select Source— Generate Constructors from Superclass... and select
@@ -18,6 +41,7 @@ public class Generics<E extends Number> extends LinkedList<E> {
 	// And implement extended constructor that after new Generics object is
 	// created, log has appended line "Generics instance created"
 	// HINT: use lazy initialization for log StringBuilder object
+	
 
 	// TODO #4
 	// Select menu: Source— Override/Implement methods..., extend LinkedList<E>

@@ -1,5 +1,8 @@
 package org.extra08;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class RegEx {
 
 	/**
@@ -17,6 +20,10 @@ public class RegEx {
 		String numbers = input.replaceAll("[^0-9]", "");
 
 		// TODO #2 count the sum of all digits, and check if the sum is lucky
+		String pattern = "(.*)(\\d+)(.*)";
+		Pattern p = Pattern.compile(pattern);
+		Matcher m = p.matcher(numbers);
+		System.out.println(m.group(0));
 		return false;
 
 	}

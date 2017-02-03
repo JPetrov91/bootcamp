@@ -841,3 +841,216 @@ Stack trace:
 org.dom4j.DocumentException, message: ./src/main/java/org/extra07/car_sale.xml (No such file or directory) Nested exception: ./src/main/java/org/extra07/car_sale.xml (No such file or directory)
 Stack trace:
 [Ljava.lang.StackTraceElement;@c818063
+2017-02-03 11:29:21 INFO  [org.extra07.XMLCarTest] test1Positive:75 - OK
+2017-02-03 11:30:04 INFO  [org.extra07.XMLCarTest] test1Positive:75 - OK
+2017-02-03 11:30:23 INFO  [org.extra07.XMLCarTest] test1Positive:75 - OK
+2017-02-03 15:44:20 INFO  [org.activity07.AnimalTest] testProperties:43 - OK
+2017-02-03 15:46:15 INFO  [org.activity07.AnimalTest] testProperties:43 - OK
+2017-02-03 15:46:15 INFO  [org.activity07.AnimalTest] testAge:58 - OK
+2017-02-03 15:48:34 INFO  [org.activity07.AnimalTest] testAge:58 - OK
+2017-02-03 15:48:34 INFO  [org.activity07.BirdTest] testCanFly:54 - OK
+2017-02-03 15:48:44 INFO  [org.activity07.AnimalTest] testAge:58 - OK
+2017-02-03 15:48:44 INFO  [org.activity07.MammalTest] testIsDomestic:54 - OK
+2017-02-03 15:49:13 INFO  [org.activity07.AnimalTest] testAge:58 - OK
+2017-02-03 15:49:13 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NoSuchMethodException, message: org.activity07.Hawk.getColor()
+Stack trace:
+[Ljava.lang.StackTraceElement;@33a10788
+2017-02-03 15:49:13 INFO  [org.activity07.BirdTest] testCanFly:54 - OK
+2017-02-03 15:54:45 INFO  [org.activity07.AnimalTest] testAge:58 - OK
+2017-02-03 15:54:45 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NoSuchMethodException, message: org.activity07.Hawk.getColor()
+Stack trace:
+[Ljava.lang.StackTraceElement;@25618e91
+2017-02-03 15:54:45 INFO  [org.activity07.BirdTest] testCanFly:54 - OK
+2017-02-03 15:55:18 INFO  [org.activity07.AnimalTest] testAge:58 - OK
+2017-02-03 15:55:18 INFO  [org.activity07.HawkTest] testColor:59 - OK
+2017-02-03 15:55:18 INFO  [org.activity07.BirdTest] testCanFly:54 - OK
+2017-02-03 15:56:50 INFO  [org.activity07.AnimalTest] testProperties:43 - OK
+2017-02-03 15:56:50 INFO  [org.activity07.AnimalTest] testAge:58 - OK
+2017-02-03 15:57:30 INFO  [org.activity07.AnimalTest] testAge:58 - OK
+2017-02-03 15:57:30 INFO  [org.activity07.MammalTest] testIsDomestic:54 - OK
+2017-02-03 15:58:37 INFO  [org.activity07.AnimalTest] testAge:58 - OK
+2017-02-03 15:58:37 INFO  [org.activity07.MammalTest] testIsDomestic:54 - OK
+2017-02-03 16:16:44 INFO  [org.activity07.AnimalTest] testAge:58 - OK
+2017-02-03 16:16:44 INFO  [org.activity07.MammalTest] testIsDomestic:54 - OK
+2017-02-03 16:17:13 INFO  [org.activity07.AnimalTest] testAge:58 - OK
+2017-02-03 16:17:13 INFO  [org.activity07.MammalTest] testIsDomestic:54 - OK
+2017-02-03 16:22:15 INFO  [org.activity07.AnimalTest] testAge:58 - OK
+2017-02-03 16:22:15 INFO  [org.activity07.MammalTest] testIsDomestic:54 - OK
+2017-02-03 16:23:02 INFO  [org.activity07.AnimalTest] testAge:58 - OK
+2017-02-03 16:23:02 INFO  [org.activity07.MammalTest] testIsDomestic:54 - OK
+2017-02-03 16:25:12 INFO  [org.activity07.AnimalTest] testAge:58 - OK
+2017-02-03 16:25:12 INFO  [org.activity07.MammalTest] testIsDomestic:54 - OK
+2017-02-03 16:27:58 INFO  [org.activity07.AnimalTest] testAge:58 - OK
+2017-02-03 16:27:58 INFO  [org.activity07.MammalTest] testIsDomestic:54 - OK
+2017-02-03 16:40:10 INFO  [org.activity07.AnimalTest] testAge:58 - OK
+2017-02-03 16:40:10 ERROR [org.TestUtils] handleError:227 - 
+java.lang.reflect.InvocationTargetException
+cause: java.lang.IllegalStateException, message: No match found
+Stack trace:
+[Ljava.lang.StackTraceElement;@25618e91
+2017-02-03 16:40:10 INFO  [org.activity07.MammalTest] testIsDomestic:54 - OK
+2017-02-03 16:44:03 INFO  [org.activity07.AnimalTest] testAge:58 - OK
+2017-02-03 16:44:03 ERROR [org.TestUtils] handleError:227 - 
+java.lang.reflect.InvocationTargetException
+cause: java.lang.StringIndexOutOfBoundsException, message: String index out of range: 1
+Stack trace:
+[Ljava.lang.StackTraceElement;@25618e91
+2017-02-03 16:44:03 INFO  [org.activity07.MammalTest] testIsDomestic:54 - OK
+2017-02-03 16:44:51 INFO  [org.activity07.AnimalTest] testAge:58 - OK
+2017-02-03 16:44:51 ERROR [org.TestUtils] handleError:227 - 
+java.lang.reflect.InvocationTargetException
+cause: java.lang.StringIndexOutOfBoundsException, message: String index out of range: 1
+Stack trace:
+[Ljava.lang.StackTraceElement;@25618e91
+2017-02-03 16:44:51 INFO  [org.activity07.MammalTest] testIsDomestic:54 - OK
+2017-02-03 16:45:35 INFO  [org.activity07.AnimalTest] testAge:58 - OK
+2017-02-03 16:45:35 INFO  [org.activity07.DogTest] testName:73 - OK
+2017-02-03 16:45:35 INFO  [org.activity07.MammalTest] testIsDomestic:54 - OK
+2017-02-03 16:47:07 INFO  [org.activity07.AnimalTest] testAge:58 - OK
+2017-02-03 16:47:07 INFO  [org.activity07.DogTest] testName:73 - OK
+2017-02-03 16:47:07 INFO  [org.activity07.MammalTest] testIsDomestic:54 - OK
+2017-02-03 16:47:17 INFO  [org.activity07.AnimalTest] testAge:58 - OK
+2017-02-03 16:47:17 INFO  [org.activity07.DogTest] testName:73 - OK
+2017-02-03 16:47:17 INFO  [org.activity07.MammalTest] testIsDomestic:54 - OK
+2017-02-03 16:47:24 INFO  [org.activity07.AnimalTest] testAge:58 - OK
+2017-02-03 16:47:24 INFO  [org.activity07.DogTest] testName:73 - OK
+2017-02-03 16:47:24 INFO  [org.activity07.MammalTest] testIsDomestic:54 - OK
+2017-02-03 16:47:40 INFO  [org.activity07.AnimalTest] testProperties:43 - OK
+2017-02-03 16:47:40 INFO  [org.activity07.AnimalTest] testAge:58 - OK
+2017-02-03 16:55:11 INFO  [org.activity07.AnimalTest] testProperties:43 - OK
+2017-02-03 16:55:11 INFO  [org.activity07.AnimalTest] testAge:58 - OK
+2017-02-03 16:56:56 INFO  [org.activity07.AnimalTest] testProperties:43 - OK
+2017-02-03 16:56:56 INFO  [org.activity07.AnimalTest] testAge:58 - OK
+2017-02-03 16:56:57 INFO  [org.activity07.AnimalTest] testDiagram:81 - OK
+2017-02-03 16:57:20 INFO  [org.activity07.AnimalTest] testProperties:43 - OK
+2017-02-03 16:57:20 INFO  [org.activity07.AnimalTest] testAge:58 - OK
+2017-02-03 16:57:21 INFO  [org.activity07.AnimalTest] testDiagram:81 - OK
+2017-02-03 16:57:36 INFO  [org.activity07.AnimalTest] testAge:58 - OK
+2017-02-03 16:57:36 INFO  [org.activity07.BirdTest] testCanFly:54 - OK
+2017-02-03 16:57:41 INFO  [org.activity07.AnimalTest] testAge:58 - OK
+2017-02-03 16:57:41 INFO  [org.activity07.DogTest] testName:73 - OK
+2017-02-03 16:57:41 INFO  [org.activity07.MammalTest] testIsDomestic:54 - OK
+2017-02-03 16:57:47 INFO  [org.activity07.AnimalTest] testAge:58 - OK
+2017-02-03 16:57:47 INFO  [org.activity07.HawkTest] testColor:59 - OK
+2017-02-03 16:57:47 INFO  [org.activity07.BirdTest] testCanFly:54 - OK
+2017-02-03 16:57:53 INFO  [org.activity07.AnimalTest] testAge:58 - OK
+2017-02-03 16:57:53 INFO  [org.activity07.MammalTest] testIsDomestic:54 - OK
+2017-02-03 20:07:54 INFO  [org.extra08.HolidayTest] testGetNearest:31 - OK
+2017-02-03 20:08:26 INFO  [org.extra08.HolidayTest] testGetNearest:31 - OK
+2017-02-03 20:09:04 INFO  [org.extra08.HolidayTest] testGetNearest:31 - OK
+2017-02-03 20:42:09 INFO  [org.activity06.MartianTest] test1Weight:43 - OK
+2017-02-03 20:42:09 INFO  [org.activity06.MartianTest] test2EatHuman:60 - OK
+2017-02-03 20:42:09 INFO  [org.activity06.MartianTest] test3KillHimself:70 - OK
+2017-02-03 20:42:09 INFO  [org.activity06.MartianTest] test4Arms:80 - OK
+2017-02-03 20:42:09 INFO  [org.activity06.MartianTest] test5Legs:90 - OK
+2017-02-03 20:42:09 INFO  [org.activity06.MartianTest] test6IsAlive:100 - OK
+2017-02-03 20:42:09 INFO  [org.activity06.MartianTest] test7Backpack:133 - OK
+2017-02-03 20:46:52 ERROR [org.TestUtils] handleError:227 - 
+java.lang.IllegalStateException, message: No match found
+Stack trace:
+[Ljava.lang.StackTraceElement;@1c53fd30
+2017-02-03 21:28:42 INFO  [org.activity08.SimpleCalcAssertionsTest] testAdd:40 - OK
+2017-02-03 21:29:18 INFO  [org.activity08.SimpleCalcAssertionsTest] testAdd:40 - OK
+2017-02-03 21:29:18 INFO  [org.activity08.SimpleCalcAssertionsTest] testSubtract:57 - OK
+2017-02-03 21:29:18 INFO  [org.activity08.SimpleCalcAssertionsTest] testDivide:93 - OK
+2017-02-03 21:29:18 INFO  [org.activity08.SimpleCalcAssertionsTest] testMultiply:75 - OK
+2017-02-03 21:39:08 INFO  [org.activity08.SimpleCalcAssertionsTest] testAdd:40 - OK
+2017-02-03 21:39:08 INFO  [org.activity08.SimpleCalcAssertionsTest] testSubtract:57 - OK
+2017-02-03 21:39:08 INFO  [org.activity08.SimpleCalcAssertionsTest] testDivide:93 - OK
+2017-02-03 21:39:08 INFO  [org.activity08.SimpleCalcAssertionsTest] testMultiply:75 - OK
+2017-02-03 21:41:33 INFO  [org.activity08.SimpleCalcAssertionsTest] testAdd:40 - OK
+2017-02-03 21:41:33 INFO  [org.activity08.SimpleCalcAssertionsTest] testSubtract:57 - OK
+2017-02-03 21:41:33 INFO  [org.activity08.SimpleCalcAssertionsTest] testDivide:93 - OK
+2017-02-03 21:41:33 INFO  [org.activity08.SimpleCalcAssertionsTest] testMultiply:75 - OK
+2017-02-03 21:47:19 INFO  [org.activity08.SimpleCalcAssertionsTest] testAdd:40 - OK
+2017-02-03 21:47:19 INFO  [org.activity08.SimpleCalcAssertionsTest] testSubtract:57 - OK
+2017-02-03 21:47:19 INFO  [org.activity08.SimpleCalcAssertionsTest] testDivide:93 - OK
+2017-02-03 21:47:19 INFO  [org.activity08.SimpleCalcAssertionsTest] testMultiply:75 - OK
+2017-02-03 21:52:02 INFO  [org.activity08.SimpleCalcAssertionsTest] testAdd:40 - OK
+2017-02-03 21:52:02 INFO  [org.activity08.SimpleCalcAssertionsTest] testSubtract:57 - OK
+2017-02-03 21:52:02 INFO  [org.activity08.SimpleCalcAssertionsTest] testDivide:93 - OK
+2017-02-03 21:52:02 INFO  [org.activity08.SimpleCalcAssertionsTest] testMultiply:75 - OK
+2017-02-03 21:53:48 INFO  [org.activity08.SimpleCalcAssertionsTest] testAdd:40 - OK
+2017-02-03 21:53:48 INFO  [org.activity08.SimpleCalcAssertionsTest] testSubtract:57 - OK
+2017-02-03 21:53:48 INFO  [org.activity08.SimpleCalcAssertionsTest] testDivide:93 - OK
+2017-02-03 21:53:48 INFO  [org.activity08.SimpleCalcAssertionsTest] testMultiply:75 - OK
+2017-02-03 21:53:56 INFO  [org.activity08.SimpleCalcAssertionsTest] testAdd:40 - OK
+2017-02-03 21:53:56 INFO  [org.activity08.SimpleCalcAssertionsTest] testSubtract:57 - OK
+2017-02-03 21:53:56 INFO  [org.activity08.SimpleCalcAssertionsTest] testDivide:93 - OK
+2017-02-03 21:53:56 INFO  [org.activity08.SimpleCalcAssertionsTest] testMultiply:75 - OK
+2017-02-03 21:54:42 INFO  [org.activity08.SimpleCalcAssertionsTest] testAdd:40 - OK
+2017-02-03 21:54:42 INFO  [org.activity08.SimpleCalcAssertionsTest] testSubtract:57 - OK
+2017-02-03 21:54:42 INFO  [org.activity08.SimpleCalcAssertionsTest] testDivide:93 - OK
+2017-02-03 21:54:42 INFO  [org.activity08.SimpleCalcAssertionsTest] testMultiply:75 - OK
+2017-02-03 21:56:16 INFO  [org.activity08.SimpleCalcAssertionsTest] testAdd:40 - OK
+2017-02-03 21:56:16 INFO  [org.activity08.SimpleCalcAssertionsTest] testSubtract:57 - OK
+2017-02-03 21:56:16 INFO  [org.activity08.SimpleCalcAssertionsTest] testDivide:93 - OK
+2017-02-03 21:56:16 INFO  [org.activity08.SimpleCalcAssertionsTest] testMultiply:75 - OK
+2017-02-03 21:57:44 INFO  [org.activity08.SimpleCalcAssertionsTest] testAdd:40 - OK
+2017-02-03 21:57:44 INFO  [org.activity08.SimpleCalcAssertionsTest] testSubtract:57 - OK
+2017-02-03 21:57:44 INFO  [org.activity08.SimpleCalcAssertionsTest] testDivide:93 - OK
+2017-02-03 21:57:44 INFO  [org.activity08.SimpleCalcAssertionsTest] testMultiply:75 - OK
+2017-02-03 21:58:05 INFO  [org.activity08.SimpleCalcAssertionsTest] testAdd:40 - OK
+2017-02-03 21:58:05 INFO  [org.activity08.SimpleCalcAssertionsTest] testSubtract:57 - OK
+2017-02-03 21:58:05 INFO  [org.activity08.SimpleCalcAssertionsTest] testDivide:93 - OK
+2017-02-03 21:58:05 INFO  [org.activity08.SimpleCalcAssertionsTest] testMultiply:75 - OK
+2017-02-03 21:59:43 INFO  [org.activity08.SimpleCalcAssertionsTest] testAdd:40 - OK
+2017-02-03 21:59:43 INFO  [org.activity08.SimpleCalcAssertionsTest] testSubtract:57 - OK
+2017-02-03 21:59:43 INFO  [org.activity08.SimpleCalcAssertionsTest] testDivide:93 - OK
+2017-02-03 21:59:43 INFO  [org.activity08.SimpleCalcAssertionsTest] testMultiply:75 - OK
+2017-02-03 21:59:43 INFO  [org.activity08.SimpleCalcExceptionsTest] testAdd:55 - OK
+2017-02-03 22:06:12 INFO  [org.activity08.SimpleCalcAssertionsTest] testAdd:40 - OK
+2017-02-03 22:06:12 INFO  [org.activity08.SimpleCalcAssertionsTest] testSubtract:57 - OK
+2017-02-03 22:06:12 INFO  [org.activity08.SimpleCalcAssertionsTest] testDivide:93 - OK
+2017-02-03 22:06:12 INFO  [org.activity08.SimpleCalcAssertionsTest] testMultiply:75 - OK
+2017-02-03 22:06:12 INFO  [org.activity08.SimpleCalcExceptionsTest] testAdd:55 - OK
+2017-02-03 22:06:54 INFO  [org.activity08.SimpleCalcAssertionsTest] testAdd:40 - OK
+2017-02-03 22:06:54 INFO  [org.activity08.SimpleCalcAssertionsTest] testSubtract:57 - OK
+2017-02-03 22:06:54 INFO  [org.activity08.SimpleCalcAssertionsTest] testDivide:93 - OK
+2017-02-03 22:06:54 INFO  [org.activity08.SimpleCalcAssertionsTest] testMultiply:75 - OK
+2017-02-03 22:06:54 INFO  [org.activity08.SimpleCalcExceptionsTest] testAdd:55 - OK
+2017-02-03 22:08:37 INFO  [org.activity08.SimpleCalcAssertionsTest] testAdd:40 - OK
+2017-02-03 22:08:37 INFO  [org.activity08.SimpleCalcAssertionsTest] testSubtract:57 - OK
+2017-02-03 22:08:37 INFO  [org.activity08.SimpleCalcAssertionsTest] testDivide:93 - OK
+2017-02-03 22:08:37 INFO  [org.activity08.SimpleCalcAssertionsTest] testMultiply:75 - OK
+2017-02-03 22:08:37 INFO  [org.activity08.SimpleCalcExceptionsTest] testAdd:55 - OK
+2017-02-03 22:09:12 INFO  [org.activity08.SimpleCalcAssertionsTest] testAdd:40 - OK
+2017-02-03 22:09:12 INFO  [org.activity08.SimpleCalcAssertionsTest] testSubtract:57 - OK
+2017-02-03 22:09:12 INFO  [org.activity08.SimpleCalcAssertionsTest] testDivide:93 - OK
+2017-02-03 22:09:12 INFO  [org.activity08.SimpleCalcAssertionsTest] testMultiply:75 - OK
+2017-02-03 22:09:12 INFO  [org.activity08.SimpleCalcExceptionsTest] testAdd:55 - OK
+2017-02-03 22:10:04 INFO  [org.activity08.SimpleCalcAssertionsTest] testAdd:40 - OK
+2017-02-03 22:10:04 INFO  [org.activity08.SimpleCalcAssertionsTest] testSubtract:57 - OK
+2017-02-03 22:10:04 INFO  [org.activity08.SimpleCalcAssertionsTest] testDivide:93 - OK
+2017-02-03 22:10:04 INFO  [org.activity08.SimpleCalcAssertionsTest] testMultiply:75 - OK
+2017-02-03 22:10:04 INFO  [org.activity08.SimpleCalcExceptionsTest] testAdd:55 - OK
+2017-02-03 22:12:41 INFO  [org.activity08.SimpleCalcAssertionsTest] testAdd:40 - OK
+2017-02-03 22:12:42 INFO  [org.activity08.SimpleCalcAssertionsTest] testSubtract:57 - OK
+2017-02-03 22:12:42 INFO  [org.activity08.SimpleCalcAssertionsTest] testDivide:93 - OK
+2017-02-03 22:12:42 INFO  [org.activity08.SimpleCalcAssertionsTest] testMultiply:75 - OK
+2017-02-03 22:14:55 INFO  [org.activity08.SimpleCalcAssertionsTest] testAdd:40 - OK
+2017-02-03 22:14:55 INFO  [org.activity08.SimpleCalcAssertionsTest] testSubtract:57 - OK
+2017-02-03 22:14:55 INFO  [org.activity08.SimpleCalcAssertionsTest] testDivide:93 - OK
+2017-02-03 22:14:55 INFO  [org.activity08.SimpleCalcAssertionsTest] testMultiply:75 - OK
+2017-02-03 22:16:43 INFO  [org.activity08.SimpleCalcAssertionsTest] testAdd:40 - OK
+2017-02-03 22:16:43 INFO  [org.activity08.SimpleCalcAssertionsTest] testSubtract:57 - OK
+2017-02-03 22:16:43 INFO  [org.activity08.SimpleCalcAssertionsTest] testDivide:93 - OK
+2017-02-03 22:16:43 INFO  [org.activity08.SimpleCalcAssertionsTest] testMultiply:75 - OK
+2017-02-03 22:16:43 INFO  [org.activity08.SimpleCalcExceptionsTest] testAdd:55 - OK
+2017-02-03 22:16:43 INFO  [org.activity08.SimpleCalcExceptionsTest] testMultiply:86 - OK
+2017-02-03 22:18:03 INFO  [org.activity08.SimpleCalcAssertionsTest] testAdd:40 - OK
+2017-02-03 22:18:03 INFO  [org.activity08.SimpleCalcAssertionsTest] testSubtract:57 - OK
+2017-02-03 22:18:03 INFO  [org.activity08.SimpleCalcAssertionsTest] testDivide:93 - OK
+2017-02-03 22:18:03 INFO  [org.activity08.SimpleCalcAssertionsTest] testMultiply:75 - OK
+2017-02-03 22:18:03 INFO  [org.activity08.SimpleCalcExceptionsTest] testAdd:55 - OK
+2017-02-03 22:18:03 INFO  [org.activity08.SimpleCalcExceptionsTest] testSubtract:70 - OK
+2017-02-03 22:18:03 INFO  [org.activity08.SimpleCalcExceptionsTest] testMultiply:86 - OK
+2017-02-03 22:21:46 INFO  [org.activity08.SimpleCalcAssertionsTest] testAdd:40 - OK
+2017-02-03 22:21:46 INFO  [org.activity08.SimpleCalcAssertionsTest] testSubtract:57 - OK
+2017-02-03 22:21:46 INFO  [org.activity08.SimpleCalcAssertionsTest] testDivide:93 - OK
+2017-02-03 22:21:46 INFO  [org.activity08.SimpleCalcAssertionsTest] testMultiply:75 - OK
+2017-02-03 22:21:46 INFO  [org.activity08.SimpleCalcExceptionsTest] testAdd:55 - OK
+2017-02-03 22:21:46 INFO  [org.activity08.SimpleCalcExceptionsTest] testSubtract:70 - OK
+2017-02-03 22:21:46 INFO  [org.activity08.SimpleCalcExceptionsTest] testMultiply:86 - OK

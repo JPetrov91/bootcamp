@@ -70,38 +70,37 @@ public class XMLCar {
 		// that matches car.xsd requirements.
 		// HINT look at:
 		// https://docs.oracle.com/javase/7/docs/api/javax/xml/parsers/DocumentBuilderFactory.html
-//		try {
-//		DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
-//		DocumentBuilder docBuilder = docFactory.newDocumentBuilder();
-//
-//		// root elements
-//		Document doc = docBuilder.newDocument();
-//		Element rootElement = doc.createElement("car");
-//		doc.appendChild(rootElement);
-//
-//		createContent(rootElement, doc, "model", this.model);
-//		createContent(rootElement, doc, "color", this.color);
-//		createContent(rootElement, doc, "year", String.valueOf(this.year));
-//		createContent(rootElement, doc, "price", String.valueOf(this.price));
-//
-//
-//		// write the content into xml file
-//		TransformerFactory transformerFactory = TransformerFactory.newInstance();
-//		javax.xml.transform.Transformer transformer = transformerFactory.newTransformer();
-//		DOMSource source = new DOMSource(doc);
-//		StreamResult result = new StreamResult(new File(RELATIVE_PATH_TO_GENERATED_XML));
-//
-//		// Output to console for testing
-//		// StreamResult result = new StreamResult(System.out);
-//
-//		transformer.transform(source, result);
-//
-//		System.out.println("File saved!");
-//		return true;
-//		} catch(Exception e) {
-//			System.out.println(e);
-//			return false;
-//		}
+		try {
+		DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
+		DocumentBuilder docBuilder = docFactory.newDocumentBuilder();
+
+		// root elements
+		Document doc = docBuilder.newDocument();
+		Element rootElement = doc.createElement("car");
+		doc.appendChild(rootElement);
+
+		createContent(rootElement, doc, "model", this.model);
+		createContent(rootElement, doc, "color", this.color);
+		createContent(rootElement, doc, "year", Integer.toString(this.year));
+		createContent(rootElement, doc, "price", Integer.toString(this.price));
+
+
+		// write the content into xml file
+		TransformerFactory transformerFactory = TransformerFactory.newInstance();
+		javax.xml.transform.Transformer transformer = transformerFactory.newTransformer();
+		DOMSource source = new DOMSource(doc);
+		StreamResult result = new StreamResult(new File(RELATIVE_PATH_TO_GENERATED_XML));
+
+		// Output to console for testing
+		// StreamResult result = new StreamResult(System.out);
+
+		transformer.transform(source, result);
+
+		System.out.println("File saved!");
+		return true;
+		} catch(Exception e) {
+			throw new Exception(e);
+		}
 //
 //	}
 		
@@ -129,25 +128,25 @@ public class XMLCar {
 //		// StreamResult result = new StreamResult(System.out);
 //
 //		transformer.transform(source, result);
-		try {
-	         org.dom4j.Document document = DocumentHelper.createDocument();
-	         org.dom4j.Element rootElement = document.addElement( "car" );
-	         rootElement.addElement("model").addText(this.model);
-	         rootElement.addElement("color").addText(this.model);
-	         rootElement.addElement("year").addText(String.valueOf(this.year));
-	         rootElement.addElement("price").addText(String.valueOf(this.price));
-		
-		
-		FileOutputStream fos = new FileOutputStream(RELATIVE_PATH_TO_GENERATED_XML);
-		OutputFormat format = OutputFormat.createPrettyPrint();
-		XMLWriter writer = new XMLWriter(fos, format);
-		writer.write(document);
-		writer.flush();
-		return true;
-		} catch(Exception e) {
-			e.printStackTrace();
-			return false;
-		}
+//		try {
+//	         org.dom4j.Document document = DocumentHelper.createDocument();
+//	         org.dom4j.Element rootElement = document.addElement( "car" );
+//	         rootElement.addElement("model").addText(this.model);
+//	         rootElement.addElement("color").addText(this.model);
+//	         rootElement.addElement("year").addText(String.valueOf(this.year));
+//	         rootElement.addElement("price").addText(String.valueOf(this.price));
+//		
+//		
+//		FileOutputStream fos = new FileOutputStream(RELATIVE_PATH_TO_GENERATED_XML);
+//		OutputFormat format = OutputFormat.createPrettyPrint();
+//		XMLWriter writer = new XMLWriter(fos, format);
+//		writer.write(document);
+//		writer.flush();
+//		return true;
+//		} catch(Exception e) {
+//			e.printStackTrace();
+//			return false;
+//		}
 	}
 	
 	public void createContent(Element rootElement, Document doc, String name, String type) {
@@ -178,11 +177,11 @@ public class XMLCar {
 		Validator validator = schema.newValidator();
 		try {
 			validator.validate(new StreamSource(new File(xmlPath)));
-			System.out.println("XML is valid");
+			//System.out.println("XML is valid");
 			return true;
 		} catch(Exception e) {
-			System.out.println(e);
-			return false;
+			//System.out.println(e);
+			throw new Exception(e);
 		}
 	}
 }
