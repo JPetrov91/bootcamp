@@ -25,9 +25,48 @@ package org.activity09;
  * 
  */
 
-public class Order {
+public class Order implements Comparable<Order> {
 	String customer; // Name of the customer
 	String name; // Name of the requested item
 	int count; // Count of the requested items
+	
+	public Order(String orderer, String itemName, Integer count) {
+		this.customer = orderer;
+		this.name = itemName;
+		this.count = count;
+	}
+
+	@Override
+	public int compareTo(Order otherOrder) {
+		// TODO Auto-generated method stub
+		if(this.equals(otherOrder)) return 0;
+		if(!this.name.equals(otherOrder.name)) {
+			if(this.name.compareTo(otherOrder.name) > 0) return 1;
+			else if(this.name.compareTo(otherOrder.name) < 0) return -1;
+		}
+		if(!this.customer.equals(otherOrder.customer)) {
+			if(this.customer.compareTo(otherOrder.customer) > 0) return 1;
+			else if(this.customer.compareTo(otherOrder.customer) < 0) return -1;
+		}
+		if(this.count != otherOrder.count) {
+			if(this.count > otherOrder.count) return 1;
+			else if(this.count < otherOrder.count) return -1;
+			else return 0;
+		}
+		return 0;
+	}
+	
+	public boolean equals(Object o) {
+		if(this.hashCode() == o.hashCode()) return true;
+		else return false;
+	}
+	
+	public int hashCode() {
+		return customer.hashCode() + name.hashCode() + new Integer(count).hashCode();
+	}
+	
+	public String toString() {
+		return "ItemName: " + name + " OrdererName: " + customer + " " + count;
+	}
 
 }

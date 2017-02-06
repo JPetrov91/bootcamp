@@ -1,5 +1,11 @@
 package org.activity09;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.NoSuchElementException;
+import java.util.Set;
 
 /*- TODO #2
  * Implement Iterator interface with OrderList class
@@ -29,7 +35,63 @@ package org.activity09;
  *  - ItemN: Customer1,Customer2: 4
  */
 
-public class OrderList {
+public class OrderList implements Iterator<Order> {
+	private List<Order> list;
+	private int cursor = 0;
+	boolean canRemove = false;
+	
+	OrderList() {
+		list = new ArrayList<Order>();
+	}
+	
+	public OrderList iterator() {
+		return new OrderList();
+	}
+	
+	public void add(Order item) {
+		list.add(item);
+	}
+	
+	List<Order> getItemsList() {
+		return list;
+	}
+	
+	Set<Order> getItemsSet() {
+		Set set = new HashSet<>();
+		for(Order item : list) {
+			set.add(item);
+		}
+		return set;
+	}
+
+	@Override
+	public boolean hasNext() {
+		// TODO Auto-generated method stub
+		return cursor != list.size();
+	}
+
+	@Override
+	public Order next() {
+		// TODO Auto-generated method stub
+		if(this.hasNext()) {
+			Order returningOrder = list.get(cursor);
+			cursor++;
+			return returningOrder;
+		} else throw new IllegalStateException();
+	}
+	
+	public void remove() {
+		if(this.hasNext()) list.remove(cursor);
+		else throw new IllegalStateException();
+	}
+	
+	public List<Order> sort() {
+		list.sort();
+	}
+	
+	public String toString() {
+		return list.toString();
+	}
 	/*-
 	 * TODO #1
 	 * Create data structure to hold:

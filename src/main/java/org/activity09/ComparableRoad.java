@@ -5,8 +5,14 @@ import org.activity04.Road;
 //TODO Extend activity05.Road as ComparableRoad class, and
 //implement Comparable<Road> interface
 
-public class ComparableRoad
+public class ComparableRoad extends Road implements Comparable<Road>
 	{
+
+	@Override
+	public int compareTo(Road o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 
 	// TODO reuse constructor of Road for constructor of
 	// ComparableRoad()
@@ -22,6 +28,8 @@ public class ComparableRoad
 	// route)
 	// HINT use "obj.getClass()", to check, that passed object has proper
 	// type
+	
+	
 
 	// TODO Implement compareTo(Road) method
 	// Sort Road by their from, to and and distance
