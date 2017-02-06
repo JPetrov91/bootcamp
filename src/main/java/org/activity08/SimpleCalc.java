@@ -155,7 +155,7 @@ public class SimpleCalc {
 				throw new SimpleCalcException(getExceptionMessage(a, b,a/b, "/", "below -10"));
 			}
 			} catch(ArithmeticException e) {
-				throw new SimpleCalcException("Can not be divided by 0", e);
+				throw new SimpleCalcException("division by zero", e);
 			}
 			break;
 		}
