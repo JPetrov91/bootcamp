@@ -1,6 +1,9 @@
 package org.activity12;
 
+import java.io.BufferedReader;
+import java.io.DataOutputStream;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -27,8 +30,9 @@ public class ChatServer implements Runnable {
 	 * use behavior which is implemented for Runnable interface.
 	 * 
 	 * @param args
+	 * @throws IOException 
 	 */
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		// TODO 1. initialize vector of connections
 		// TODO 2. try to create ServerSocket on specified port
 			// TODO 3. handle exceptions (show exception and exit with error
@@ -42,6 +46,12 @@ public class ChatServer implements Runnable {
 			// TODO 3. if socket is initialized successfully, create new Thread
 			// passing new ChatServer(socket) as a parameter for it.
 			// Then invoke start() method for this thread
+			ServerSocket serverSocket = new ServerSocket(port);
+			socket = serverSocket.accept();
+			BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+			DataOutputStream out = new DataOutputStream(socket.getOutputStream());
+			Thread thread = new Thread(new ChatServer(socket));
+			thread.start();
 		}
 	}
 
@@ -66,20 +76,31 @@ public class ChatServer implements Runnable {
 			// and
 			// remove current object reference from connections collection
 			// and handle exceptions for these operations, if necessary
+
 	}
 
 	/**
 	 * This constructor is used to pass client Socket reference for new thread
 	 * 
 	 * @param client
+	 * @throws IOException 
 	 */
-	ChatServer(Socket client) {
+	ChatServer(Socket client){
 		// TODO 1. save passed client socket reference into current object
 		// TODO 2. Add newly created ChatServer into connections collection
 		// TODO 3. Try to add input and output streams to the client socket
 		// HINT: to see output for each entered message, construct PrintWriter
 		// with auto flush option (or use flush() method)
 			// TODO handle exceptions
+		this.client = client;
+		connections.add(this);
+		try {
+			in = new Scanner(client.getInputStream());
+			out = new PrintWriter(client.getOutputStream());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	/**
@@ -91,5 +112,6 @@ public class ChatServer implements Runnable {
 		// TODO print passed message into output stream (out) with writer of
 		// current
 		// object
+		out.print(msg);
 	}
 }

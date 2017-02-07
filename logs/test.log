@@ -1158,3 +1158,336 @@ Stack trace:
 2017-02-06 17:20:35 INFO  [org.activity09.OrderListTest] test02Add:63 - OK
 2017-02-06 17:20:35 INFO  [org.activity09.OrderListTest] test03Iterations:75 - OK
 2017-02-06 17:20:35 INFO  [org.activity09.OrderListTest] test05GetItemsSet:93 - OK
+2017-02-07 12:19:22 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:85 - fillStupidly() processing time: 37 ms
+2017-02-07 12:19:22 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:132 - Stupid processing: 10cells/12ms = 0.83cells/s
+2017-02-07 12:19:22 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:146 - Sequential processing: 10000cells/0ms = Infinitycells/s
+2017-02-07 12:19:22 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:162 - Parallel processing: 100000cells/0ms = Infinitycells/s
+2017-02-07 12:26:19 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:85 - fillStupidly() processing time: 42 ms
+2017-02-07 12:26:19 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:132 - Stupid processing: 10cells/14ms = 0.71cells/s
+2017-02-07 12:26:19 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:146 - Sequential processing: 10000cells/0ms = Infinitycells/s
+2017-02-07 12:26:19 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:162 - Parallel processing: 100000cells/0ms = Infinitycells/s
+2017-02-07 13:03:05 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 13:03:05 INFO  [org.activity11.ArrayFillerManagerTest] test1FillValuesStupidly:42 - OK
+2017-02-07 13:03:05 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:85 - fillStupidly() processing time: 23 ms
+2017-02-07 13:03:05 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:132 - Stupid processing: 10cells/13ms = 0.77cells/s
+2017-02-07 13:03:05 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:146 - Sequential processing: 10000cells/0ms = Infinitycells/s
+2017-02-07 13:03:05 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:162 - Parallel processing: 100000cells/0ms = Infinitycells/s
+2017-02-07 13:40:31 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 13:40:31 INFO  [org.activity11.ArrayFillerManagerTest] test1FillValuesStupidly:42 - OK
+2017-02-07 13:40:31 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:85 - fillStupidly() processing time: 12 ms
+2017-02-07 13:40:31 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:132 - Stupid processing: 10cells/12ms = 0.83cells/s
+2017-02-07 13:40:31 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:146 - Sequential processing: 10000cells/0ms = Infinitycells/s
+2017-02-07 13:40:31 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:162 - Parallel processing: 100000cells/0ms = Infinitycells/s
+2017-02-07 13:41:06 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 13:41:06 INFO  [org.activity11.ArrayFillerManagerTest] test1FillValuesStupidly:42 - OK
+2017-02-07 13:41:06 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:85 - fillStupidly() processing time: 43 ms
+2017-02-07 13:41:06 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:132 - Stupid processing: 10cells/13ms = 0.77cells/s
+2017-02-07 13:41:06 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:146 - Sequential processing: 10000cells/0ms = Infinitycells/s
+2017-02-07 13:41:06 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:162 - Parallel processing: 100000cells/0ms = Infinitycells/s
+2017-02-07 13:43:27 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 13:43:27 INFO  [org.activity11.ArrayFillerManagerTest] test1FillValuesStupidly:42 - OK
+2017-02-07 13:43:27 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 13:43:27 INFO  [org.activity11.ArrayFillerManagerTest] test2FillValuesSequentially:54 - OK
+2017-02-07 13:43:27 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:85 - fillStupidly() processing time: 33 ms
+2017-02-07 13:43:27 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:132 - Stupid processing: 10cells/12ms = 0.83cells/s
+2017-02-07 13:43:27 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:146 - Sequential processing: 10000cells/3ms = 3333.33cells/s
+2017-02-07 13:43:27 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:162 - Parallel processing: 100000cells/0ms = Infinitycells/s
+2017-02-07 13:43:52 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 13:43:52 INFO  [org.activity11.ArrayFillerManagerTest] test1FillValuesStupidly:42 - OK
+2017-02-07 13:43:52 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 13:43:52 INFO  [org.activity11.ArrayFillerManagerTest] test2FillValuesSequentially:54 - OK
+2017-02-07 13:43:52 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:85 - fillStupidly() processing time: 43 ms
+2017-02-07 13:43:52 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:132 - Stupid processing: 10cells/13ms = 0.77cells/s
+2017-02-07 13:43:52 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:146 - Sequential processing: 10000cells/3ms = 3333.33cells/s
+2017-02-07 13:43:52 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:162 - Parallel processing: 100000cells/0ms = Infinitycells/s
+2017-02-07 13:52:49 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 13:52:49 INFO  [org.activity11.ArrayFillerManagerTest] test1FillValuesStupidly:42 - OK
+2017-02-07 13:52:49 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 13:52:49 INFO  [org.activity11.ArrayFillerManagerTest] test2FillValuesSequentially:54 - OK
+2017-02-07 13:52:49 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 13:52:49 INFO  [org.activity11.ArrayFillerManagerTest] test3FillValuesParallelly:66 - OK
+2017-02-07 13:52:49 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:85 - fillStupidly() processing time: 13 ms
+2017-02-07 13:52:49 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:115 - OK
+2017-02-07 13:52:50 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:132 - Stupid processing: 10cells/13ms = 0.77cells/s
+2017-02-07 13:52:50 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:146 - Sequential processing: 10000cells/3ms = 3333.33cells/s
+2017-02-07 13:52:50 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:162 - Parallel processing: 100000cells/784ms = 127.55cells/s
+2017-02-07 14:06:30 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 14:06:30 INFO  [org.activity11.ArrayFillerManagerTest] test1FillValuesStupidly:42 - OK
+2017-02-07 14:06:30 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 14:06:30 INFO  [org.activity11.ArrayFillerManagerTest] test2FillValuesSequentially:54 - OK
+2017-02-07 14:06:30 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 14:06:30 INFO  [org.activity11.ArrayFillerManagerTest] test3FillValuesParallelly:66 - OK
+2017-02-07 14:06:31 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:85 - fillStupidly() processing time: 33 ms
+2017-02-07 14:06:31 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:115 - OK
+2017-02-07 14:06:31 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:132 - Stupid processing: 10cells/12ms = 0.83cells/s
+2017-02-07 14:06:31 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:146 - Sequential processing: 10000cells/3ms = 3333.33cells/s
+2017-02-07 14:06:35 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:162 - Parallel processing: 100000cells/4868ms = 20.54cells/s
+2017-02-07 14:08:29 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 14:08:29 INFO  [org.activity11.ArrayFillerManagerTest] test1FillValuesStupidly:42 - OK
+2017-02-07 14:08:29 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 14:08:29 INFO  [org.activity11.ArrayFillerManagerTest] test2FillValuesSequentially:54 - OK
+2017-02-07 14:08:29 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 14:08:29 INFO  [org.activity11.ArrayFillerManagerTest] test3FillValuesParallelly:66 - OK
+2017-02-07 14:08:29 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:85 - fillStupidly() processing time: 63 ms
+2017-02-07 14:08:29 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:115 - OK
+2017-02-07 14:08:29 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:132 - Stupid processing: 10cells/12ms = 0.83cells/s
+2017-02-07 14:08:29 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:146 - Sequential processing: 10000cells/2ms = 5000.00cells/s
+2017-02-07 14:08:30 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:162 - Parallel processing: 100000cells/747ms = 133.87cells/s
+2017-02-07 14:08:40 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 14:08:40 INFO  [org.activity11.ArrayFillerManagerTest] test1FillValuesStupidly:42 - OK
+2017-02-07 14:08:40 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 14:08:40 INFO  [org.activity11.ArrayFillerManagerTest] test2FillValuesSequentially:54 - OK
+2017-02-07 14:08:40 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 14:08:40 INFO  [org.activity11.ArrayFillerManagerTest] test3FillValuesParallelly:66 - OK
+2017-02-07 14:08:40 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:85 - fillStupidly() processing time: 12 ms
+2017-02-07 14:08:40 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:115 - OK
+2017-02-07 14:08:40 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:132 - Stupid processing: 10cells/12ms = 0.83cells/s
+2017-02-07 14:08:40 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:146 - Sequential processing: 10000cells/3ms = 3333.33cells/s
+2017-02-07 14:08:41 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:162 - Parallel processing: 100000cells/744ms = 134.41cells/s
+2017-02-07 14:16:21 INFO  [org.extra04.StudentTest] testStudentIntStringStringInt:49 - OK
+2017-02-07 14:37:40 INFO  [org.extra04.StringTokenizerExerciseTest] testSplitString:60 - OK
+2017-02-07 14:55:11 INFO  [org.extra04.StringTokenizerExerciseTest] testSplitString:60 - OK
+2017-02-07 14:55:53 INFO  [org.extra04.StringTokenizerExerciseTest] testTokenizeString:88 - OK
+2017-02-07 14:55:53 INFO  [org.extra04.StringTokenizerExerciseTest] testSplitString:60 - OK
+2017-02-07 15:21:26 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:21:26 INFO  [org.activity11.ArrayFillerManagerTest] test1FillValuesStupidly:42 - OK
+2017-02-07 15:21:26 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:21:26 INFO  [org.activity11.ArrayFillerManagerTest] test2FillValuesSequentially:54 - OK
+2017-02-07 15:21:26 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:21:26 INFO  [org.activity11.ArrayFillerManagerTest] test3FillValuesParallelly:66 - OK
+2017-02-07 15:21:26 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:85 - fillStupidly() processing time: 53 ms
+2017-02-07 15:21:26 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:115 - OK
+2017-02-07 15:21:26 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:132 - Stupid processing: 10cells/13ms = 0.77cells/s
+2017-02-07 15:21:26 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:146 - Sequential processing: 10000cells/2ms = 5000.00cells/s
+2017-02-07 15:21:27 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:162 - Parallel processing: 100000cells/863ms = 115.87cells/s
+2017-02-07 15:26:58 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:26:58 INFO  [org.activity11.ArrayFillerManagerTest] test1FillValuesStupidly:42 - OK
+2017-02-07 15:26:58 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:26:58 INFO  [org.activity11.ArrayFillerManagerTest] test2FillValuesSequentially:54 - OK
+2017-02-07 15:26:58 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:26:58 INFO  [org.activity11.ArrayFillerManagerTest] test3FillValuesParallelly:66 - OK
+2017-02-07 15:26:58 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:85 - fillStupidly() processing time: 13 ms
+2017-02-07 15:26:58 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:115 - OK
+2017-02-07 15:26:58 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:132 - Stupid processing: 10cells/13ms = 0.77cells/s
+2017-02-07 15:26:58 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:146 - Sequential processing: 10000cells/3ms = 3333.33cells/s
+2017-02-07 15:26:59 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:162 - Parallel processing: 100000cells/713ms = 140.25cells/s
+2017-02-07 15:40:17 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:40:17 INFO  [org.activity11.ArrayFillerManagerTest] test1FillValuesStupidly:42 - OK
+2017-02-07 15:40:17 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:40:17 INFO  [org.activity11.ArrayFillerManagerTest] test2FillValuesSequentially:54 - OK
+2017-02-07 15:40:17 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:40:17 INFO  [org.activity11.ArrayFillerManagerTest] test3FillValuesParallelly:66 - OK
+2017-02-07 15:40:17 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:85 - fillStupidly() processing time: 50 ms
+2017-02-07 15:40:17 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:115 - OK
+2017-02-07 15:40:17 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:132 - Stupid processing: 10cells/12ms = 0.83cells/s
+2017-02-07 15:40:17 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:146 - Sequential processing: 10000cells/2ms = 5000.00cells/s
+2017-02-07 15:40:18 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:162 - Parallel processing: 100000cells/725ms = 137.93cells/s
+2017-02-07 15:41:48 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:41:48 INFO  [org.activity11.ArrayFillerManagerTest] test1FillValuesStupidly:42 - OK
+2017-02-07 15:41:48 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:41:48 INFO  [org.activity11.ArrayFillerManagerTest] test2FillValuesSequentially:54 - OK
+2017-02-07 15:41:48 ERROR [org.TestUtils] handleError:227 - 
+java.lang.IllegalThreadStateException
+Stack trace:
+[Ljava.lang.StackTraceElement;@2d4c380f
+2017-02-07 15:41:48 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:85 - fillStupidly() processing time: 32 ms
+2017-02-07 15:41:48 ERROR [org.TestUtils] handleError:227 - 
+java.lang.IllegalThreadStateException
+Stack trace:
+[Ljava.lang.StackTraceElement;@24c1ec3f
+2017-02-07 15:41:48 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:132 - Stupid processing: 10cells/13ms = 0.77cells/s
+2017-02-07 15:41:48 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:146 - Sequential processing: 10000cells/3ms = 3333.33cells/s
+2017-02-07 15:43:54 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:43:54 INFO  [org.activity11.ArrayFillerManagerTest] test1FillValuesStupidly:42 - OK
+2017-02-07 15:43:54 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:43:54 INFO  [org.activity11.ArrayFillerManagerTest] test2FillValuesSequentially:54 - OK
+2017-02-07 15:43:54 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:43:54 INFO  [org.activity11.ArrayFillerManagerTest] test3FillValuesParallelly:66 - OK
+2017-02-07 15:43:54 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:85 - fillStupidly() processing time: 33 ms
+2017-02-07 15:43:55 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:115 - OK
+2017-02-07 15:43:55 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:132 - Stupid processing: 10cells/11ms = 0.91cells/s
+2017-02-07 15:43:55 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:146 - Sequential processing: 10000cells/1ms = 10000.00cells/s
+2017-02-07 15:44:41 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:44:41 INFO  [org.activity11.ArrayFillerManagerTest] test1FillValuesStupidly:42 - OK
+2017-02-07 15:44:41 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:44:41 INFO  [org.activity11.ArrayFillerManagerTest] test2FillValuesSequentially:54 - OK
+2017-02-07 15:44:41 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:85 - fillStupidly() processing time: 42 ms
+2017-02-07 15:44:41 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:115 - OK
+2017-02-07 15:44:41 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:132 - Stupid processing: 10cells/12ms = 0.83cells/s
+2017-02-07 15:44:41 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:146 - Sequential processing: 10000cells/3ms = 3333.33cells/s
+2017-02-07 15:44:42 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:162 - Parallel processing: 100000cells/664ms = 150.60cells/s
+2017-02-07 15:45:03 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:45:03 INFO  [org.activity11.ArrayFillerManagerTest] test1FillValuesStupidly:42 - OK
+2017-02-07 15:45:03 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:45:03 INFO  [org.activity11.ArrayFillerManagerTest] test2FillValuesSequentially:54 - OK
+2017-02-07 15:45:03 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:45:03 INFO  [org.activity11.ArrayFillerManagerTest] test3FillValuesParallelly:66 - OK
+2017-02-07 15:45:03 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:85 - fillStupidly() processing time: 53 ms
+2017-02-07 15:45:03 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:115 - OK
+2017-02-07 15:45:03 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:132 - Stupid processing: 10cells/11ms = 0.91cells/s
+2017-02-07 15:45:03 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:146 - Sequential processing: 10000cells/1ms = 10000.00cells/s
+2017-02-07 15:46:38 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:46:38 INFO  [org.activity11.ArrayFillerManagerTest] test1FillValuesStupidly:42 - OK
+2017-02-07 15:46:38 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:46:38 INFO  [org.activity11.ArrayFillerManagerTest] test2FillValuesSequentially:54 - OK
+2017-02-07 15:46:38 ERROR [org.TestUtils] handleError:227 - 
+java.lang.IllegalThreadStateException
+Stack trace:
+[Ljava.lang.StackTraceElement;@524557c8
+2017-02-07 15:46:38 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:85 - fillStupidly() processing time: 53 ms
+2017-02-07 15:46:38 ERROR [org.TestUtils] handleError:227 - 
+java.lang.IllegalThreadStateException
+Stack trace:
+[Ljava.lang.StackTraceElement;@18113333
+2017-02-07 15:46:38 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:132 - Stupid processing: 10cells/12ms = 0.83cells/s
+2017-02-07 15:46:38 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:146 - Sequential processing: 10000cells/3ms = 3333.33cells/s
+2017-02-07 15:47:18 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:47:18 INFO  [org.activity11.ArrayFillerManagerTest] test1FillValuesStupidly:42 - OK
+2017-02-07 15:47:18 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:47:18 INFO  [org.activity11.ArrayFillerManagerTest] test2FillValuesSequentially:54 - OK
+2017-02-07 15:47:18 ERROR [org.TestUtils] handleError:227 - 
+java.lang.IllegalThreadStateException
+Stack trace:
+[Ljava.lang.StackTraceElement;@2d4c380f
+2017-02-07 15:47:18 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:85 - fillStupidly() processing time: 42 ms
+2017-02-07 15:47:18 ERROR [org.TestUtils] handleError:227 - 
+java.lang.IllegalThreadStateException
+Stack trace:
+[Ljava.lang.StackTraceElement;@24c1ec3f
+2017-02-07 15:47:18 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:132 - Stupid processing: 10cells/13ms = 0.77cells/s
+2017-02-07 15:47:18 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:146 - Sequential processing: 10000cells/2ms = 5000.00cells/s
+2017-02-07 15:47:48 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:47:48 INFO  [org.activity11.ArrayFillerManagerTest] test1FillValuesStupidly:42 - OK
+2017-02-07 15:47:48 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:47:48 INFO  [org.activity11.ArrayFillerManagerTest] test2FillValuesSequentially:54 - OK
+2017-02-07 15:47:48 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:85 - fillStupidly() processing time: 63 ms
+2017-02-07 15:47:48 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:132 - Stupid processing: 10cells/13ms = 0.77cells/s
+2017-02-07 15:47:48 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:146 - Sequential processing: 10000cells/2ms = 5000.00cells/s
+2017-02-07 15:47:48 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:162 - Parallel processing: 100000cells/654ms = 152.91cells/s
+2017-02-07 15:48:21 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:48:21 INFO  [org.activity11.ArrayFillerManagerTest] test1FillValuesStupidly:42 - OK
+2017-02-07 15:48:21 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:48:21 INFO  [org.activity11.ArrayFillerManagerTest] test2FillValuesSequentially:54 - OK
+2017-02-07 15:48:21 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:85 - fillStupidly() processing time: 13 ms
+2017-02-07 15:48:21 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:132 - Stupid processing: 10cells/12ms = 0.83cells/s
+2017-02-07 15:48:21 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:146 - Sequential processing: 10000cells/4ms = 2500.00cells/s
+2017-02-07 15:48:22 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:162 - Parallel processing: 100000cells/669ms = 149.48cells/s
+2017-02-07 15:49:16 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:49:16 INFO  [org.activity11.ArrayFillerManagerTest] test1FillValuesStupidly:42 - OK
+2017-02-07 15:49:16 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:49:16 INFO  [org.activity11.ArrayFillerManagerTest] test2FillValuesSequentially:54 - OK
+2017-02-07 15:49:16 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:49:16 INFO  [org.activity11.ArrayFillerManagerTest] test3FillValuesParallelly:66 - OK
+2017-02-07 15:49:16 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:85 - fillStupidly() processing time: 32 ms
+2017-02-07 15:49:16 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:132 - Stupid processing: 10cells/12ms = 0.83cells/s
+2017-02-07 15:49:16 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:146 - Sequential processing: 10000cells/2ms = 5000.00cells/s
+2017-02-07 15:49:17 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:162 - Parallel processing: 100000cells/776ms = 128.87cells/s
+2017-02-07 15:50:17 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:50:17 INFO  [org.activity11.ArrayFillerManagerTest] test1FillValuesStupidly:42 - OK
+2017-02-07 15:50:17 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:50:17 INFO  [org.activity11.ArrayFillerManagerTest] test2FillValuesSequentially:54 - OK
+2017-02-07 15:50:17 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:50:17 INFO  [org.activity11.ArrayFillerManagerTest] test3FillValuesParallelly:66 - OK
+2017-02-07 15:50:17 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:85 - fillStupidly() processing time: 33 ms
+2017-02-07 15:50:17 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:115 - OK
+2017-02-07 15:50:17 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:132 - Stupid processing: 10cells/12ms = 0.83cells/s
+2017-02-07 15:50:17 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:146 - Sequential processing: 10000cells/3ms = 3333.33cells/s
+2017-02-07 15:50:18 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:162 - Parallel processing: 100000cells/742ms = 134.77cells/s
+2017-02-07 15:53:41 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:53:41 INFO  [org.activity11.ArrayFillerManagerTest] test1FillValuesStupidly:42 - OK
+2017-02-07 15:53:41 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:53:41 INFO  [org.activity11.ArrayFillerManagerTest] test2FillValuesSequentially:54 - OK
+2017-02-07 15:53:41 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:53:41 INFO  [org.activity11.ArrayFillerManagerTest] test3FillValuesParallelly:66 - OK
+2017-02-07 15:53:41 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:85 - fillStupidly() processing time: 33 ms
+2017-02-07 15:53:41 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:115 - OK
+2017-02-07 15:53:41 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:132 - Stupid processing: 10cells/13ms = 0.77cells/s
+2017-02-07 15:53:41 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:146 - Sequential processing: 10000cells/2ms = 5000.00cells/s
+2017-02-07 15:53:41 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:162 - Parallel processing: 100000cells/9ms = 11111.11cells/s
+2017-02-07 15:54:44 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:54:44 INFO  [org.activity11.ArrayFillerManagerTest] test1FillValuesStupidly:42 - OK
+2017-02-07 15:54:44 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:54:44 INFO  [org.activity11.ArrayFillerManagerTest] test2FillValuesSequentially:54 - OK
+2017-02-07 15:54:44 INFO  [org.activity11.ArrayFillerManagerTest] checkValues:233 - OK
+2017-02-07 15:54:44 INFO  [org.activity11.ArrayFillerManagerTest] test3FillValuesParallelly:66 - OK
+2017-02-07 15:54:44 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:85 - fillStupidly() processing time: 63 ms
+2017-02-07 15:54:44 INFO  [org.activity11.ArrayFillerManagerTest] test4Latency:115 - OK
+2017-02-07 15:54:44 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:132 - Stupid processing: 10cells/12ms = 0.83cells/s
+2017-02-07 15:54:44 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:146 - Sequential processing: 10000cells/3ms = 3333.33cells/s
+2017-02-07 15:54:44 INFO  [org.activity11.ArrayFillerManagerTest] test5FillingTimes:162 - Parallel processing: 100000cells/10ms = 10000.00cells/s
+2017-02-07 16:24:50 ERROR [org.activity12.ChatServerTest] test3Chat1Client:94 - FAILED: message:Connection refused (Connection refused) cause:null
+2017-02-07 16:24:50 ERROR [org.activity12.ChatServerTest] test3Chat1Client:106 - FAILED: message:null cause:null
+2017-02-07 16:24:50 ERROR [org.activity12.ChatServerTest] test4Chat2Clients:158 - FAILED: message:Connection refused (Connection refused) cause:null
+2017-02-07 16:24:50 ERROR [org.activity12.ChatServerTest] test4Chat2Clients:171 - FAILED: message:null cause:null
+2017-02-07 16:27:08 ERROR [org.TestUtils] handleError:227 - 
+java.net.ConnectException, message: Connection refused (Connection refused)
+Stack trace:
+[Ljava.lang.StackTraceElement;@371019bf
+2017-02-07 16:27:08 ERROR [org.activity12.ChatServerTest] test3Chat1Client:94 - FAILED: message:Connection refused (Connection refused) cause:null
+2017-02-07 16:27:08 ERROR [org.activity12.ChatServerTest] test3Chat1Client:106 - FAILED: message:null cause:null
+2017-02-07 16:27:08 ERROR [org.activity12.ChatServerTest] test4Chat2Clients:158 - FAILED: message:Connection refused (Connection refused) cause:null
+2017-02-07 16:27:08 ERROR [org.activity12.ChatServerTest] test4Chat2Clients:171 - FAILED: message:null cause:null
+2017-02-07 16:27:26 ERROR [org.activity12.ChatServerTest] test3Chat1Client:94 - FAILED: message:Connection refused (Connection refused) cause:null
+2017-02-07 16:27:26 ERROR [org.activity12.ChatServerTest] test3Chat1Client:106 - FAILED: message:null cause:null
+2017-02-07 16:27:26 ERROR [org.activity12.ChatServerTest] test4Chat2Clients:158 - FAILED: message:Connection refused (Connection refused) cause:null
+2017-02-07 16:27:26 ERROR [org.activity12.ChatServerTest] test4Chat2Clients:171 - FAILED: message:null cause:null
+2017-02-07 16:41:21 ERROR [org.activity12.ChatServerTest] test3Chat1Client:94 - FAILED: message:Connection refused (Connection refused) cause:null
+2017-02-07 16:41:21 ERROR [org.activity12.ChatServerTest] test3Chat1Client:106 - FAILED: message:null cause:null
+2017-02-07 16:41:21 ERROR [org.activity12.ChatServerTest] test4Chat2Clients:158 - FAILED: message:Connection refused (Connection refused) cause:null
+2017-02-07 16:41:21 ERROR [org.activity12.ChatServerTest] test4Chat2Clients:171 - FAILED: message:null cause:null
+2017-02-07 16:42:05 ERROR [org.activity12.ChatServerTest] test3Chat1Client:94 - FAILED: message:Connection refused (Connection refused) cause:null
+2017-02-07 16:42:05 ERROR [org.activity12.ChatServerTest] test3Chat1Client:106 - FAILED: message:null cause:null
+2017-02-07 16:42:05 ERROR [org.activity12.ChatServerTest] test4Chat2Clients:158 - FAILED: message:Connection refused (Connection refused) cause:null
+2017-02-07 16:42:05 ERROR [org.activity12.ChatServerTest] test4Chat2Clients:171 - FAILED: message:null cause:null
+2017-02-07 18:10:48 INFO  [org.extra04.StringTokenizerExerciseTest] testTokenizeString:88 - OK
+2017-02-07 18:10:48 INFO  [org.extra04.StringTokenizerExerciseTest] testSplitString:60 - OK
+2017-02-07 18:20:07 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@282ba1e
+2017-02-07 18:20:07 INFO  [org.extra04.StringTokenizerExerciseTest] testTokenizeString:88 - OK
+2017-02-07 18:20:07 INFO  [org.extra04.StringTokenizerExerciseTest] testSplitString:60 - OK
+2017-02-07 18:23:42 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@282ba1e
+2017-02-07 18:23:42 INFO  [org.extra04.StringTokenizerExerciseTest] testTokenizeString:88 - OK
+2017-02-07 18:23:42 INFO  [org.extra04.StringTokenizerExerciseTest] testSplitString:60 - OK
+2017-02-07 18:25:28 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@282ba1e
+2017-02-07 18:25:28 INFO  [org.extra04.StringTokenizerExerciseTest] testTokenizeString:88 - OK
+2017-02-07 18:25:28 INFO  [org.extra04.StringTokenizerExerciseTest] testSplitString:60 - OK
+2017-02-07 18:26:08 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@282ba1e
+2017-02-07 18:26:08 INFO  [org.extra04.StringTokenizerExerciseTest] testTokenizeString:88 - OK
+2017-02-07 18:26:08 INFO  [org.extra04.StringTokenizerExerciseTest] testSplitString:60 - OK
+2017-02-07 18:27:40 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@282ba1e
+2017-02-07 18:27:40 INFO  [org.extra04.StringTokenizerExerciseTest] testTokenizeString:88 - OK
+2017-02-07 18:27:40 INFO  [org.extra04.StringTokenizerExerciseTest] testSplitString:60 - OK
+2017-02-07 18:28:42 ERROR [org.TestUtils] handleError:227 - 
+java.lang.NullPointerException
+Stack trace:
+[Ljava.lang.StackTraceElement;@282ba1e
+2017-02-07 18:28:42 INFO  [org.extra04.StringTokenizerExerciseTest] testTokenizeString:88 - OK
+2017-02-07 18:28:42 INFO  [org.extra04.StringTokenizerExerciseTest] testSplitString:60 - OK
+2017-02-07 18:41:45 INFO  [org.extra04.StringTokenizerExerciseTest] testTokenizeString:88 - OK
+2017-02-07 18:41:45 INFO  [org.extra04.StringTokenizerExerciseTest] testSplitString:60 - OK
+2017-02-07 18:42:09 INFO  [org.extra04.StringTokenizerExerciseTest] testTokenizeString:88 - OK
+2017-02-07 18:42:09 INFO  [org.extra04.StringTokenizerExerciseTest] testSplitString:60 - OK
+2017-02-07 18:42:40 INFO  [org.extra04.StringTokenizerExerciseTest] testTokenizeString:88 - OK
+2017-02-07 18:42:40 INFO  [org.extra04.StringTokenizerExerciseTest] testSplitString:60 - OK
+2017-02-07 18:49:44 INFO  [org.extra04.StringTokenizerExerciseTest] testCreateFromFile:114 - OK
+2017-02-07 18:49:44 INFO  [org.extra04.StringTokenizerExerciseTest] testTokenizeString:88 - OK
+2017-02-07 18:49:44 INFO  [org.extra04.StringTokenizerExerciseTest] testSplitString:60 - OK
+2017-02-07 18:50:26 INFO  [org.extra04.StringTokenizerExerciseTest] testTokenizeString:88 - OK
+2017-02-07 18:50:26 INFO  [org.extra04.StringTokenizerExerciseTest] testSplitString:60 - OK
+2017-02-07 18:50:46 INFO  [org.extra04.StringTokenizerExerciseTest] testCreateFromFile:114 - OK
+2017-02-07 18:50:46 INFO  [org.extra04.StringTokenizerExerciseTest] testTokenizeString:88 - OK
+2017-02-07 18:50:46 INFO  [org.extra04.StringTokenizerExerciseTest] testSplitString:60 - OK

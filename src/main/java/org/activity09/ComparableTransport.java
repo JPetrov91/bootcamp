@@ -5,8 +5,17 @@ import org.activity04.Transport;
 // TODO Extend activity05.Transport as ComparableTransport class, and
 // implement Comparable<Transport> interface
 
-public class ComparableTransport
+public class ComparableTransport extends Transport implements Comparable<Transport>
 	{
+
+	public ComparableTransport(String id) {
+		super(id);
+		// TODO Auto-generated constructor stub
+	}
+	
+	public ComparableTransport(String id, float consumption, int tankSize) {
+		super(id, consumption, tankSize);
+	}
 
 	// TODO reuse constructor of Transport for constructor of
 	// ComparableTransport
@@ -21,4 +30,17 @@ public class ComparableTransport
 	// TODO Implement compareTo(Transport) method
 	// Sort Transport by their Id.
 	// HINT: reuse equals(Object) method.
+	public boolean equals(Object obj) {
+		if(obj instanceof Transport) return this.getId() == ((Transport) obj).getId();
+		return false;
+	}
+
+	@Override
+	public int compareTo(Transport o) {
+		// TODO Auto-generated method stub
+		if(this.equals(0)) return 0;
+		else if(this.getId().compareTo(o.getId()) > 0) return 1;
+		else if(this.getId().compareTo(o.getId()) < 0) return -1;
+		return 0;
+	}
 }
